@@ -97,7 +97,7 @@
             >
               <input
                 class="w-full pb-[17px] pl-[17px] bg-electric-pink font-light text-[14px] leading-[19px] placeholder-black"
-                type="text"
+                type="email"
                 placeholder="Enter your mail"
               />
               <button class="h-full">
