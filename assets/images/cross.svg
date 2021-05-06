@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Cross Copy</title>
+    <defs>
+        <path d="M9.69665935,8.5 L16.752188,15.5554982 C17.0825897,15.8859402 17.0826024,16.4216733 16.7522281,16.7521697 C16.5915366,16.9129008 16.3767217,17 16.1538973,17 C15.9310654,17 15.7162523,16.9128951 15.5555491,16.7521524 L8.50002037,9.69663498 L1.44455147,16.7521045 C1.28380307,16.9128928 1.06902194,17 0.846188821,17 C0.62332596,17 0.408516845,16.9129073 0.247841353,16.7521522 C-0.0826112532,16.4216996 -0.0826112532,15.8859433 0.247841484,15.5554906 L7.30336491,8.49998145 L0.247841795,1.44446973 C-0.082612666,1.1140158 -0.082612666,0.578253493 0.247834201,0.247848073 C0.578256631,-0.0826147371 1.11405826,-0.0826147371 1.44447297,0.247840349 L8.5,7.3033449 L15.5555225,0.247840584 C15.8859753,-0.0826122407 16.4217321,-0.0826122407 16.7521925,0.247848178 C17.0826038,0.578300344 17.0826038,1.11405078 16.7521849,1.44446962 L9.69665935,8.5 Z" id="path-1"></path>
+        <rect id="path-3" x="0" y="0" width="17" height="17"></rect>
+    </defs>
+    <g id="DESiGN." stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1c_home_lola_v_praag_mobiel_menu_uitgeklapt" transform="translate(-341.000000, -29.000000)">
+            <g id="Cross-Copy" transform="translate(341.000000, 29.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="↳🎨Color" mask="url(#mask-2)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Rectangular" fill="#000000" xlink:href="#path-3"></use>
+                    <g id="Group" mask="url(#mask-4)" opacity="0.100000001">
+                        <g id="↳⚙️State">
+                            <rect id="Rectangular" x="0" y="0" width="17" height="17"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
