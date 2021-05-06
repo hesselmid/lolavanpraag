@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="11px" viewBox="0 0 15 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Arrow / Long / Right</title>
+    <defs>
+        <path d="M14.8240963,7.08586853 C15.0578614,7.31224805 15.0583522,7.6872267 14.8272417,7.91149716 L10.1245016,12.6352224 C9.89797397,12.8712384 9.52132328,12.8712384 9.2884668,12.6373399 C9.06351889,12.4119121 9.06399158,12.0380273 9.28958035,11.8035422 L12.9954369,8.08806515 L0.583617001,8.08806515 C0.259668808,8.08806515 0,7.82246048 0,7.49619933 C0,7.17148674 0.258165847,6.91198259 0.583769707,6.91145442 L12.9956166,6.91145455 L9.2884668,3.18771803 C9.06364149,2.9624131 9.06364149,2.58848558 9.28834128,2.36278043 C9.52098325,2.12909758 9.89638554,2.12876369 10.1234066,2.36363619 L14.8240963,7.08586853 Z" id="path-1"></path>
+        <rect id="path-3" x="0" y="0" width="15" height="15"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer_roze_mobiel_v1" transform="translate(-325.000000, -842.000000)">
+            <g id="veld-copy-4" transform="translate(18.000000, 838.000000)">
+                <g id="Arrow-/-Long-/-Right" transform="translate(307.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Shape" fill-rule="nonzero"></g>
+                    <g id="Group" mask="url(#mask-2)">
+                        <g id="↳🎨Color">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Rectangular" fill="#000000" xlink:href="#path-3"></use>
+                            <g id="Group" mask="url(#mask-4)" opacity="0.100000001">
+                                <g id="↳⚙️State">
+                                    <rect id="Rectangular" x="0" y="0" width="15" height="15"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
