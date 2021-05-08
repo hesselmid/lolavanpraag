@@ -5,3 +5,7 @@
 body {
   cursor: url("~assets/images/cursor.png") 0 100, auto;
 }
+
+a:hover {
+  cursor: url("~assets/images/cursor-pink.png") 0 100, auto;
+}
