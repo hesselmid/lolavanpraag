@@ -116,16 +116,7 @@
         </form>
       </div>
     </div>
-    <div
-      class="hidden 2xl:block 2xl:bg-electric-pink text-[75px] leading-[104px] sticky bottom-0 h-[89px] w-full overflow-hidden"
-    >
-      <div class="whitespace-nowrap loop">
-        <span class="font-thin">Currently working on</span>
-        <span class="font-serif">DDW</span> /
-        <span class="font-thin">Currently working on</span> DDW / Currently
-        working on DDW /
-      </div>
-    </div>
+    <Marquee />
   </div>
 </template>
 
@@ -141,19 +132,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-.loop {
-  animation: loop 10s linear infinite;
-  animation-delay: 0s;
-}
-
-@keyframes loop {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(-100%, 0);
-  }
-}
-</style>
