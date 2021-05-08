@@ -1,7 +1,8 @@
 <template>
   <ul>
     <li
-      class="inline font-light text-[12px] leading-[17px] text-[#A3A3A3] 2xl:text-[14px] 2xl:leading-[19px]"
+      class="inline font-light text-[12px] leading-[17px] 2xl:text-[14px] 2xl:leading-[19px]"
+      :style="{ color: color }"
       v-for="crumb in breadcrumbs"
       :key="crumb.name"
     >
@@ -12,7 +13,7 @@
 
 <script>
 export default {
-  props: ["breadcrumbs"]
+  props: ["breadcrumbs", "color"]
 };
 </script>
 

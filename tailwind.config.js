@@ -21,8 +21,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        "electric-pink": "#FF67D9",
-        "apple-green": "#B6DB79"
+        "apple-green": "#B6DB79",
+        "dusty-orange": "#E16C00",
+        "electric-pink": "#FF67D9"
       }
     }
   },
