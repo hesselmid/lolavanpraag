@@ -53,7 +53,7 @@
       </div>
 
       <div
-        class="border-t border-[#97D039] mt-[25.5px] pt-[24.5px] md:grid md:grid-cols-2 md:mt-[50px] md:pt-[50px]"
+        class="border-t border-[#97D039] mt-[25.5px] pt-[24.5px] md:grid md:grid-cols-2 md:mt-[50px] md:pt-[50px] 2xl:grid-cols-4"
       >
         <div
           class="font-serif font-light text-[24px] leading-[35px] md:w-[180px]"
@@ -89,7 +89,7 @@
               placeholder="First name*"
             />
             <input
-              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none focus:border-electric-pink focus:placeholder-[#62822D] md:mt-0"
+              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none ring-0 focus:border-electric-pink focus:placeholder-[#62822D] md:mt-0"
               type="text"
               placeholder="Last name*"
             />
