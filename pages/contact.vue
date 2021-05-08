@@ -1,7 +1,7 @@
 <template>
   <div class="bg-apple-green">
     <div
-      class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] 2xl:pt-[165px] 2xl:pb-[288px] 2xl:px-[55px]"
+      class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] 2xl:pt-[165px] 2xl:pb-[112px] 2xl:px-[55px]"
     >
       <Breadcrumbs :breadcrumbs="breadcrumbs" />
       <h1
@@ -116,6 +116,16 @@
         </form>
       </div>
     </div>
+    <div
+      class="hidden 2xl:block 2xl:bg-electric-pink text-[75px] leading-[104px] sticky bottom-0 h-[89px] w-full overflow-hidden"
+    >
+      <div class="whitespace-nowrap loop">
+        <span class="font-thin">Currently working on</span>
+        <span class="font-serif">DDW</span> /
+        <span class="font-thin">Currently working on</span> DDW / Currently
+        working on DDW /
+      </div>
+    </div>
   </div>
 </template>
 
@@ -131,3 +141,19 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.loop {
+  animation: loop 10s linear infinite;
+  animation-delay: 0s;
+}
+
+@keyframes loop {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+</style>
