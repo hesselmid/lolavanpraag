@@ -84,32 +84,32 @@
         <form class="mt-[20px] md:mt-[40px]">
           <div class="md:grid md:grid-cols-2 md:gap-x-[113px]">
             <input
-              class="block w-full pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none focus:border-electric-pink focus:placeholder-[#62822D]"
+              class="block w-full pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none outline-none focus:border-electric-pink focus:placeholder-[#62822D]"
               type="text"
               placeholder="First name*"
             />
             <input
-              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none ring-0 focus:border-electric-pink focus:placeholder-[#62822D] md:mt-0"
+              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none outline-none focus:border-electric-pink focus:placeholder-[#62822D] md:mt-0"
               type="text"
               placeholder="Last name*"
             />
             <input
-              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none focus:border-electric-pink focus:placeholder-[#62822D] md:mt-[60px]"
+              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none outline-none focus:border-electric-pink focus:placeholder-[#62822D] md:mt-[60px]"
               type="email"
               placeholder="E-mail address*"
             />
             <input
-              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none focus:border-electric-pink focus:placeholder-[#62822D] md:mt-[60px]"
+              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none outline-none focus:border-electric-pink focus:placeholder-[#62822D] md:mt-[60px]"
               type="tel"
               placeholder="Telephone number*"
             />
             <input
-              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none focus:border-electric-pink focus:placeholder-[#62822D] md:mt-[60px]"
+              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none outline-none focus:border-electric-pink focus:placeholder-[#62822D] md:mt-[60px]"
               type="text"
               placeholder="Subject"
             />
             <input
-              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none focus:border-electric-pink focus:placeholder-[#62822D] md:row-start-4 md:mt-[60px]"
+              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none outline-none focus:border-electric-pink focus:placeholder-[#62822D] md:row-start-4 md:mt-[60px]"
               type="textarea"
               placeholder="Comment*"
             />
