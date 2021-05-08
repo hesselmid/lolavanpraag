@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="hidden bg-electric-pink sticky bottom-0:w-full overflow-hidden 2xl:block"
-  >
+  <div class="hidden bg-electric-pink w-full overflow-hidden 2xl:block">
     <div class="text-[75px] leading-[104px] whitespace-nowrap loop">
       <span>
         <span class="font-thin">Currently working on</span>

@@ -116,7 +116,7 @@
         </form>
       </div>
     </div>
-    <Marquee />
+    <Marquee class="sticky bottom-0" />
   </div>
 </template>
 
