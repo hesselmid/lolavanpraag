@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-apple-green">
+  <div class="bg-apple-green pb-[228px]">
     <div
       class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] 2xl:pt-[165px] 2xl:pb-[112px] 2xl:px-[55px]"
     >
