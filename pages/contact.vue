@@ -83,31 +83,31 @@
               placeholder="First name*"
             />
             <input
-              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black"
+              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black 2xl:mt-0"
               type="text"
               placeholder="Last name*"
             />
             <input
-              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black"
+              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black 2xl:mt-[60px]"
               type="email"
               placeholder="E-mail address*"
             />
             <input
-              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black"
+              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black 2xl:mt-[60px]"
               type="tel"
               placeholder="Telephone number*"
             />
+            <input
+              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black 2xl:mt-[60px]"
+              type="text"
+              placeholder="Subject"
+            />
+            <input
+              class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black 2xl:mt-[60px] 2xl:row-start-4"
+              type="textarea"
+              placeholder="Comment*"
+            />
           </div>
-          <input
-            class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black"
-            type="text"
-            placeholder="Subject"
-          />
-          <input
-            class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black"
-            type="textarea"
-            placeholder="Comment*"
-          />
           <button
             class="mt-[50px] bg-electric-pink h-[60px] px-[62px] lowercase 2xl:mt-[60px]"
           >
