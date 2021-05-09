@@ -1,6 +1,8 @@
 <template>
-  <div class="hidden bg-electric-pink w-full overflow-hidden md:block">
-    <div class="text-[75px] leading-[104px] whitespace-nowrap loop">
+  <div class="bg-electric-pink w-full overflow-hidden">
+    <div
+      class="text-[35px] leading-[49px] md:text-[75px] md:leading-[104px] whitespace-nowrap loop"
+    >
       <span>
         <span class="font-thin">Currently working on</span>
         <span class="font-serif">DDW</span> /
