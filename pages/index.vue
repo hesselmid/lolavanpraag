@@ -2,7 +2,9 @@
   <div>
     <div id="hero">
       <div class="bg-dusty-orange h-full bg-opacity-90">
-        <div class="container mx-auto pt-[191px] pb-[48px] px-[17.5px]">
+        <div
+          class="container mx-auto pt-[191px] pb-[48px] px-[17.5px] md:px-[30px] 2xl:px-[55px]"
+        >
           <p class="font-serif text-electric-pink text-[34px] leading-[40px]">
             Colour was swapped out for sequins in Lola van Praag’s
             <span class="font-sans underline">NO UNLOCALS</span>

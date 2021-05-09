@@ -25,11 +25,9 @@
           </h2>
           <ul class="press-items">
             <li
-              class="mt-[50px] md:mt-[100px]"
+              class="group mt-[50px] md:mt-[100px]"
               v-for="pressItem in pressYear.pressItems"
               :key="pressItem.title"
-              @mouseover="imgVisible = true"
-              @mouseleave="imgVisible = false"
             >
               <a
                 class="font-serif font-light text-[26px] leading-[32px] hover:font-sans hover:font-extralight hover:italic hover:text-apple-green hover:underline md:text-[75px] md:leading-[75px]"
@@ -37,9 +35,8 @@
                 >{{ pressItem.title }}</a
               >
               <img
-                class="hidden lg:block fixed top-[184.5px] right-0"
+                class="hidden group-hover:lg:block fixed top-[184.5px] right-0"
                 :src="pressItem.img"
-                v-if="imgVisible"
               />
             </li>
           </ul>
@@ -64,7 +61,7 @@ export default {
             {
               title: "Dazed - Westminster Menswear",
               link: "",
-              img: require(`~/assets/images/press-placeholder.jpg`)
+              img: require(`~/assets/images/press-placeholder kopie.jpg`)
             },
             {
               title: "Fashion Crossover London - Inflatable couture",
@@ -118,8 +115,7 @@ export default {
             }
           ]
         }
-      ],
-      imgVisible: false
+      ]
     };
   }
 };
