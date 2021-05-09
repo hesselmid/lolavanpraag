@@ -1,39 +1,43 @@
 <template>
   <div>
-    <div id="hero">
-      <div class="bg-dusty-orange h-full bg-opacity-90">
-        <div
-          class="container mx-auto pt-[191px] pb-[48px] px-[17.5px] md:px-[30px] xl:pt-[266px] xl:pb-[53px] xl:px-[55px]"
+    <TheHero />
+
+    <div
+      class="container mx-auto mt-[49px] px-[17.5px] md:px-[30px] xl:mt-[148px] 2xl:px-[55px] xl:grid xl:grid-cols-2 xl:gap-x-[115px]"
+    >
+      <div>
+        <h1
+          class="ml-[20px] font-serif font-light text-[32px] leading-[32px] md:ml-[30px] md:text-[90px] md:leading-[90px]"
         >
-          <p
-            class="font-serif text-electric-pink text-[34px] leading-[40px] xl:text-[84px] xl:leading-[86px]"
+          Lola<br />
+          van Praag
+        </h1>
+        <p
+          class="mt-[20px] font-light leading-[22px] md:mt-[15px] md:text-[24px] md:leading-[30px]"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum
+        </p>
+        <div class="mt-[20px] ml-[20px] md:mt-[60px] md:ml-[30px]">
+          <img class="inline-block" src="~/assets/images/arrow-pink.svg" />
+          <div
+            class="inline-block ml-[29px] lowercase text-electric-pink leading-[22px] md:text-[18px] md:leading-[24px]"
           >
-            Colour was swapped out for sequins in Lola van Praag’s
-            <span class="font-sans underline">NO UNLOCALS</span>
-            graduate collection. She sent out brightly sparkling models dressed
-            in tight-fitting sequin-heavy wetsuits.
-          </p>
-          <div class="mt-[40px] ml-[20px] xl:mt-[60px] xl:ml-[30px]">
-            <img class="inline-block" src="~/assets/images/arrow-pink.svg" />
-            <div
-              class="inline-block ml-[29px] lowercase text-[18px] leading-[24px] text-electric-pink"
-            >
-              View project
-            </div>
-          </div>
-          <div class="hidden mt-[54px] xl:block">
-            <img class="mx-auto" src="~/assets/images/scroll-icon.svg" />
+            About me
           </div>
         </div>
-        <Marquee />
+      </div>
+      <div>
+        <img
+          class="pt-[35px] md:w-[460px]"
+          src="~/assets/images/lola-van-praag-portrait.jpg"
+        />
       </div>
     </div>
-    <div class="h-[100px]"></div>
   </div>
 </template>
-
-<style scoped>
-#hero {
-  background-image: url("~/assets/images/hero-background.jpg");
-}
-</style>
