@@ -13,35 +13,35 @@
     <ul
       class="absolute bottom-[60px] inset-x-0 px-[19px] h-[380px] flex flex-col justify-between"
     >
-      <li>
+      <li @click="toggleMenu">
         <NuxtLink
           class="font-serif font-light text-apple-green text-[60px] leading-[40px]"
           to="/about"
           >About me</NuxtLink
         >
       </li>
-      <li>
+      <li @click="toggleMenu">
         <NuxtLink
           class="font-serif font-light text-apple-green text-[60px] leading-[40px]"
           to="/portfolio"
           >Portfolio</NuxtLink
         >
       </li>
-      <li>
+      <li @click="toggleMenu">
         <NuxtLink
           class="font-serif font-light text-apple-green text-[60px] leading-[40px]"
           to="/press"
           >Press</NuxtLink
         >
       </li>
-      <li>
+      <li @click="toggleMenu">
         <NuxtLink
           class="font-serif font-light text-apple-green text-[60px] leading-[40px]"
           to="/news"
           >News</NuxtLink
         >
       </li>
-      <li>
+      <li @click="toggleMenu">
         <NuxtLink
           class="font-serif font-light text-apple-green text-[60px] leading-[40px]"
           to="/contact"
