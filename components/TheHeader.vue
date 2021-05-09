@@ -15,7 +15,9 @@
       </li>
     </ul>
     <div class="col-start-2">
-      <img class="mx-auto md:w-[200px]" src="~/assets/images/logo-pink.svg" />
+      <NuxtLink to="/">
+        <img class="mx-auto md:w-[200px]" src="~/assets/images/logo-pink.svg" />
+      </NuxtLink>
     </div>
     <div class="flex justify-end md:hidden">
       <button @click="toggleMenu">

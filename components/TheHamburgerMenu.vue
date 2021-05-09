@@ -1,8 +1,10 @@
 <template>
   <nav class="bg-electric-pink fixed inset-0 z-50">
     <div class="container mx-auto pt-[20px] px-[18px] grid grid-cols-3">
-      <div class="col-start-2">
-        <img class="mx-auto" src="~/assets/images/logo-green.svg" />
+      <div class="col-start-2" @click="toggleMenu">
+        <NuxtLink to="/">
+          <img class="mx-auto" src="~/assets/images/logo-green.svg" />
+        </NuxtLink>
       </div>
       <div class="flex justify-end">
         <button @click="toggleMenu">
