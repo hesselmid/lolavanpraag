@@ -67,8 +67,8 @@
       </div>
     </div>
 
-    <div class="mt-[85px] 2xl:mt-[136px] 2xl:relative 2xl:mb-[294px]">
-      <div class="container mx-auto px-[17.5px] 2xl:pt-[164px]">
+    <div class="mt-[85px] xl:mt-[136px] xl:relative xl:mb-[294px]">
+      <div class="container mx-auto px-[17.5px] xl:pt-[164px]">
         <h2
           class="font-extralight text-[20px] leading-[28px] text-center lg:text-[40px] lg:leading-[80px]"
         >
@@ -82,11 +82,11 @@
               >No Unlocals</NuxtLink
             >
             <img
-              class="hidden group-hover:2xl:block absolute top-[40px] left-0"
+              class="hidden group-hover:xl:block absolute top-[40px] left-0"
               src="~assets/images/project-left.jpg"
             />
             <img
-              class="hidden group-hover:2xl:block absolute top-[278px] right-0"
+              class="hidden group-hover:xl:block absolute top-[278px] right-0"
               src="~assets/images/project-right.jpg"
             />
           </li>
@@ -97,11 +97,11 @@
               >It's Not a Flower</NuxtLink
             >
             <img
-              class="hidden group-hover:2xl:block absolute top-[40px] left-0"
+              class="hidden group-hover:xl:block absolute top-[40px] left-0"
               src="~assets/images/project-left.jpg"
             />
             <img
-              class="hidden group-hover:2xl:block absolute top-[278px] right-0"
+              class="hidden group-hover:xl:block absolute top-[278px] right-0"
               src="~assets/images/project-right.jpg"
             />
           </li>
@@ -112,11 +112,11 @@
               >Flower Lines</NuxtLink
             >
             <img
-              class="hidden group-hover:2xl:block absolute top-[40px] left-0"
+              class="hidden group-hover:xl:block absolute top-[40px] left-0"
               src="~assets/images/project-left.jpg"
             />
             <img
-              class="hidden group-hover:2xl:block absolute top-[278px] right-0"
+              class="hidden group-hover:xl:block absolute top-[278px] right-0"
               src="~assets/images/project-right.jpg"
             />
           </li>
