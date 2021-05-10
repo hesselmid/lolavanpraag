@@ -1,6 +1,33 @@
 <template>
   <div>
-    <TheHero />
+    <div id="hero">
+      <div class="bg-dusty-orange h-full bg-opacity-90">
+        <div
+          class="container mx-auto pt-[191px] pb-[48px] px-[17.5px] md:px-[30px] xl:pt-[266px] xl:pb-[53px] xl:px-[55px]"
+        >
+          <p
+            class="font-serif text-electric-pink text-[34px] leading-[40px] xl:text-[84px] xl:leading-[86px]"
+          >
+            Colour was swapped out for sequins in Lola van Praag’s
+            <span class="font-sans underline">NO UNLOCALS</span>
+            graduate collection. She sent out brightly sparkling models dressed
+            in tight-fitting sequin-heavy wetsuits.
+          </p>
+          <div class="mt-[40px] ml-[20px] xl:mt-[60px] xl:ml-[30px]">
+            <img class="inline-block" src="~/assets/images/arrow-pink.svg" />
+            <div
+              class="inline-block ml-[29px] lowercase text-[18px] leading-[24px] text-electric-pink"
+            >
+              View project
+            </div>
+          </div>
+          <div class="hidden mt-[54px] xl:block">
+            <img class="mx-auto" src="~/assets/images/scroll-icon.svg" />
+          </div>
+        </div>
+        <Marquee />
+      </div>
+    </div>
 
     <div
       class="container mx-auto mt-[49px] px-[17.5px] md:px-[30px] xl:mt-[148px] 2xl:px-[55px] xl:grid xl:grid-cols-2 xl:gap-x-[115px]"
@@ -39,5 +66,78 @@
         />
       </div>
     </div>
+
+    <div class="mt-[85px] 2xl:mt-[136px] 2xl:relative 2xl:mb-[294px]">
+      <div class="container mx-auto px-[17.5px] 2xl:pt-[164px]">
+        <h2
+          class="font-extralight text-[20px] leading-[28px] text-center 2xl:text-[40px] 2xl:leading-[80px]"
+        >
+          Latest projects
+        </h2>
+        <ul class="mt-[30px] flex flex-col items-center 2xl:mt-[75px]">
+          <li class="group">
+            <NuxtLink
+              class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic 2xl:text-[90px] 2xl:leading-[75px]"
+              to=""
+              >No Unlocals</NuxtLink
+            >
+            <img
+              class="hidden group-hover:2xl:block absolute top-[40px] left-0"
+              src="~assets/images/project-left.jpg"
+            />
+            <img
+              class="hidden group-hover:2xl:block absolute top-[278px] right-0"
+              src="~assets/images/project-right.jpg"
+            />
+          </li>
+          <li class="group mt-[35px] 2xl:mt-[75px]">
+            <NuxtLink
+              class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic 2xl:text-[90px] 2xl:leading-[75px]"
+              to=""
+              >It's Not a Flower</NuxtLink
+            >
+            <img
+              class="hidden group-hover:2xl:block absolute top-[40px] left-0"
+              src="~assets/images/project-left.jpg"
+            />
+            <img
+              class="hidden group-hover:2xl:block absolute top-[278px] right-0"
+              src="~assets/images/project-right.jpg"
+            />
+          </li>
+          <li class="group mt-[35px] 2xl:mt-[75px]">
+            <NuxtLink
+              class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic 2xl:text-[90px] 2xl:leading-[75px]"
+              to=""
+              >Flower Lines</NuxtLink
+            >
+            <img
+              class="hidden group-hover:2xl:block absolute top-[40px] left-0"
+              src="~assets/images/project-left.jpg"
+            />
+            <img
+              class="hidden group-hover:2xl:block absolute top-[278px] right-0"
+              src="~assets/images/project-right.jpg"
+            />
+          </li>
+        </ul>
+        <div class="mt-[30px] flex justify-center 2xl:mt-[107px]">
+          <div>
+            <img class="inline-block" src="~/assets/images/arrow.svg" />
+            <div
+              class="ml-[29px] inline-block leading-[22px] lowercase 2xl:text-[18px] 2xl:leading-[24px]"
+            >
+              More projects
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
+
+<style scoped>
+#hero {
+  background-image: url("~/assets/images/hero-background.jpg");
+}
+</style>
