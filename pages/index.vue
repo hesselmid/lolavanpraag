@@ -121,11 +121,19 @@
             />
           </li>
         </ul>
-        <div class="mt-[30px] flex justify-center 2xl:mt-[107px]">
+        <div class="mt-[30px] group flex justify-center 2xl:mt-[107px]">
           <div>
-            <img class="inline-block" src="~/assets/images/arrow.svg" />
+            <img
+              class="inline-block w-[18px] group-hover:hidden"
+              src="~assets/images/arrow.svg"
+            />
+            <img
+              class="hidden w-[18px] group-hover:inline-block"
+              src="~assets/images/arrow-pink.svg"
+            />
+
             <div
-              class="ml-[29px] inline-block leading-[22px] lowercase lg:text-[18px] lg:leading-[24px]"
+              class="ml-[29px] inline-block leading-[22px] lowercase group-hover:text-electric-pink group-hover:underline lg:text-[18px] lg:leading-[24px]"
             >
               More projects
             </div>
