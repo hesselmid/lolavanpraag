@@ -138,12 +138,37 @@
       <img
         class="absolute top-[-350px] left-0 lola-face"
         src="~assets/images/lola-face.svg"
+        @click="toggleDidYouKnow"
       />
+    </div>
+
+    <div
+      class="fixed inset-0 bg-dusty-orange bg-opacity-90"
+      v-if="didYouKnowIsVisible"
+    >
+      <button class="mt-[51px] ml-[55px]" @click="toggleDidYouKnow">
+        <img src="~/assets/images/cross.svg" width="24px" height="24px" />
+      </button>
     </div>
 
     <FollowMe class="my-[100px] 2xl:mt-[194px] 2xl:mb-[110px]" />
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      didYouKnowIsVisible: false
+    };
+  },
+  methods: {
+    toggleDidYouKnow() {
+      this.didYouKnowIsVisible = !this.didYouKnowIsVisible;
+    }
+  }
+};
+</script>
 
 <style scoped>
 #hero {
