@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="hero">
-      <div class="bg-dusty-orange h-full bg-opacity-90">
+      <div class="h-full bg-dusty-orange bg-opacity-90">
         <div
           class="container mx-auto pt-[191px] pb-[48px] px-[17.5px] md:px-[30px] xl:pt-[266px] xl:pb-[53px] xl:px-[55px]"
         >
@@ -133,6 +133,8 @@
         </div>
       </div>
     </div>
+
+    <FollowMe class="my-[100px] 2xl:mt-[194px] 2xl:mb-[110px]" />
   </div>
 </template>
 
