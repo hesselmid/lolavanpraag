@@ -1,14 +1,12 @@
 <template>
   <div>
-    <div class="container mx-auto pt-[86px] md:pt-[165px]">
-      <Breadcrumbs
-        class="px-[17.5px] md:px-[30px] 2xl:px-[55px]"
-        :breadcrumbs="breadcrumbs"
-        color="#A3A3A3"
-      />
+    <div
+      class="container mx-auto pt-[86px] px-[17.5px] md:px-[30px] md:pt-[165px] 2xl:px-[55px]"
+    >
+      <Breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
 
       <div
-        class="container mx-auto mt-[20px] px-[17.5px] md:px-[30px] 2xl:px-[55px] xl:grid xl:grid-cols-2 xl:gap-x-[115px]"
+        class="container mx-auto mt-[20px] xl:grid xl:grid-cols-2 xl:gap-x-[115px]"
       >
         <div>
           <h1
@@ -49,8 +47,15 @@
         </div>
       </div>
 
-      <FollowMe class="mt-[48px] mb-[100px] 2xl:mt-[135px] 2xl:mb-[100px]" />
+      <lite-youtube
+        class="mt-[30px] max-w-[1440px] 2xl:mt-[40px]"
+        style="background-image: url('https://i.ytimg.com/vi/ogfYd705cRs/hqdefault.jpg');"
+        videoid="A61dZiKAUpI"
+        params="controls=0&modestbranding=1&rel=0&enablejsapi=1"
+      />
     </div>
+
+    <FollowMe class="mt-[48px] mb-[100px] 2xl:mt-[135px] 2xl:mb-[100px]" />
   </div>
 </template>
 
