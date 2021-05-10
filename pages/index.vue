@@ -70,14 +70,14 @@
     <div class="mt-[85px] 2xl:mt-[136px] 2xl:relative 2xl:mb-[294px]">
       <div class="container mx-auto px-[17.5px] 2xl:pt-[164px]">
         <h2
-          class="font-extralight text-[20px] leading-[28px] text-center 2xl:text-[40px] 2xl:leading-[80px]"
+          class="font-extralight text-[20px] leading-[28px] text-center lg:text-[40px] lg:leading-[80px]"
         >
           Latest projects
         </h2>
         <ul class="mt-[30px] flex flex-col items-center 2xl:mt-[75px]">
           <li class="group">
             <NuxtLink
-              class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic 2xl:text-[90px] 2xl:leading-[75px]"
+              class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
               to=""
               >No Unlocals</NuxtLink
             >
@@ -92,7 +92,7 @@
           </li>
           <li class="group mt-[35px] 2xl:mt-[75px]">
             <NuxtLink
-              class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic 2xl:text-[90px] 2xl:leading-[75px]"
+              class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
               to=""
               >It's Not a Flower</NuxtLink
             >
@@ -107,7 +107,7 @@
           </li>
           <li class="group mt-[35px] 2xl:mt-[75px]">
             <NuxtLink
-              class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic 2xl:text-[90px] 2xl:leading-[75px]"
+              class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
               to=""
               >Flower Lines</NuxtLink
             >
@@ -125,7 +125,7 @@
           <div>
             <img class="inline-block" src="~/assets/images/arrow.svg" />
             <div
-              class="ml-[29px] inline-block leading-[22px] lowercase 2xl:text-[18px] 2xl:leading-[24px]"
+              class="ml-[29px] inline-block leading-[22px] lowercase lg:text-[18px] lg:leading-[24px]"
             >
               More projects
             </div>
