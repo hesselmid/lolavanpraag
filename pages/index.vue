@@ -134,6 +134,13 @@
       </div>
     </div>
 
+    <div class="relative hidden xl:block">
+      <img
+        class="absolute top-[-350px] left-[-67.09px]"
+        src="~assets/images/lola-face.svg"
+      />
+    </div>
+
     <FollowMe class="my-[100px] 2xl:mt-[194px] 2xl:mb-[110px]" />
   </div>
 </template>
