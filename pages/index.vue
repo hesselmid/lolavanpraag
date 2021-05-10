@@ -136,7 +136,7 @@
 
     <div class="relative hidden xl:block">
       <img
-        class="absolute top-[-350px] left-[-67.09px]"
+        class="absolute top-[-350px] left-0 lola-face"
         src="~assets/images/lola-face.svg"
       />
     </div>
@@ -148,5 +148,23 @@
 <style scoped>
 #hero {
   background-image: url("~/assets/images/hero-background.jpg");
+}
+
+.lola-face {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -302px;
+  }
+
+  to {
+    margin-left: 0;
+  }
 }
 </style>
