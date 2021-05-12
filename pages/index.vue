@@ -180,7 +180,7 @@
       <div class="grid grid-cols-2 grid-rows-5 gap-x-[50px] px-[55px]">
         <div class="col-start-2 row-start-1">
           <img
-            class="ml-auto mr-[122px]"
+            class="ml-auto mr-[122px] rotate"
             src="~assets/images/i-want-you-to-get-to-know-me.png"
           />
         </div>
@@ -215,7 +215,7 @@
 export default {
   data() {
     return {
-      didYouKnowIsVisible: false
+      didYouKnowIsVisible: true
     };
   },
   head: {
@@ -257,6 +257,19 @@ export default {
 
   to {
     margin-left: 0;
+  }
+}
+
+.rotate {
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
   }
 }
 </style>
