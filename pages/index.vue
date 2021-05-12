@@ -65,7 +65,7 @@
           src="~/assets/images/lola-van-praag-portrait.jpg"
         />
         <div
-          class="absolute top-[83px] left-[229px] md:top-[72px] md:left-[400px]"
+          class="absolute top-[83px] left-[229px] w-[80px] h-[80px] md:top-[72px] md:left-[400px] md:w-[190px] md:h-[190px]"
         >
           <FabricSample />
         </div>
