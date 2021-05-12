@@ -59,11 +59,16 @@
           </div>
         </div>
       </div>
-      <div>
+      <div class="relative">
         <img
           class="pt-[35px] md:w-[460px]"
           src="~/assets/images/lola-van-praag-portrait.jpg"
         />
+        <div
+          class="absolute top-[83px] left-[229px] md:top-[72px] md:left-[400px]"
+        >
+          <FabricSample />
+        </div>
       </div>
     </div>
 
