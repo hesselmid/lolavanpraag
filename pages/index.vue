@@ -50,14 +50,17 @@
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum
         </p>
-        <div class="mt-[20px] ml-[20px] md:mt-[60px] md:ml-[30px]">
+        <NuxtLink
+          class="block mt-[20px] ml-[20px] md:mt-[60px] md:ml-[30px]"
+          to="/about"
+        >
           <img class="inline-block" src="~/assets/images/arrow-pink.svg" />
           <div
             class="inline-block ml-[29px] lowercase text-electric-pink leading-[22px] md:text-[18px] md:leading-[24px]"
           >
             About me
           </div>
-        </div>
+        </NuxtLink>
       </div>
       <div class="relative">
         <img
@@ -126,7 +129,10 @@
             />
           </li>
         </ul>
-        <div class="mt-[30px] group flex justify-center 2xl:mt-[107px]">
+        <NuxtLink
+          class="mt-[30px] group flex justify-center 2xl:mt-[107px]"
+          to="/portfolio"
+        >
           <div>
             <img
               class="inline-block w-[18px] group-hover:hidden"
@@ -143,7 +149,7 @@
               More projects
             </div>
           </div>
-        </div>
+        </NuxtLink>
       </div>
     </div>
 
