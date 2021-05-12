@@ -1,12 +1,14 @@
 <template>
   <div
-    class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] 2xl:px-[55px]"
+    class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] 2xl:pt-[165px] 2xl:pb-[228px] 2xl:px-[55px]"
   >
     <Breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
-    <h1 class="mt-[20px] font-serif font-light text-[32px] leading-[32px]">
+    <h1
+      class="mt-[20px] font-serif font-light text-[32px] leading-[32px] 2xl:text-[90px] 2xl:leading-[90px]"
+    >
       Portfolio
     </h1>
-    <ul class="mt-[20px] md:grid project-grid">
+    <ul class="mt-[20px] 2xl:mt-[40px] 2xl:grid project-grid 2xl:gap-x-[50px]">
       <ProjectCard
         v-for="project in projects"
         :key="project.slug"
@@ -74,12 +76,10 @@ export default {
 </script>
 
 <style scoped>
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
   .project-grid {
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-template-rows: repeat(2, 1fr);
   }
 
   .div1 {
@@ -90,15 +90,6 @@ export default {
   }
   .div3 {
     grid-area: 2 / 1 / 3 / 7;
-  }
-  .div4 {
-    grid-area: 3 / 1 / 4 / 3;
-  }
-  .div5 {
-    grid-area: 3 / 3 / 4 / 5;
-  }
-  .div6 {
-    grid-area: 3 / 5 / 4 / 7;
   }
 }
 </style>

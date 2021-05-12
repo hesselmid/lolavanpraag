@@ -1,6 +1,6 @@
 <template>
-  <li class="mt-[40px] max-w-[340px] mx-auto">
-    <img :src="img" />
+  <li class="mt-[40px] mx-auto 2xl:w-full 2xl:m-0">
+    <img class="w-full" :src="img" />
     <div class="pt-[10px]">
       <div class="flex justify-between">
         <h2 class="font-light text-[22px] leading-[31px]">{{ title }}</h2>
