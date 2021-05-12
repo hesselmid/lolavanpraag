@@ -1,15 +1,15 @@
 <template>
   <div
-    class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] lg:pt-[165px] lg:pb-[228px] lg:px-[55px]"
+    class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] md:pt-[165px] md:pb-[228px] md:px-[55px]"
   >
     <Breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
     <h1
-      class="mt-[20px] font-serif font-light text-[32px] leading-[32px] lg:text-[90px] lg:leading-[90px]"
+      class="mt-[20px] font-serif font-light text-[32px] leading-[32px] md:text-[90px] md:leading-[90px]"
     >
       Portfolio
     </h1>
     <ul
-      class="mt-[20px] lg:mt-[40px] lg:grid project-grid lg:gap-y-[90px] lg:gap-x-[50px]"
+      class="mt-[20px] md:mt-[40px] md:grid project-grid md:gap-y-[90px] md:gap-x-[50px]"
     >
       <ProjectCard
         v-for="project in projects"
@@ -78,7 +78,7 @@ export default {
 </script>
 
 <style scoped>
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .project-grid {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, auto);

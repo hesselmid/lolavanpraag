@@ -1,25 +1,25 @@
 <template>
-  <li class="mt-[40px] mx-auto lg:w-full lg:m-0">
+  <li class="mt-[40px] mx-auto md:w-full md:m-0">
     <img class="w-full" :src="img" />
-    <div class="mt-[10px] lg:mt-[20px]">
+    <div class="mt-[10px] md:mt-[20px]">
       <div class="flex justify-between">
         <h2
-          class="font-light text-[22px] leading-[31px] lg:text-[24px] lg:leading-[33px]"
+          class="font-light text-[22px] leading-[31px] md:text-[24px] md:leading-[33px]"
         >
           {{ title }}
         </h2>
         <div
-          class="inline-block mt-[3px] py-[3px] px-[10px] border rounded-[13px] border-electric-pink font-light text-[12px] leading-[17px] text-electric-pink lowercase lg:text-[14px] lg:leading-[19px]"
+          class="inline-block mt-[3px] py-[3px] px-[10px] border rounded-[13px] border-electric-pink font-light text-[12px] leading-[17px] text-electric-pink lowercase md:text-[14px] md:leading-[19px]"
         >
           {{ category }}
         </div>
       </div>
       <p
-        class="mt-[7px] w-[250px] font-light text-[14px] leading-[19px] lg:mt-[5px] lg:w-full lg:text-[18px] lg:leading-[24px]"
+        class="mt-[7px] w-[250px] font-light text-[14px] leading-[19px] md:mt-[5px] md:w-full md:text-[18px] md:leading-[24px]"
       >
         {{ description }}
       </p>
-      <div class="mt-[15px] ml-[20px] group lg:mt-[20px] lg:ml-[30px]">
+      <div class="mt-[15px] ml-[20px] group md:mt-[20px] md:ml-[30px]">
         <div>
           <img
             class="inline-block w-[18px] group-hover:hidden"
@@ -31,7 +31,7 @@
           />
 
           <div
-            class="ml-[29px] inline-block leading-[22px] lowercase group-hover:text-electric-pink group-hover:underline lg:text-[18px] lg:leading-[24px]"
+            class="ml-[29px] inline-block leading-[22px] lowercase group-hover:text-electric-pink group-hover:underline md:text-[18px] md:leading-[24px]"
           >
             View project
           </div>
