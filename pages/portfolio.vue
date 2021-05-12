@@ -8,7 +8,9 @@
     >
       Portfolio
     </h1>
-    <ul class="mt-[20px] 2xl:mt-[40px] 2xl:grid project-grid 2xl:gap-x-[50px]">
+    <ul
+      class="mt-[20px] 2xl:mt-[40px] 2xl:grid project-grid 2xl:gap-y-[90px] 2xl:gap-x-[50px]"
+    >
       <ProjectCard
         v-for="project in projects"
         :key="project.slug"
@@ -79,7 +81,7 @@ export default {
 @media (min-width: 1440px) {
   .project-grid {
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
   }
 
   .div1 {
