@@ -48,29 +48,31 @@
       </div>
     </div>
 
-    <div class="mt-[53px]">
+    <div class="mt-[53px] md:mt-[120px]">
       <div class="container mx-auto px-[17.5px] md:px-[30px] 2xl:px-[55px]">
-        <h2 class="font-serif font-light text-[24px] leading-[32px]">
+        <h2
+          class="font-serif font-light text-[24px] leading-[32px] md:text-[60px] md:leading-[86px]"
+        >
           Worked with
         </h2>
       </div>
       <div class="mt-[10px] w-full overflow-y-hidden">
         <div
-          class="pl-[17.5px] md:pl-[30px] 2xl:pl-[55px] font-serif font-light text-[70px] leading-[70px] text-electric-pink uppercase whitespace-nowrap"
+          class="pl-[17.5px] md:pl-[30px] 2xl:pl-[55px] font-serif font-light text-[70px] leading-[70px] text-electric-pink uppercase whitespace-nowrap 2xl:text-[180px] 2xl:leading-[180px]"
         >
           Amsterdam Fashion Week - Hermes - Vogue
         </div>
       </div>
       <div class="w-full overflow-y-hidden">
         <div
-          class="pl-[17.5px] md:pl-[30px] 2xl:pl-[55px] font-serif font-light text-[70px] leading-[70px] text-electric-pink uppercase whitespace-nowrap"
+          class="pl-[17.5px] md:pl-[30px] 2xl:pl-[55px] font-serif font-light text-[70px] leading-[70px] text-electric-pink uppercase whitespace-nowrap 2xl:text-[180px] 2xl:leading-[180px]"
         >
           Vogue / Hermes
         </div>
       </div>
       <div class="w-full overflow-y-hidden">
         <div
-          class="pl-[17.5px] md:pl-[30px] 2xl:pl-[55px] font-serif font-light text-[70px] leading-[70px] text-electric-pink uppercase whitespace-nowrap"
+          class="pl-[17.5px] md:pl-[30px] 2xl:pl-[55px] font-serif font-light text-[70px] leading-[70px] text-electric-pink uppercase whitespace-nowrap 2xl:text-[180px] 2xl:leading-[180px]"
         >
           HERMES / Lorem / Amsterdam Fashion Week - Hermes - Vogue
         </div>
@@ -78,11 +80,15 @@
     </div>
 
     <div class="container mx-auto px-[17.5px] md:px-[30px] 2xl:px-[55px]">
-      <div class="mt-[51px]">
-        <h2 class="font-serif font-light text-[24px] leading-[32px]">
+      <div class="mt-[51px] md:mt-[105px]">
+        <h2
+          class="font-serif font-light text-[24px] leading-[32px] md:text-[60px] md:leading-[86px]"
+        >
           Proces
         </h2>
-        <p class="mt-[7px] font-light leading-[22px]">
+        <p
+          class="mt-[7px] font-light leading-[22px] 2xl:mt-[14px] 2xl:max-w-[869px] 2xl:text-[24px] 2xl:leading-[30px]"
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -94,43 +100,45 @@
       </div>
 
       <lite-youtube
-        class="mt-[30px] max-w-[1440px] 2xl:mt-[40px]"
+        class="mt-[30px] max-w-[1440px] md:mt-[40px]"
         style="background-image: url('https://i.ytimg.com/vi/ogfYd705cRs/hqdefault.jpg');"
         videoid="A61dZiKAUpI"
         params="controls=0&modestbranding=1&rel=0&enablejsapi=1"
       />
     </div>
 
-    <div class="mt-[53px]">
+    <div class="mt-[53px] md:mt-[120px]">
       <div class="container mx-auto px-[17.5px] md:px-[30px] 2xl:px-[55px]">
-        <h2 class="font-serif font-light text-[24px] leading-[32px]">
+        <h2
+          class="font-serif font-light text-[24px] leading-[32px] md:text-[60px] md:leading-[86px]"
+        >
           Awards &#38; Nominations
         </h2>
       </div>
       <div class="mt-[10px] w-full overflow-y-hidden">
         <div
-          class="pl-[17.5px] md:pl-[30px] 2xl:pl-[55px] font-serif font-light text-[70px] leading-[70px] text-apple-green uppercase whitespace-nowrap"
+          class="pl-[17.5px] md:pl-[30px] 2xl:pl-[55px] font-serif font-light text-[70px] leading-[70px] text-apple-green uppercase whitespace-nowrap 2xl:text-[180px] 2xl:leading-[180px]"
         >
           new wave - 2019 / amfi young talent -2018
         </div>
       </div>
       <div class="w-full overflow-y-hidden">
         <div
-          class="pl-[17.5px] md:pl-[30px] 2xl:pl-[55px] font-serif font-light text-[70px] leading-[70px] text-apple-green uppercase whitespace-nowrap"
+          class="pl-[17.5px] md:pl-[30px] 2xl:pl-[55px] font-serif font-light text-[70px] leading-[70px] text-apple-green uppercase whitespace-nowrap 2xl:text-[180px] 2xl:leading-[180px]"
         >
           amfi young talent -2018
         </div>
       </div>
       <div class="w-full overflow-y-hidden">
         <div
-          class="pl-[17.5px] md:pl-[30px] 2xl:pl-[55px] font-serif font-light text-[70px] leading-[70px] text-apple-green uppercase whitespace-nowrap"
+          class="pl-[17.5px] md:pl-[30px] 2xl:pl-[55px] font-serif font-light text-[70px] leading-[70px] text-apple-green uppercase whitespace-nowrap 2xl:text-[180px] 2xl:leading-[180px]"
         >
           Dutch fashion award
         </div>
       </div>
     </div>
 
-    <FollowMe class="mt-[48px] mb-[100px] 2xl:mt-[135px] 2xl:mb-[100px]" />
+    <FollowMe class="mt-[48px] mb-[100px] md:mt-[135px] 2xl:mb-[100px]" />
   </div>
 </template>
 
