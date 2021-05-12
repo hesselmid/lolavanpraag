@@ -215,7 +215,7 @@
 export default {
   data() {
     return {
-      didYouKnowIsVisible: true
+      didYouKnowIsVisible: false
     };
   },
   head: {
