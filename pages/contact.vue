@@ -20,12 +20,12 @@
           <div class="mt-[10px] md:mt-0">
             <a
               class="block font-light leading-[32px] md:text-[20px] md:leading-[40px]"
-              href="+ 31 (0)10 234 5413"
+              href="tel:+ 31 (0)10 234 5413"
               >+ 31 (0)10 234 5413</a
             >
             <a
               class="block font-light leading-[32px] md:text-[20px] md:leading-[40px]"
-              href="info@lolavanpraag.com"
+              href="mailto:info@lolavanpraag.com"
               >info@lolavanpraag.com</a
             >
           </div>
@@ -40,12 +40,16 @@
             <a
               class="block font-light leading-[32px] md:text-[20px] md:leading-[40px]"
               href="https://www.instagram.com/lolavanpraag/"
+              target="_blank"
+              rel="nofollow noreferrer noopener"
             >
               Instagram
             </a>
             <a
               class="block font-light leading-[32px] md:text-[20px] md:leading-[40px]"
               href="https://www.linkedin.com/in/lola-van-praag/"
+              target="_blank"
+              rel="nofollow noreferrer noopener"
               >LinkedIn</a
             >
           </div>
@@ -64,12 +68,16 @@
           <a
             class="block font-light leading-[32px] md:text-[20px] md:leading-[40px]"
             href="https://www.rademakersgallery.com/"
+            target="_blank"
+            rel="nofollow noreferrer noopener"
           >
             Rademarkers Gallery
           </a>
           <a
             class="block font-light leading-[32px] md:text-[20px] md:leading-[40px]"
             href="https://hetechtewerk.studio/"
+            target="_blank"
+            rel="nofollow noreferrer noopener"
             >HEW Gallery</a
           >
         </div>

@@ -32,14 +32,19 @@
       >
         @lolavanpraag
       </div>
-      <div class="mt-[20px] ml-[20px] md:mt-[40px] md:ml-[30px]">
+      <a
+        href="https://www.instagram.com/lolavanpraag/"
+        target="_blank"
+        rel="nofollow noreferrer noopener"
+        class="block mt-[20px] ml-[20px] md:mt-[40px] md:ml-[30px]"
+      >
         <img class="inline-block" src="~assets/images/arrow.svg" />
         <div
           class="inline-block ml-[29px] leading-[22px] lowercase md:text-[18px] md:leading-[24px]"
         >
           Follow me
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </template>
