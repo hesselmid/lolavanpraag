@@ -165,9 +165,46 @@
       class="fixed inset-0 bg-dusty-orange bg-opacity-90"
       v-if="didYouKnowIsVisible"
     >
-      <button class="mt-[51px] ml-[55px]" @click="toggleDidYouKnow">
-        <img src="~/assets/images/cross.svg" width="24px" height="24px" />
-      </button>
+      <div class="mt-[23px] grid grid-cols-3">
+        <button class="pt-[28px] ml-[55px]" @click="toggleDidYouKnow">
+          <img src="~/assets/images/cross.svg" width="24px" height="24px" />
+        </button>
+
+        <h2
+          class="font-light text-apple-green text-[58px] leading-[79px] uppercase"
+        >
+          Did you know
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-2 grid-rows-5 gap-x-[50px] px-[55px]">
+        <div class="col-start-2 row-start-1">
+          <img
+            class="ml-auto mr-[122px]"
+            src="~assets/images/i-want-you-to-get-to-know-me.png"
+          />
+        </div>
+        <div
+          class="col-start-1 row-start-2 font-serif font-light text-[64px] leading-[62px] text-apple-green"
+        >
+          I eat glitter for breakfast
+        </div>
+        <div
+          class="col-start-2 row-start-3 font-serif font-light text-[64px] leading-[62px] text-apple-green"
+        >
+          I studied in 3 different countries
+        </div>
+        <div
+          class="col-start-1 row-start-4 font-serif font-light text-[64px] leading-[62px] text-apple-green"
+        >
+          Jett Rebel wore my clothes at his concerts
+        </div>
+        <div
+          class="col-start-2 row-start-5 font-serif font-light text-[64px] leading-[62px] text-apple-green"
+        >
+          My favourite color is electric pink
+        </div>
+      </div>
     </div>
 
     <FollowMe class="my-[100px] 2xl:mt-[194px] 2xl:mb-[110px]" />
