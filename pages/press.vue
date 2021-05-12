@@ -117,6 +117,16 @@ export default {
         }
       ]
     };
+  },
+  head: {
+    title: "Press | lolavanpraag.com",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: ""
+      }
+    ]
   }
 };
 </script>

@@ -135,6 +135,16 @@ export default {
         { name: "Contact", link: "/contact" }
       ]
     };
+  },
+  head: {
+    title: "Contact | lolavanpraag.com",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: ""
+      }
+    ]
   }
 };
 </script>

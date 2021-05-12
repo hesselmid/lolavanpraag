@@ -175,6 +175,17 @@ export default {
       didYouKnowIsVisible: false
     };
   },
+  head: {
+    title: "Lola van Praag - Menswear, Textile Design | lolavanpraag.com",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Lola van Praag is a Menswear Fashion Designer and Textile Artist based in the Netherlands."
+      }
+    ]
+  },
   methods: {
     toggleDidYouKnow() {
       this.didYouKnowIsVisible = !this.didYouKnowIsVisible;

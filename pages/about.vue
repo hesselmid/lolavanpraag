@@ -151,6 +151,16 @@ export default {
         { name: "About me", link: "/about" }
       ]
     };
+  },
+  head: {
+    title: "About Me | lolavanpraag.com",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: ""
+      }
+    ]
   }
 };
 </script>
