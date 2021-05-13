@@ -1,8 +1,8 @@
 <template>
   <div
-    class="container mx-auto px-[17.5px] md:px-[30px] 2xl:grid 2xl:grid-cols-5 2xl:px-[55px]"
+    class="container mx-auto px-[17.5px] md:px-[30px] xl:grid xl:grid-cols-5 xl:px-[55px]"
   >
-    <div class="col-span-3">
+    <div class="xl:col-span-3 xl:pl-[120px]">
       <div class="grid grid-cols-20">
         <img
           class="mt-[23px] col-span-12"
@@ -52,7 +52,7 @@
     </div>
 
     <div
-      class="hidden 2xl:grid 2xl:grid-cols-2 2xl:col-span-2 2xl:grid-rows-2 2xl:ml-[30px]"
+      class="hidden xl:grid xl:grid-cols-2 xl:col-span-2 xl:grid-rows-2 xl:ml-[30px]"
     >
       <img
         class="mt-auto"
