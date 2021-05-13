@@ -162,7 +162,7 @@
       v-if="didYouKnowIsVisible"
     >
       <div class="mt-[23px] grid grid-cols-3">
-        <button class="pt-[28px] ml-[55px]" @click="toggleDidYouKnow">
+        <button class="pt-[28px] pl-[55px]" @click="toggleDidYouKnow">
           <img src="~/assets/images/cross.svg" width="24px" height="24px" />
         </button>
 
@@ -216,8 +216,8 @@
 export default {
   data() {
     return {
-      didYouKnowIsVisible: false,
-      fabricExplanationIsVisible: true
+      didYouKnowIsVisible: true,
+      fabricExplanationIsVisible: false
     };
   },
   head: {
