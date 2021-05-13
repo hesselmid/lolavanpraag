@@ -64,6 +64,7 @@
         />
         <div
           class="absolute top-[83px] left-[229px] w-[80px] h-[80px] md:top-[72px] md:left-[400px] md:w-[190px] md:h-[190px]"
+          @click="toggleFabricExplanation"
         >
           <FabricSample />
         </div>
@@ -203,6 +204,11 @@
     </div>
 
     <FollowMe class="my-[100px] 2xl:mt-[194px] 2xl:mb-[110px]" />
+
+    <FabricExplanation
+      v-if="fabricExplanationIsVisible"
+      @closeFabricExplanation="toggleFabricExplanation"
+    />
   </div>
 </template>
 
@@ -210,7 +216,8 @@
 export default {
   data() {
     return {
-      didYouKnowIsVisible: false
+      didYouKnowIsVisible: false,
+      fabricExplanationIsVisible: true
     };
   },
   head: {
@@ -227,6 +234,9 @@ export default {
   methods: {
     toggleDidYouKnow() {
       this.didYouKnowIsVisible = !this.didYouKnowIsVisible;
+    },
+    toggleFabricExplanation() {
+      this.fabricExplanationIsVisible = !this.fabricExplanationIsVisible;
     }
   }
 };
