@@ -19,24 +19,13 @@
       >
         {{ description }}
       </p>
-      <div class="mt-[15px] ml-[20px] group md:mt-[20px] md:ml-[30px]">
-        <div>
-          <img
-            class="inline-block w-[18px] group-hover:hidden"
-            src="~assets/images/arrow.svg"
-          />
-          <img
-            class="hidden w-[18px] group-hover:inline-block"
-            src="~assets/images/arrow-pink.svg"
-          />
 
-          <div
-            class="ml-[29px] inline-block leading-[22px] lowercase group-hover:text-electric-pink group-hover:underline md:text-[18px] md:leading-[24px]"
-          >
-            View project
-          </div>
-        </div>
-      </div>
+      <BaseLink
+        class="mt-[15px] ml-[20px] group md:mt-[20px] md:ml-[30px]"
+        black="true"
+        :link="`/portfolio/${slug}`"
+        >View Project</BaseLink
+      >
     </div>
   </li>
 </template>

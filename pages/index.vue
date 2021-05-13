@@ -50,17 +50,12 @@
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum
         </p>
-        <NuxtLink
-          class="block mt-[20px] ml-[20px] md:mt-[60px] md:ml-[30px]"
-          to="/about"
+        <BaseLink
+          class="mt-[20px] ml-[20px] group md:mt-[60px] md:ml-[30px]"
+          pink="true"
+          link="/about"
+          >About me</BaseLink
         >
-          <img class="inline-block" src="~/assets/images/arrow-pink.svg" />
-          <div
-            class="inline-block ml-[29px] lowercase text-electric-pink leading-[22px] md:text-[18px] md:leading-[24px]"
-          >
-            About me
-          </div>
-        </NuxtLink>
       </div>
       <div class="relative">
         <img

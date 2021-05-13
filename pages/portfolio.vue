@@ -41,7 +41,7 @@ export default {
             "Graduation Collection 2019 – MA Menswear, Westminster University",
           category: "mode",
           img: require(`~/assets/images/project-thumbnail-1.jpg`),
-          slug: "/"
+          slug: "no-unlocals"
         },
         {
           order: 2,
@@ -50,7 +50,7 @@ export default {
             "Graduation Collection - MA Textile, Swedish School of Textiles",
           category: "textile",
           img: require(`~/assets/images/project-thumbnail-2.jpg`),
-          slug: "/"
+          slug: "its-not-a-flower"
         },
         {
           order: 3,
@@ -59,7 +59,7 @@ export default {
             "Graduation Collection 2014 - BA Fashion, Willem de Kooning Academie",
           category: "mode",
           img: require(`~/assets/images/project-thumbnail-3.jpg`),
-          slug: "/"
+          slug: "floral-lines"
         }
       ]
     };
