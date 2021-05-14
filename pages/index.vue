@@ -58,7 +58,11 @@
         >
       </div>
       <div class="relative pt-[35px]">
-        <NuxtPicture src="/lola-van-praag.jpg" sizes="sm:270px md:460px" />
+        <NuxtPicture
+          src="/lola-van-praag.jpg"
+          sizes="sm:270px md:460px"
+          alt="Lola van Praag"
+        />
         <div
           class="absolute top-[83px] left-[229px] w-[80px] h-[80px] md:top-[72px] md:left-[400px] md:w-[190px] md:h-[190px]"
           @click="toggleFabricExplanation"
