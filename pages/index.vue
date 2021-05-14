@@ -102,14 +102,24 @@
               to=""
               >No Unlocals</NuxtLink
             >
-            <img
-              class="hidden xl:group-hover:block absolute top-[40px] left-0"
-              src="~assets/images/project-left.jpg"
-            />
-            <img
+            <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
+              <NuxtPicture
+                src="/images/project-left.jpg"
+                width="302"
+                height="587"
+                alt=""
+              />
+            </div>
+            <div
               class="hidden xl:group-hover:block absolute top-[278px] right-0"
-              src="~assets/images/project-right.jpg"
-            />
+            >
+              <NuxtPicture
+                src="/images/project-right.jpg"
+                width="238"
+                height="586"
+                alt=""
+              />
+            </div>
           </li>
           <li class="group mt-[35px] 2xl:mt-[75px]">
             <NuxtLink
@@ -117,14 +127,24 @@
               to=""
               >It's Not a Flower</NuxtLink
             >
-            <img
-              class="hidden xl:group-hover:block absolute top-[40px] left-0"
-              src="~assets/images/project-left.jpg"
-            />
-            <img
+            <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
+              <NuxtPicture
+                src="/images/project-left.jpg"
+                width="302"
+                height="587"
+                alt=""
+              />
+            </div>
+            <div
               class="hidden xl:group-hover:block absolute top-[278px] right-0"
-              src="~assets/images/project-right.jpg"
-            />
+            >
+              <NuxtPicture
+                src="/images/project-right.jpg"
+                width="238"
+                height="586"
+                alt=""
+              />
+            </div>
           </li>
           <li class="group mt-[35px] 2xl:mt-[75px]">
             <NuxtLink
@@ -132,14 +152,24 @@
               to=""
               >Flower Lines</NuxtLink
             >
-            <img
-              class="hidden xl:group-hover:block absolute top-[40px] left-0"
-              src="~assets/images/project-left.jpg"
-            />
-            <img
+            <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
+              <NuxtPicture
+                src="/images/project-left.jpg"
+                width="302"
+                height="587"
+                alt=""
+              />
+            </div>
+            <div
               class="hidden xl:group-hover:block absolute top-[278px] right-0"
-              src="~assets/images/project-right.jpg"
-            />
+            >
+              <NuxtPicture
+                src="/images/project-right.jpg"
+                width="238"
+                height="586"
+                alt=""
+              />
+            </div>
           </li>
         </ul>
         <NuxtLink

@@ -4,27 +4,29 @@
   >
     <div class="xl:col-span-3 xl:pl-[120px]">
       <div class="grid grid-cols-20">
-        <img
-          class="mt-[23px] col-span-12"
-          src="https://source.unsplash.com/random"
-          width="100%"
-          height="100%"
-          alt=""
-        />
+        <div class="mt-[23px] col-span-12">
+          <NuxtPicture
+            src="https://source.unsplash.com/random"
+            width="100%"
+            height="100%"
+            alt=""
+          />
+        </div>
         <div class="col-span-7 ml-auto col-start-14">
-          <img
+          <NuxtPicture
             src="https://source.unsplash.com/random"
             width="100%"
             height="100%"
             alt=""
           />
-          <img
-            class="mt-[14px]"
-            src="https://source.unsplash.com/random"
-            width="100%"
-            height="100%"
-            alt=""
-          />
+          <div class="mt-[14px]">
+            <NuxtPicture
+              src="https://source.unsplash.com/random"
+              width="100%"
+              height="100%"
+              alt=""
+            />
+          </div>
         </div>
       </div>
       <div class="mt-[20px] md:mt-[37px] md:ml-[109px]">
@@ -63,20 +65,23 @@
     <div
       class="hidden xl:grid xl:grid-cols-2 xl:col-span-2 xl:grid-rows-2 xl:ml-[30px]"
     >
-      <img
-        class="mt-auto"
-        src="https://source.unsplash.com/random"
-        width="100%"
-        height="100%"
-        alt=""
-      />
-      <img
-        class="col-span-2 row-span-2 mt-[30px]"
-        src="https://source.unsplash.com/random"
-        width="100%"
-        height="100%"
-        alt=""
-      />
+      <div class="mt-auto">
+        <NuxtPicture
+          src="https://source.unsplash.com/random"
+          width="100%"
+          height="100%"
+          alt=""
+        />
+      </div>
+      <div class="col-span-2 row-span-2 mt-[30px]">
+        <NuxtPicture
+          class="col-span-2 row-span-2 mt-[30px]"
+          src="https://source.unsplash.com/random"
+          width="100%"
+          height="100%"
+          alt=""
+        />
+      </div>
     </div>
   </div>
 </template>
