@@ -27,6 +27,7 @@
               src="~/assets/images/scroll-icon.svg"
               width="18px"
               height="14px"
+              alt="View Project"
             />
           </div>
         </div>

@@ -111,8 +111,8 @@
                 type="email"
                 placeholder="Enter your mail"
               />
-              <button class="h-full">
-                <img src="~/assets/images/arrow.svg" />
+              <button class="h-full" aria-label="Send">
+                <img src="~/assets/images/arrow.svg" aria-hidden="true" />
               </button>
             </form>
           </div>
