@@ -19,7 +19,7 @@
               src="~/assets/images/arrow-pink.svg"
               width="18px"
               height="14px"
-              alt="View Project"
+              alt=""
             />
             <div
               class="inline-block ml-[29px] lowercase text-[18px] leading-[24px] text-electric-pink"
@@ -33,7 +33,7 @@
               src="~/assets/images/scroll-icon.svg"
               width="30px"
               height="50px"
-              alt="Scroll icon"
+              alt=""
             />
           </div>
         </div>

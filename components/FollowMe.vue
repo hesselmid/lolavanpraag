@@ -9,18 +9,21 @@
           src="https://source.unsplash.com/random"
           width="100%"
           height="100%"
+          alt=""
         />
         <div class="col-span-7 ml-auto col-start-14">
           <img
             src="https://source.unsplash.com/random"
             width="100%"
             height="100%"
+            alt=""
           />
           <img
             class="mt-[14px]"
             src="https://source.unsplash.com/random"
             width="100%"
             height="100%"
+            alt=""
           />
         </div>
       </div>
@@ -46,6 +49,7 @@
             src="~assets/images/arrow.svg"
             width="18px"
             height="14px"
+            alt=""
           />
           <div
             class="inline-block ml-[29px] leading-[22px] lowercase md:text-[18px] md:leading-[24px]"
@@ -64,12 +68,14 @@
         src="https://source.unsplash.com/random"
         width="100%"
         height="100%"
+        alt=""
       />
       <img
         class="col-span-2 row-span-2 mt-[30px]"
         src="https://source.unsplash.com/random"
         width="100%"
         height="100%"
+        alt=""
       />
     </div>
   </div>

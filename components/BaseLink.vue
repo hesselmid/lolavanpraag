@@ -10,6 +10,7 @@
       src="~assets/images/arrow.svg"
       width="18px"
       height="14px"
+      alt=""
     />
     <img
       :class="{
@@ -21,6 +22,7 @@
       src="~assets/images/arrow-pink.svg"
       width="18px"
       height="14px"
+      alt=""
     />
 
     <div

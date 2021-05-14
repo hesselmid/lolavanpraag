@@ -5,18 +5,21 @@
       src="https://source.unsplash.com/random"
       width="190px"
       height="190px"
+      alt=""
     />
     <img
       class="absolute top-[-8px] right-[-8px] md:hidden"
       src="~/assets/images/click-here.png"
       width="31px"
       height="39px"
+      alt=""
     />
     <img
       class="hidden absolute top-[-20px] right-[26px] md:block"
       src="~/assets/images/click-here-lg.png"
       width="59px"
       height="29px"
+      alt=""
     />
   </div>
 </template>
