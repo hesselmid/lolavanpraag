@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container mx-auto pt-[86px] px-[17.5px] md:px-[30px] 2xl:px-[55px]"
+    class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] 2xl:px-[55px]"
   >
     <Breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
     <h1 class="mt-[20px] font-serif font-light text-[32px] leading-[32px]">
@@ -48,6 +48,39 @@
       emphasis on the seams by exaggerating them – using them predominantly in
       decorative, rather than a purely functional, way.
     </p>
+    <div class="mt-[30px] flex">
+      <NuxtPicture src="/images/no-unlocals-3.jpg" />
+      <NuxtPicture src="/images/no-unlocals-4.jpg" />
+    </div>
+    <p class="mt-[30px] font-light leading-[22px]">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+    <blockquote
+      class="mt-[50px] font-serif font-light text-[34px] leading-[40px] text-electric-pink text-center"
+    >
+      "One of the most important elements in the construction of a wetsuit are
+      the seams"
+    </blockquote>
+    <div class="mt-[50px]">
+      <div>
+        <NuxtPicture src="/images/no-unlocals-5.jpg" />
+      </div>
+      <div class="mt-[15px]">
+        <NuxtPicture src="/images/no-unlocals-6.jpg" />
+      </div>
+      <div class="mt-[15px]">
+        <NuxtPicture src="/images/no-unlocals-7.jpg" />
+      </div>
+      <div class="mt-[15px]">
+        <NuxtPicture src="/images/no-unlocals-8.jpg" />
+      </div>
+    </div>
   </div>
 </template>
 
