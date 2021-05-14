@@ -13,7 +13,31 @@
 
 <script>
 export default {
-  props: ["breadcrumbs", "color"]
+  props: ["breadcrumbs", "color"],
+  head() {
+    const structuredData = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: []
+    };
+    this.breadcrumbs.forEach((crumb, index) => {
+      structuredData.itemListElement.push({
+        "@type": "ListItem",
+        position: index + 1,
+        name: crumb.name,
+        item: `https://lolavanpraag.netlify.app${crumb.link}`
+      });
+    });
+
+    return {
+      script: [
+        {
+          type: "application/ld+json",
+          json: structuredData
+        }
+      ]
+    };
+  }
 };
 </script>
 
