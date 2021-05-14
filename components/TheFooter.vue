@@ -8,8 +8,11 @@
       >
         <div>
           <img
-            class="md:w-[180px] 2xl:w-[223px]"
+            class="w-[164px] md:w-[180px] 2xl:w-[223px]"
             src="~assets/images/logo.svg"
+            width="223px"
+            height="190px"
+            alt="Logo Lola van Praag"
           />
         </div>
         <div

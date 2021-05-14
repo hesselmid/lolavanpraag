@@ -59,7 +59,7 @@
       </div>
       <div class="relative pt-[35px]">
         <NuxtPicture
-          src="/lola-van-praag.jpg"
+          src="/images/lola-van-praag.jpg"
           sizes="sm:270px md:460px"
           width="460"
           height="595"
