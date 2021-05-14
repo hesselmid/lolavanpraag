@@ -6,7 +6,7 @@
       <div class="grid grid-cols-20">
         <div class="mt-[23px] col-span-12">
           <NuxtPicture
-            src="https://source.unsplash.com/random"
+            src="/images/instagram-placeholder.jpg"
             width="100%"
             height="100%"
             alt=""
@@ -14,14 +14,14 @@
         </div>
         <div class="col-span-7 ml-auto col-start-14">
           <NuxtPicture
-            src="https://source.unsplash.com/random"
+            src="/images/instagram-placeholder.jpg"
             width="100%"
             height="100%"
             alt=""
           />
           <div class="mt-[14px]">
             <NuxtPicture
-              src="https://source.unsplash.com/random"
+              src="/images/instagram-placeholder.jpg"
               width="100%"
               height="100%"
               alt=""
@@ -67,7 +67,7 @@
     >
       <div class="mt-auto">
         <NuxtPicture
-          src="https://source.unsplash.com/random"
+          src="/images/instagram-placeholder.jpg"
           width="100%"
           height="100%"
           alt=""
@@ -75,8 +75,7 @@
       </div>
       <div class="col-span-2 row-span-2 mt-[30px]">
         <NuxtPicture
-          class="col-span-2 row-span-2 mt-[30px]"
-          src="https://source.unsplash.com/random"
+          src="/images/instagram-placeholder.jpg"
           width="100%"
           height="100%"
           alt=""
