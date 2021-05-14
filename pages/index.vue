@@ -22,7 +22,12 @@
             </div>
           </div>
           <div class="hidden mt-[54px] xl:block">
-            <img class="mx-auto" src="~/assets/images/scroll-icon.svg" />
+            <img
+              class="mx-auto"
+              src="~/assets/images/scroll-icon.svg"
+              width="18px"
+              height="14px"
+            />
           </div>
         </div>
         <Marquee />

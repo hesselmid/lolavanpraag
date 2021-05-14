@@ -17,8 +17,10 @@
     <div class="col-start-2">
       <NuxtLink to="/" aria-label="Logo">
         <img
-          class="mx-auto md:w-[200px]"
+          class="mx-auto w-[120px] md:w-[200px]"
           src="~/assets/images/logo-pink.svg"
+          width="200px"
+          height="59.74px"
           alt="Logo"
         />
       </NuxtLink>
