@@ -9,12 +9,12 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "core-js": "^3.9.1",
+    "core-js": "^3.12.1",
     "lite-youtube-embed": "^0.2.0",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.6"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^4.1.0",
-    "postcss": "^8.2.14"
+    "@nuxtjs/tailwindcss": "^4.1.2",
+    "postcss": "^8.2.15"
   }
 }
