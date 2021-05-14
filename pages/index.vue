@@ -148,12 +148,18 @@
         >
           <div>
             <img
-              class="inline-block w-[18px] group-hover:hidden"
+              class="inline-block group-hover:hidden"
               src="~assets/images/arrow.svg"
+              width="18px"
+              height="14px"
+              alt=""
             />
             <img
-              class="hidden w-[18px] group-hover:inline-block"
+              class="hidden group-hover:inline-block"
               src="~assets/images/arrow-pink.svg"
+              width="18px"
+              height="14px"
+              alt=""
             />
 
             <div

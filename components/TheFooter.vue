@@ -112,7 +112,13 @@
                 placeholder="Enter your mail"
               />
               <button class="h-full" aria-label="Send">
-                <img src="~/assets/images/arrow.svg" aria-hidden="true" />
+                <img
+                  src="~/assets/images/arrow.svg"
+                  aria-hidden="true"
+                  width="15px"
+                  height="15px"
+                  alt=""
+                />
               </button>
             </form>
           </div>
