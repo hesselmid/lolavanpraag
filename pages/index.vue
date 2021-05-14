@@ -61,6 +61,8 @@
         <NuxtPicture
           src="/lola-van-praag.jpg"
           sizes="sm:270px md:460px"
+          width="460"
+          height="595"
           alt="Lola van Praag"
         />
         <div
