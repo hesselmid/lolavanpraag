@@ -89,11 +89,11 @@
               >No Unlocals</NuxtLink
             >
             <img
-              class="hidden group-hover:xl:block absolute top-[40px] left-0"
+              class="hidden xl:group-hover:block absolute top-[40px] left-0"
               src="~assets/images/project-left.jpg"
             />
             <img
-              class="hidden group-hover:xl:block absolute top-[278px] right-0"
+              class="hidden xl:group-hover:block absolute top-[278px] right-0"
               src="~assets/images/project-right.jpg"
             />
           </li>
@@ -104,11 +104,11 @@
               >It's Not a Flower</NuxtLink
             >
             <img
-              class="hidden group-hover:xl:block absolute top-[40px] left-0"
+              class="hidden xl:group-hover:block absolute top-[40px] left-0"
               src="~assets/images/project-left.jpg"
             />
             <img
-              class="hidden group-hover:xl:block absolute top-[278px] right-0"
+              class="hidden xl:group-hover:block absolute top-[278px] right-0"
               src="~assets/images/project-right.jpg"
             />
           </li>
@@ -119,11 +119,11 @@
               >Flower Lines</NuxtLink
             >
             <img
-              class="hidden group-hover:xl:block absolute top-[40px] left-0"
+              class="hidden xl:group-hover:block absolute top-[40px] left-0"
               src="~assets/images/project-left.jpg"
             />
             <img
-              class="hidden group-hover:xl:block absolute top-[278px] right-0"
+              class="hidden xl:group-hover:block absolute top-[278px] right-0"
               src="~assets/images/project-right.jpg"
             />
           </li>

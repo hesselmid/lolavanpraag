@@ -1,7 +1,6 @@
 <template>
   <NuxtLink class="inline-block group" :to="link">
     <img
-      class="w-[18px]"
       :class="{
         'inline-block': black,
         hidden: pink,
@@ -9,9 +8,10 @@
         'group-hover:inline-block': pink
       }"
       src="~assets/images/arrow.svg"
+      width="18px"
+      height="14px"
     />
     <img
-      class="w-[18px]"
       :class="{
         'inline-block': pink,
         hidden: black,
@@ -19,6 +19,8 @@
         'group-hover:inline-block': black
       }"
       src="~assets/images/arrow-pink.svg"
+      width="18px"
+      height="14px"
     />
 
     <div
