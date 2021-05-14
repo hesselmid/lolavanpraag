@@ -14,7 +14,13 @@
             in tight-fitting sequin-heavy wetsuits.
           </p>
           <div class="mt-[40px] ml-[20px] xl:mt-[60px] xl:ml-[30px]">
-            <img class="inline-block" src="~/assets/images/arrow-pink.svg" />
+            <img
+              class="inline-block"
+              src="~/assets/images/arrow-pink.svg"
+              width="18px"
+              height="14px"
+              alt="View Project"
+            />
             <div
               class="inline-block ml-[29px] lowercase text-[18px] leading-[24px] text-electric-pink"
             >
@@ -25,9 +31,9 @@
             <img
               class="mx-auto"
               src="~/assets/images/scroll-icon.svg"
-              width="18px"
-              height="14px"
-              alt="View Project"
+              width="30px"
+              height="50px"
+              alt="Scroll icon"
             />
           </div>
         </div>
