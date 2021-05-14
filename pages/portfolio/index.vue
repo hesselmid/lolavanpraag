@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] md:pt-[165px] md:pb-[228px] md:px-[55px]"
+    class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] md:pt-[165px] md:pb-[228px] 2xl:px-[55px]"
   >
     <Breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
     <h1
