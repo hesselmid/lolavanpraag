@@ -19,6 +19,16 @@ export default {
         { name: "No Unlocals", link: "/portfolio/no-unlocals" }
       ]
     };
+  },
+  head: {
+    title: "No Unlocals | lolavanpraag.com",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: ""
+      }
+    ]
   }
 };
 </script>
