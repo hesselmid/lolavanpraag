@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-electric-pink fixed inset-0 z-50">
+  <nav class="fixed inset-0 z-50 bg-electric-pink">
     <div class="container mx-auto pt-[20px] px-[18px] grid grid-cols-3">
       <div class="col-start-2" @click="toggleMenu">
         <NuxtLink to="/">
@@ -7,8 +7,8 @@
         </NuxtLink>
       </div>
       <div class="flex justify-end">
-        <button @click="toggleMenu">
-          <img src="~assets/images/cross.svg" />
+        <button @click="toggleMenu" aria-label="Close Menu">
+          <img src="~assets/images/cross.svg" aria-hidden="true" />
         </button>
       </div>
     </div>

@@ -20,8 +20,8 @@
       </NuxtLink>
     </div>
     <div class="flex justify-end md:hidden">
-      <button @click="toggleMenu">
-        <img src="~assets/images/hamburger.svg" />
+      <button @click="toggleMenu" aria-label="Open Menu">
+        <img src="~assets/images/hamburger.svg" aria-hidden="true" />
       </button>
     </div>
     <ul class="hidden md:flex md:justify-around md:items-center">
