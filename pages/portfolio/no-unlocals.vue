@@ -70,26 +70,34 @@
         </div>
       </div>
     </div>
+
     <Marquee class="hidden 2xl:block" />
+
     <div class="container mx-auto px-[17.5px] md:px-[30px] 2xl:px-[55px]">
-      <p class="mt-[30px] font-light leading-[22px]">
+      <p
+        class="mt-[30px] font-light leading-[22px] 2xl:mt-[69px] 2xl:ml-[231px] 2xl:max-w-[640px] 2xl:text-[24px] 2xl:leading-[30px]"
+      >
         To kick-start this project I collected a bunch of old wetsuits. I
         deconstructed these in order to learn about the way they are built and
         to get an idea about the patterns used by pioneering surf companies like
         O’Neill and Rip Curl.
       </p>
-      <p class="mt-[30px] font-light leading-[22px]">
+      <p
+        class="mt-[30px] font-light leading-[22px] 2xl:ml-[231px] 2xl:max-w-[640px] 2xl:text-[24px] 2xl:leading-[30px]"
+      >
         One of the most important elements in the construction of a wetsuit are
         the seams. They are stitched and taped in a very unique way to
         accommodate for the manoeuvrability required for surfing. I have tried
         to put an emphasis on the seams by exaggerating them – using them
         predominantly in decorative, rather than a purely functional, way.
       </p>
-      <div class="mt-[30px] flex">
+      <div class="mt-[30px] flex 2xl:mt-[69px]">
         <NuxtPicture src="/images/no-unlocals-3.jpg" />
         <NuxtPicture src="/images/no-unlocals-4.jpg" />
       </div>
-      <p class="mt-[30px] font-light leading-[22px]">
+      <p
+        class="mt-[30px] font-light leading-[22px] 2xl:mt-[80px] 2xl:ml-auto 2xl:mr-[231px] 2xl:max-w-[640px] 2xl:text-[24px] 2xl:leading-[30px]"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -98,23 +106,27 @@
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
+
       <blockquote
-        class="mt-[50px] font-serif font-light text-[34px] leading-[40px] text-electric-pink text-center"
+        class="mt-[50px] font-serif font-light text-[34px] leading-[40px] text-electric-pink text-center 2xl:mt-[116px] 2xl:text-[80px] 2xl:leading-[70px]"
       >
         "One of the most important elements in the construction of a wetsuit are
         the seams"
       </blockquote>
-      <div class="mt-[50px]">
-        <div>
+
+      <div
+        class="mt-[50px] 2xl:mt-[143px] 2xl:grid 2xl:grid-cols-2 2xl:gap-x-[50px]"
+      >
+        <div class="2xl:mt-[125px] 2xl:ml-[118px]">
           <NuxtPicture src="/images/no-unlocals-5.jpg" />
         </div>
-        <div class="mt-[15px]">
+        <div class="mt-[15px] 2xl:mt-0">
           <NuxtPicture src="/images/no-unlocals-6.jpg" />
         </div>
-        <div class="mt-[15px]">
+        <div class="mt-[15px] 2xl:mt-0">
           <NuxtPicture src="/images/no-unlocals-7.jpg" />
         </div>
-        <div class="mt-[15px]">
+        <div class="mt-[15px] 2xl:mt-[50px] 2xl:mr-[118px]">
           <NuxtPicture src="/images/no-unlocals-8.jpg" />
         </div>
       </div>
