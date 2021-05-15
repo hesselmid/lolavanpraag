@@ -1,14 +1,14 @@
 <template>
-  <div class="pt-[86px] pb-[100px] 2xl:pt-[165px] 2xl:pb-[228px] ">
-    <div class="container mx-auto px-[17.5px] md:px-[30px] 2xl:px-[55px]">
+  <div class="pt-[86px] pb-[100px] lg:pt-[165px] lg:pb-[228px] ">
+    <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
       <Breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
       <h1
-        class="mt-[20px] font-serif font-light text-[32px] leading-[32px] 2xl:mt-[15px] 2xl:text-[90px] 2xl:leading-[90px]"
+        class="mt-[20px] font-serif font-light text-[32px] leading-[32px] lg:mt-[15px] lg:text-[90px] lg:leading-[90px]"
       >
         No Unlocals
       </h1>
       <p
-        class="mt-[10px] font-light leading-[22px] 2xl:mt-[15px] 2xl:max-w-[640px] 2xl:text-[24px] 2xl:leading-[30px]"
+        class="mt-[10px] font-light leading-[22px] lg:mt-[15px] lg:max-w-[640px] lg:text-[24px] lg:leading-[30px]"
       >
         My graduate collection, NO UNLOCALS, is inspired by the 70’s and 80’s
         surf scene in California. The work of iconic surf photographers Jeff
@@ -17,35 +17,35 @@
         the culture and fashion in the surf scene in that time and place
       </p>
       <div
-        class="2xl:mt-[50px] 2xl:grid 2xl:grid-cols-5 2xl:grid-rows-5 2xl:gap-x-[46px]"
+        class="lg:mt-[50px] lg:grid lg:grid-cols-5 lg:grid-rows-5 lg:gap-x-[46px]"
       >
         <div
-          class="col-span-3 row-span-1 2xl:flex 2xl:flex-col 2xl:justify-center 2xl:mx-auto"
+          class="col-span-3 row-span-1 lg:flex lg:flex-col lg:justify-center lg:mx-auto"
         >
           <h2
-            class="mt-[20px] font-medium leading-[22px] 2xl:mt-0 2xl:text-[24px] 2xl:leading-[30px]"
+            class="mt-[20px] font-medium leading-[22px] lg:mt-0 lg:text-[24px] lg:leading-[30px]"
           >
             Materials used:
           </h2>
           <ul>
             <li
-              class="font-light leading-[22px] 2xl:text-[24px] 2xl:leading-[30px]"
+              class="font-light leading-[22px] lg:text-[24px] lg:leading-[30px]"
             >
               Neoprene
             </li>
             <li
-              class="font-light leading-[22px] 2xl:text-[24px] 2xl:leading-[30px]"
+              class="font-light leading-[22px] lg:text-[24px] lg:leading-[30px]"
             >
               Cotton
             </li>
           </ul>
           <h2
-            class="mt-[20px] font-medium leading-[22px] 2xl:mt-[50px] 2xl:text-[24px] 2xl:leading-[30px]"
+            class="mt-[20px] font-medium leading-[22px] lg:mt-[50px] lg:text-[24px] lg:leading-[30px]"
           >
             Find this collection at the following gallery:
           </h2>
           <a
-            class="leading-[22px] underline 2xl:text-[24px] 2xl:leading-[30px]"
+            class="leading-[22px] underline lg:text-[24px] lg:leading-[30px]"
             href="https://www.rademakersgallery.com/"
             target="_blank"
             rel="nofollow noreferrer noopener"
@@ -60,7 +60,7 @@
           <NuxtPicture src="/images/no-unlocals-2.jpg" />
         </div>
         <div
-          class="hidden col-span-2 row-span-2 2xl:flex 2xl:justify-center 2xl:items-center"
+          class="hidden col-span-2 row-span-2 lg:flex lg:justify-center lg:items-center"
         >
           <blockquote
             class="font-serif font-light text-[60px] leading-[58px] text-center"
@@ -71,11 +71,11 @@
       </div>
     </div>
 
-    <Marquee class="hidden 2xl:block" />
+    <Marquee class="hidden lg:block" />
 
-    <div class="container mx-auto px-[17.5px] md:px-[30px] 2xl:px-[55px]">
+    <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
       <p
-        class="mt-[30px] font-light leading-[22px] 2xl:mt-[69px] 2xl:ml-[231px] 2xl:max-w-[640px] 2xl:text-[24px] 2xl:leading-[30px]"
+        class="mt-[30px] font-light leading-[22px] lg:mt-[69px] lg:ml-[231px] lg:max-w-[640px] lg:text-[24px] lg:leading-[30px]"
       >
         To kick-start this project I collected a bunch of old wetsuits. I
         deconstructed these in order to learn about the way they are built and
@@ -83,7 +83,7 @@
         O’Neill and Rip Curl.
       </p>
       <p
-        class="mt-[30px] font-light leading-[22px] 2xl:ml-[231px] 2xl:max-w-[640px] 2xl:text-[24px] 2xl:leading-[30px]"
+        class="mt-[30px] font-light leading-[22px] lg:ml-[231px] lg:max-w-[640px] lg:text-[24px] lg:leading-[30px]"
       >
         One of the most important elements in the construction of a wetsuit are
         the seams. They are stitched and taped in a very unique way to
@@ -93,10 +93,10 @@
       </p>
     </div>
     <div
-      class="mt-[30px] pl-[17.5px] flex flex-nowrap overflow-x-auto 2xl:mt-0 2xl:pl-[55px] 2xl:h-[724px] 2xl:items-center"
+      class="mt-[30px] pl-[17.5px] flex flex-nowrap overflow-x-auto lg:mt-0 lg:pl-[55px] lg:h-[724px] lg:items-center"
     >
       <NuxtPicture
-        class="w-[252px] flex-shrink-0 2xl:w-[345px]"
+        class="w-[252px] flex-shrink-0 lg:w-[345px]"
         v-observe-visibility="{ callback: isViewableNow, once: true }"
         :class="{
           'visible animation-1': showAnimation1,
@@ -109,7 +109,7 @@
         alt=""
       />
       <NuxtPicture
-        class="ml-[5px] w-[252px] flex-shrink-0 2xl:mt-[176px] 2xl:ml-[24px] 2xl:w-[345px]"
+        class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[176px] lg:ml-[24px] lg:w-[345px]"
         v-observe-visibility="{ callback: isViewableNow, once: true }"
         :class="{
           'visible animation-2': showAnimation2,
@@ -122,7 +122,7 @@
         alt=""
       />
       <NuxtPicture
-        class="ml-[5px] w-[252px] flex-shrink-0 2xl:mt-[24px] 2xl:ml-[24px] 2xl:w-[345px]"
+        class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[24px] lg:ml-[24px] lg:w-[345px]"
         v-observe-visibility="{ callback: isViewableNow, once: true }"
         :class="{
           'visible animation-3': showAnimation3,
@@ -135,9 +135,9 @@
         alt=""
       />
     </div>
-    <div class="container mx-auto px-[17.5px] md:px-[30px] 2xl:px-[55px]">
+    <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
       <p
-        class="mt-[30px] font-light leading-[22px] 2xl:mt-0 2xl:ml-auto 2xl:mr-[231px] 2xl:max-w-[640px] 2xl:text-[24px] 2xl:leading-[30px]"
+        class="mt-[30px] font-light leading-[22px] lg:mt-0 lg:ml-auto lg:mr-[231px] lg:max-w-[640px] lg:text-[24px] lg:leading-[30px]"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -149,25 +149,25 @@
       </p>
 
       <blockquote
-        class="mt-[50px] font-serif font-light text-[34px] leading-[40px] text-electric-pink text-center 2xl:mt-[116px] 2xl:text-[80px] 2xl:leading-[70px]"
+        class="mt-[50px] font-serif font-light text-[34px] leading-[40px] text-electric-pink text-center lg:mt-[116px] lg:text-[80px] lg:leading-[70px]"
       >
         "One of the most important elements in the construction of a wetsuit are
         the seams"
       </blockquote>
 
       <div
-        class="mt-[50px] 2xl:mt-[143px] 2xl:grid 2xl:grid-cols-2 2xl:gap-x-[50px]"
+        class="mt-[50px] lg:mt-[143px] lg:grid lg:grid-cols-2 lg:gap-x-[50px]"
       >
-        <div class="2xl:mt-[125px] 2xl:ml-[118px]">
+        <div class="lg:mt-[125px] lg:ml-[118px]">
           <NuxtPicture src="/images/no-unlocals-5.jpg" />
         </div>
-        <div class="mt-[15px] 2xl:mt-0">
+        <div class="mt-[15px] lg:mt-0">
           <NuxtPicture src="/images/no-unlocals-6.jpg" />
         </div>
-        <div class="mt-[15px] 2xl:mt-0">
+        <div class="mt-[15px] lg:mt-0">
           <NuxtPicture src="/images/no-unlocals-7.jpg" />
         </div>
-        <div class="mt-[15px] 2xl:mt-[50px] 2xl:mr-[118px]">
+        <div class="mt-[15px] lg:mt-[50px] lg:mr-[118px]">
           <NuxtPicture src="/images/no-unlocals-8.jpg" />
         </div>
       </div>
@@ -210,7 +210,7 @@ export default {
 </script>
 
 <style scoped>
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .animation-1 {
     animation: sample-1 8s linear;
   }
