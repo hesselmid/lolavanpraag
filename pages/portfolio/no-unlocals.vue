@@ -1,14 +1,14 @@
 <template>
-  <div class="pt-[86px] pb-[100px] lg:pt-[165px] lg:pb-[228px] ">
+  <div class="pt-[86px] pb-[100px] md:pt-[165px] md:pb-[228px] ">
     <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
       <Breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
       <h1
-        class="mt-[20px] font-serif font-light text-[32px] leading-[32px] lg:mt-[15px] lg:text-[90px] lg:leading-[90px]"
+        class="mt-[20px] font-serif font-light text-[32px] leading-[32px] md:mt-[15px] md:text-[90px] md:leading-[90px]"
       >
         No Unlocals
       </h1>
       <p
-        class="mt-[10px] font-light leading-[22px] lg:mt-[15px] lg:max-w-[640px] lg:text-[24px] lg:leading-[30px]"
+        class="mt-[10px] font-light leading-[22px] md:mt-[15px] md:max-w-[640px] md:text-[24px] md:leading-[30px]"
       >
         My graduate collection, NO UNLOCALS, is inspired by the 70’s and 80’s
         surf scene in California. The work of iconic surf photographers Jeff
@@ -23,29 +23,29 @@
           class="col-span-3 row-span-1 lg:flex lg:flex-col lg:justify-center lg:mx-auto"
         >
           <h2
-            class="mt-[20px] font-medium leading-[22px] lg:mt-0 lg:text-[24px] lg:leading-[30px]"
+            class="mt-[20px] font-medium leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-0"
           >
             Materials used:
           </h2>
           <ul>
             <li
-              class="font-light leading-[22px] lg:text-[24px] lg:leading-[30px]"
+              class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
             >
               Neoprene
             </li>
             <li
-              class="font-light leading-[22px] lg:text-[24px] lg:leading-[30px]"
+              class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
             >
               Cotton
             </li>
           </ul>
           <h2
-            class="mt-[20px] font-medium leading-[22px] lg:mt-[50px] lg:text-[24px] lg:leading-[30px]"
+            class="mt-[20px] font-medium leading-[22px] md:text-[24px] md:leading-[30px] xl:mt-[50px]"
           >
             Find this collection at the following gallery:
           </h2>
           <a
-            class="leading-[22px] underline lg:text-[24px] lg:leading-[30px]"
+            class="leading-[22px] underline md:text-[24px] md:leading-[30px]"
             href="https://www.rademakersgallery.com/"
             target="_blank"
             rel="nofollow noreferrer noopener"
@@ -75,7 +75,7 @@
 
     <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
       <p
-        class="mt-[30px] font-light leading-[22px] lg:mt-[69px] lg:ml-[231px] lg:max-w-[640px] lg:text-[24px] lg:leading-[30px]"
+        class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-[69px] lg:ml-[231px] lg:max-w-[640px]"
       >
         To kick-start this project I collected a bunch of old wetsuits. I
         deconstructed these in order to learn about the way they are built and
@@ -83,7 +83,7 @@
         O’Neill and Rip Curl.
       </p>
       <p
-        class="mt-[30px] font-light leading-[22px] lg:ml-[231px] lg:max-w-[640px] lg:text-[24px] lg:leading-[30px]"
+        class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:ml-[231px] lg:max-w-[640px]"
       >
         One of the most important elements in the construction of a wetsuit are
         the seams. They are stitched and taped in a very unique way to
@@ -137,7 +137,7 @@
     </div>
     <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
       <p
-        class="mt-[30px] font-light leading-[22px] lg:mt-0 lg:ml-auto lg:mr-[231px] lg:max-w-[640px] lg:text-[24px] lg:leading-[30px]"
+        class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-0 lg:ml-auto lg:mr-[231px] lg:max-w-[640px]"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
