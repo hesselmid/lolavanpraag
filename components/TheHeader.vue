@@ -37,7 +37,7 @@
         >
       </li>
       <li>
-        <NuxtLink class="font-light text-[18px] leading-[24px]" to="/news"
+        <NuxtLink class="font-light text-[18px] leading-[24px]" to="/blog"
           >News</NuxtLink
         >
       </li>

@@ -39,7 +39,7 @@
       <li @click="toggleMenu">
         <NuxtLink
           class="font-serif font-light text-apple-green text-[60px] leading-[40px]"
-          to="/news"
+          to="/blog"
           >News</NuxtLink
         >
       </li>

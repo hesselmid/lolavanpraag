@@ -35,7 +35,7 @@
                 >{{ pressItem.title }}</a
               >
               <img
-                class="hidden group-hover:lg:block fixed top-[184.5px] right-0"
+                class="hidden lg:group-hover:block fixed top-[184.5px] right-0"
                 :src="pressItem.img"
               />
             </li>
