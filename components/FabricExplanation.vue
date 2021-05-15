@@ -20,7 +20,7 @@
       class="mt-[20px] px-[17.5px] md:order-1 md:h-screen md:flex md:flex-col md:justify-center md:px-[30px] 2xl:px-[55px]"
     >
       <h2
-        class="font-serif font-light text-[32px] leading-[32px] md:text-[50px] leading-[73px]"
+        class="font-serif font-light text-[32px] leading-[32px] md:text-[50px] md:leading-[73px]"
       >
         Silk
       </h2>

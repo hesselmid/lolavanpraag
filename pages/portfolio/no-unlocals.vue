@@ -91,12 +91,38 @@
         to put an emphasis on the seams by exaggerating them – using them
         predominantly in decorative, rather than a purely functional, way.
       </p>
-      <div class="mt-[30px] flex 2xl:mt-[69px]">
-        <NuxtPicture src="/images/no-unlocals-3.jpg" />
-        <NuxtPicture src="/images/no-unlocals-4.jpg" />
-      </div>
+    </div>
+    <div
+      class="mt-[30px] pl-[17.5px] flex flex-nowrap overflow-x-auto 2xl:mt-0 2xl:pl-[55px] 2xl:h-[724px] 2xl:items-center"
+    >
+      <NuxtPicture
+        class="w-[252px] flex-shrink-0 2xl:w-[345px] animation-1"
+        src="/images/no-unlocals-3.jpg"
+        sizes="sm:252px md:345px lg:345px"
+        width="345.21px"
+        height="344.03px"
+        alt=""
+      />
+      <NuxtPicture
+        class="ml-[5px] w-[252px] flex-shrink-0 2xl:mt-[176px] 2xl:ml-[24px] 2xl:w-[345px] animation-2"
+        src="/images/no-unlocals-4.jpg"
+        sizes="sm:252px md:345px lg:345px"
+        width="345.21px"
+        height="344.03px"
+        alt=""
+      />
+      <NuxtPicture
+        class="ml-[5px] w-[252px] flex-shrink-0 2xl:mt-[24px] 2xl:ml-[24px] 2xl:w-[345px] animation-3"
+        src="/images/no-unlocals-9.jpg"
+        sizes="sm:252px md:345px lg:345px"
+        width="345.21px"
+        height="344.03px"
+        alt=""
+      />
+    </div>
+    <div class="container mx-auto px-[17.5px] md:px-[30px] 2xl:px-[55px]">
       <p
-        class="mt-[30px] font-light leading-[22px] 2xl:mt-[80px] 2xl:ml-auto 2xl:mr-[231px] 2xl:max-w-[640px] 2xl:text-[24px] 2xl:leading-[30px]"
+        class="mt-[30px] font-light leading-[22px] 2xl:mt-0 2xl:ml-auto 2xl:mr-[231px] 2xl:max-w-[640px] 2xl:text-[24px] 2xl:leading-[30px]"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -157,3 +183,46 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+@media (min-width: 1440px) {
+  .animation-1 {
+    animation: sample-1 8s linear;
+  }
+
+  @keyframes sample-1 {
+    from {
+      transform: translateX(-500px) rotate(0deg);
+    }
+    to {
+      transform: translateX(0px) rotate(360deg);
+    }
+  }
+
+  .animation-2 {
+    animation: sample-2 7s linear;
+  }
+
+  @keyframes sample-2 {
+    from {
+      transform: translateX(-500px) rotate(0deg);
+    }
+    to {
+      transform: translateX(0px) rotate(360deg);
+    }
+  }
+
+  .animation-3 {
+    animation: sample-3 6s linear;
+  }
+
+  @keyframes sample-3 {
+    from {
+      transform: translateX(-500px) rotate(0deg);
+    }
+    to {
+      transform: translateX(0px) rotate(360deg);
+    }
+  }
+}
+</style>
