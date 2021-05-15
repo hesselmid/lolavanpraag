@@ -5,18 +5,17 @@
       <h1
         class="mt-[20px] font-serif font-light text-[32px] leading-[32px] md:mt-[15px] md:text-[90px] md:leading-[90px]"
       >
-        Floral Lines
+        It's Not a Flower
       </h1>
       <p
         class="mt-[10px] font-light leading-[22px] md:mt-[15px] md:max-w-[640px] md:text-[24px] md:leading-[30px]"
       >
-        Floral lines represents the way global and local processes intersect
-        with each other in one particular area, the Flower Bulb Region, and form
-        a new hybrid aesthetic. An area which is still deeply organized around
-        tradition and religion, but at the same time being heavily changed by
-        the process of globalization. This phenomenon is beautifully illustrated
-        by the newly opened McDonalds and its big ‘M’ towering and shining
-        bright above the widespread flower fields.
+        Flowers have played a predominantly decorative rol in the world of
+        textile. Think of a floral dress or your grandmas curtains. In other
+        fields of art the flower has been used metaphorically to signify
+        different meaning. From the renaissance, where flowers signified the
+        female genitalia to the photographs of Robert Mapplethorpe, who
+        photographs flowers the same way he photographed his male nudes.
       </p>
       <div
         class="lg:mt-[50px] lg:grid lg:grid-cols-5 lg:grid-rows-5 lg:gap-x-[46px]"
@@ -56,10 +55,10 @@
           </a>
         </div>
         <div class="mt-[30px] col-span-2 row-span-3">
-          <NuxtPicture src="/images/floral-lines-1.jpg" />
+          <NuxtPicture src="/images/flower-1.jpg" />
         </div>
         <div class="mt-[15px] col-span-3 row-span-4">
-          <NuxtPicture src="/images/floral-lines-2.jpg" />
+          <NuxtPicture src="/images/flower-2.jpg" />
         </div>
         <div
           class="hidden col-span-2 row-span-2 lg:flex lg:justify-center lg:items-center"
@@ -79,12 +78,21 @@
       <p
         class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-[69px] lg:ml-[231px] lg:max-w-[640px]"
       >
-        For my final exam I was inspired by the visual consequences of this
-        phenomenon, but also by the social transformations which it implies.
-        Traditional opinions about gender have changed, and this is reflected in
-        what people are ought to wear. In my collection I tried to mix
-        traditional pieces like the overall, and traditional techniques like
-        embroidery with shiny and colorful fabrics, and rethought shapes.
+        My MA textile collection aims to explore ways in which textile can be
+        used as a medium for expressing narrative and identity. By contrasting
+        contemporary images of naked female bodies with classical paintings, I
+        try to give a unique perspective to the contemporary discussions about
+        female sexuality and its portrayal in modern media.
+      </p>
+      <p
+        class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:ml-[231px] lg:max-w-[640px]"
+      >
+        I choose to use two textile techniques: double bed circle jacquard
+        knitting and heat transfer print. The combination of these two
+        techniques allowed me to play with the fore- and background of the
+        textile and let them overlap. The resulting three dimensional structure
+        exemplifies the printed image by focussing the attention not only on the
+        print, but on the varying surface of the textiles.
       </p>
     </div>
     <div
@@ -131,6 +139,18 @@
       />
     </div>
     <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
+      <p
+        class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-0 lg:ml-auto lg:mr-[231px] lg:max-w-[640px]"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+
       <blockquote
         class="mt-[50px] font-serif font-light text-[34px] leading-[40px] text-electric-pink text-center lg:mt-[116px] lg:text-[80px] lg:leading-[70px]"
       >
@@ -142,16 +162,16 @@
         class="mt-[50px] lg:mt-[143px] lg:grid lg:grid-cols-2 lg:gap-x-[50px]"
       >
         <div class="lg:mt-[125px] lg:ml-[118px]">
-          <NuxtPicture src="/images/floral-lines-3.jpg" />
+          <NuxtPicture src="/images/flower-3.jpg" />
         </div>
         <div class="mt-[15px] lg:mt-0">
-          <NuxtPicture src="/images/floral-lines-4.jpg" />
+          <NuxtPicture src="/images/flower-4.jpg" />
         </div>
         <div class="mt-[15px] lg:mt-0">
-          <NuxtPicture src="/images/floral-lines-5.jpg" />
+          <NuxtPicture src="/images/flower-5.jpg" />
         </div>
         <div class="mt-[15px] lg:mt-[50px] lg:mr-[118px]">
-          <NuxtPicture src="/images/floral-lines-6.jpg" />
+          <NuxtPicture src="/images/flower-6.jpg" />
         </div>
       </div>
     </div>
@@ -165,7 +185,7 @@ export default {
       breadcrumbs: [
         { name: "Home", link: "/" },
         { name: "Portfolio", link: "/portfolio" },
-        { name: "Floral Lines", link: "/portfolio/floral-lines" }
+        { name: "It's Not a Flower", link: "/portfolio/its-not-a-flower" }
       ],
       showAnimation1: false,
       showAnimation2: false,
@@ -173,7 +193,7 @@ export default {
     };
   },
   head: {
-    title: "Floral Lines | lolavanpraag.com",
+    title: "It's Not a Flower | lolavanpraag.com",
     meta: [
       {
         hid: "description",
