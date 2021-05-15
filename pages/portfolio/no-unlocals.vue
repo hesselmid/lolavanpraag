@@ -96,7 +96,12 @@
       class="mt-[30px] pl-[17.5px] flex flex-nowrap overflow-x-auto 2xl:mt-0 2xl:pl-[55px] 2xl:h-[724px] 2xl:items-center"
     >
       <NuxtPicture
-        class="w-[252px] flex-shrink-0 2xl:w-[345px] animation-1"
+        class="w-[252px] flex-shrink-0 2xl:w-[345px]"
+        v-observe-visibility="{ callback: isViewableNow, once: true }"
+        :class="{
+          'visible animation-1': showAnimation1,
+          invisible: !showAnimation1
+        }"
         src="/images/no-unlocals-3.jpg"
         sizes="sm:252px md:345px lg:345px"
         width="345.21px"
@@ -104,7 +109,12 @@
         alt=""
       />
       <NuxtPicture
-        class="ml-[5px] w-[252px] flex-shrink-0 2xl:mt-[176px] 2xl:ml-[24px] 2xl:w-[345px] animation-2"
+        class="ml-[5px] w-[252px] flex-shrink-0 2xl:mt-[176px] 2xl:ml-[24px] 2xl:w-[345px]"
+        v-observe-visibility="{ callback: isViewableNow, once: true }"
+        :class="{
+          'visible animation-2': showAnimation2,
+          invisible: !showAnimation2
+        }"
         src="/images/no-unlocals-4.jpg"
         sizes="sm:252px md:345px lg:345px"
         width="345.21px"
@@ -112,7 +122,12 @@
         alt=""
       />
       <NuxtPicture
-        class="ml-[5px] w-[252px] flex-shrink-0 2xl:mt-[24px] 2xl:ml-[24px] 2xl:w-[345px] animation-3"
+        class="ml-[5px] w-[252px] flex-shrink-0 2xl:mt-[24px] 2xl:ml-[24px] 2xl:w-[345px]"
+        v-observe-visibility="{ callback: isViewableNow, once: true }"
+        :class="{
+          'visible animation-3': showAnimation3,
+          invisible: !showAnimation3
+        }"
         src="/images/no-unlocals-9.jpg"
         sizes="sm:252px md:345px lg:345px"
         width="345.21px"
@@ -168,7 +183,10 @@ export default {
         { name: "Home", link: "/" },
         { name: "Portfolio", link: "/portfolio" },
         { name: "No Unlocals", link: "/portfolio/no-unlocals" }
-      ]
+      ],
+      showAnimation1: false,
+      showAnimation2: false,
+      showAnimation3: false
     };
   },
   head: {
@@ -180,6 +198,13 @@ export default {
         content: ""
       }
     ]
+  },
+  methods: {
+    isViewableNow(isVisible, entry) {
+      this.showAnimation1 = isVisible;
+      this.showAnimation2 = isVisible;
+      this.showAnimation3 = isVisible;
+    }
   }
 };
 </script>
