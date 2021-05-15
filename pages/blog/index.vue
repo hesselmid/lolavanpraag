@@ -12,7 +12,7 @@
       <li v-for="article of articles" :key="article.slug">
         <NuxtLink :to="`/blog/${article.slug}`">
           <div>
-            <img :src="article.img" />
+            <img class="w-full" :src="article.img" />
             <div class="mt-[13px] font-light text-[12px] leading-[17px]">
               {{ formatDate(article.createdAt) }}
             </div>

@@ -149,7 +149,7 @@
           <li class="group mt-[35px] 2xl:mt-[75px]">
             <NuxtLink
               class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
-              to=""
+              to="/floral-lines"
               >Flower Lines</NuxtLink
             >
             <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
