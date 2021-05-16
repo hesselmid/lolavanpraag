@@ -6,7 +6,7 @@ export default {
   head: {
     title: "Lola van Praag - Menswear, Textile Design | lolavanpraag.com",
     htmlAttrs: {
-      lang: "en"
+      lang: "en",
     },
     meta: [
       { charset: "utf-8" },
@@ -15,13 +15,13 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Lola van Praag is a Menswear Fashion Designer and Textile Artist based in the Netherlands."
-      }
+          "Lola van Praag is a Menswear Fashion Designer and Textile Artist based in the Netherlands.",
+      },
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.svg" },
-      { rel: "stylesheet", href: "https://use.typekit.net/hrx0dfu.css" }
-    ]
+      { rel: "stylesheet", href: "https://use.typekit.net/hrx0dfu.css" },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -30,18 +30,18 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     "~/plugins/youtube.client.js",
-    "~/plugins/vue-observe-visibility.client.js"
+    "~/plugins/vue-observe-visibility.client.js",
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
+  buildModules: ["@nuxtjs/tailwindcss"],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ["@nuxt/content"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
+  build: {},
 };
