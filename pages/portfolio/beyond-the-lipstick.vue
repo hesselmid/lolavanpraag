@@ -5,7 +5,7 @@
       <h1
         class="mt-[20px] font-serif font-light text-[32px] leading-[32px] md:mt-[15px] md:text-[90px] md:leading-[90px]"
       >
-        No Unlocals
+        Beyond the Lipstick
       </h1>
       <p
         class="mt-[10px] font-light leading-[22px] md:mt-[15px] md:max-w-[640px] md:text-[24px] md:leading-[30px]"
@@ -181,7 +181,7 @@ export default {
       breadcrumbs: [
         { name: "Home", link: "/" },
         { name: "Portfolio", link: "/portfolio" },
-        { name: "No Unlocals", link: "/portfolio/no-unlocals" }
+        { name: "Beyond the Lipstick", link: "/portfolio/beyond-the-lipstick" }
       ],
       showAnimation1: false,
       showAnimation2: false,
@@ -189,7 +189,7 @@ export default {
     };
   },
   head: {
-    title: "No Unlocals | lolavanpraag.com",
+    title: "Beyond the Lipstick | lolavanpraag.com",
     meta: [
       {
         hid: "description",

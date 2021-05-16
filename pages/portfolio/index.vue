@@ -36,6 +36,15 @@ export default {
       projects: [
         {
           order: 1,
+          title: "Beyond the Lipstick",
+          description:
+            "Graduation Collection 2019 – MA Menswear, Westminster University",
+          category: "mode",
+          img: require(`~/assets/images/project-thumbnail-1.jpg`),
+          slug: "beyond-the-lipstick"
+        },
+        {
+          order: 2,
           title: "No Unlocals",
           description:
             "Graduation Collection 2019 – MA Menswear, Westminster University",
@@ -44,7 +53,7 @@ export default {
           slug: "no-unlocals"
         },
         {
-          order: 2,
+          order: 3,
           title: "It’s Not a Flower",
           description:
             "Graduation Collection - MA Textile, Swedish School of Textiles",
@@ -53,7 +62,7 @@ export default {
           slug: "its-not-a-flower"
         },
         {
-          order: 3,
+          order: 4,
           title: "Floral Lines",
           description:
             "Graduation Collection 2014 - BA Fashion, Willem de Kooning Academie",
@@ -81,7 +90,7 @@ export default {
 @media (min-width: 768px) {
   .project-grid {
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
   }
 
   .div1 {
@@ -92,6 +101,15 @@ export default {
   }
   .div3 {
     grid-area: 2 / 1 / 3 / 6;
+  }
+  .div4 {
+    grid-area: 3 / 1 / 4 / 3;
+  }
+  .div5 {
+    grid-area: 3 / 3 / 4 / 5;
+  }
+  .div6 {
+    grid-area: 3 / 5 / 4 / 7;
   }
 }
 </style>

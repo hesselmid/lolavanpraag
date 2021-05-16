@@ -70,15 +70,13 @@
         >
       </div>
       <div class="relative pt-[35px]">
-        <div class="w-[270px] md:w-[460px]">
-          <NuxtPicture
-            src="/images/lola-van-praag.jpg"
-            sizes="sm:270px md:460px"
-            width="460"
-            height="595"
-            alt="Lola van Praag"
-          />
-        </div>
+        <img
+          class="w-[270px] md:w-[460px]"
+          src="/images/lola-van-praag.jpg"
+          width="460"
+          height="595"
+          alt="Lola van Praag"
+        />
         <div
           class="absolute top-[83px] left-[229px] w-[80px] h-[80px] md:top-[72px] md:left-[400px] md:w-[190px] md:h-[190px]"
           @click="toggleFabricExplanation"
@@ -99,11 +97,36 @@
           <li class="group">
             <NuxtLink
               class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
+              to="/portfolio/beyond-the-lipstick"
+              >Beyond the Lipstick</NuxtLink
+            >
+            <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
+              <img
+                src="/images/project-left.jpg"
+                width="302"
+                height="587"
+                alt=""
+              />
+            </div>
+            <div
+              class="hidden xl:group-hover:block absolute top-[278px] right-0"
+            >
+              <img
+                src="/images/project-right.jpg"
+                width="238"
+                height="586"
+                alt=""
+              />
+            </div>
+          </li>
+          <li class="group mt-[35px] 2xl:mt-[75px]">
+            <NuxtLink
+              class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
               to="/portfolio/no-unlocals"
               >No Unlocals</NuxtLink
             >
             <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
-              <NuxtPicture
+              <img
                 src="/images/project-left.jpg"
                 width="302"
                 height="587"
@@ -113,7 +136,7 @@
             <div
               class="hidden xl:group-hover:block absolute top-[278px] right-0"
             >
-              <NuxtPicture
+              <img
                 src="/images/project-right.jpg"
                 width="238"
                 height="586"
@@ -124,11 +147,11 @@
           <li class="group mt-[35px] 2xl:mt-[75px]">
             <NuxtLink
               class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
-              to=""
+              to="/portfolio/its-not-a-flower"
               >It's Not a Flower</NuxtLink
             >
             <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
-              <NuxtPicture
+              <img
                 src="/images/project-left.jpg"
                 width="302"
                 height="587"
@@ -138,32 +161,7 @@
             <div
               class="hidden xl:group-hover:block absolute top-[278px] right-0"
             >
-              <NuxtPicture
-                src="/images/project-right.jpg"
-                width="238"
-                height="586"
-                alt=""
-              />
-            </div>
-          </li>
-          <li class="group mt-[35px] 2xl:mt-[75px]">
-            <NuxtLink
-              class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
-              to="/portfolio/floral-lines"
-              >Flower Lines</NuxtLink
-            >
-            <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
-              <NuxtPicture
-                src="/images/project-left.jpg"
-                width="302"
-                height="587"
-                alt=""
-              />
-            </div>
-            <div
-              class="hidden xl:group-hover:block absolute top-[278px] right-0"
-            >
-              <NuxtPicture
+              <img
                 src="/images/project-right.jpg"
                 width="238"
                 height="586"

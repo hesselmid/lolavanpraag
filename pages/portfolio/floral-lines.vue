@@ -55,12 +55,14 @@
             Rademarkers Gallery
           </a>
         </div>
-        <div class="mt-[30px] col-span-2 row-span-3">
-          <NuxtPicture src="/images/floral-lines-1.jpg" />
-        </div>
-        <div class="mt-[15px] col-span-3 row-span-4">
-          <NuxtPicture src="/images/floral-lines-2.jpg" />
-        </div>
+        <img
+          class="mt-[30px] col-span-2 row-span-3"
+          src="/images/floral-lines-1.jpg"
+        />
+        <img
+          class="mt-[15px] col-span-3 row-span-4"
+          src="/images/floral-lines-2.jpg"
+        />
         <div
           class="hidden col-span-2 row-span-2 lg:flex lg:justify-center lg:items-center"
         >
@@ -90,7 +92,7 @@
     <div
       class="mt-[30px] pl-[17.5px] flex flex-nowrap overflow-x-auto lg:mt-0 lg:pl-[55px] lg:h-[724px] lg:items-center"
     >
-      <NuxtPicture
+      <img
         class="w-[252px] flex-shrink-0 lg:w-[345px]"
         v-observe-visibility="{ callback: isViewableNow, once: true }"
         :class="{
@@ -98,12 +100,11 @@
           invisible: !showAnimation1
         }"
         src="/images/no-unlocals-3.jpg"
-        sizes="sm:252px md:345px lg:345px"
         width="345.21px"
         height="344.03px"
         alt=""
       />
-      <NuxtPicture
+      <img
         class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[176px] lg:ml-[24px] lg:w-[345px]"
         v-observe-visibility="{ callback: isViewableNow, once: true }"
         :class="{
@@ -111,12 +112,11 @@
           invisible: !showAnimation2
         }"
         src="/images/no-unlocals-4.jpg"
-        sizes="sm:252px md:345px lg:345px"
         width="345.21px"
         height="344.03px"
         alt=""
       />
-      <NuxtPicture
+      <img
         class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[24px] lg:ml-[24px] lg:w-[345px]"
         v-observe-visibility="{ callback: isViewableNow, once: true }"
         :class="{
@@ -124,7 +124,6 @@
           invisible: !showAnimation3
         }"
         src="/images/no-unlocals-9.jpg"
-        sizes="sm:252px md:345px lg:345px"
         width="345.21px"
         height="344.03px"
         alt=""
@@ -142,16 +141,16 @@
         class="mt-[50px] lg:mt-[143px] lg:grid lg:grid-cols-2 lg:gap-x-[50px]"
       >
         <div class="lg:mt-[125px] lg:ml-[118px]">
-          <NuxtPicture src="/images/floral-lines-3.jpg" />
+          <img src="/images/floral-lines-3.jpg" alt="" />
         </div>
         <div class="mt-[15px] lg:mt-0">
-          <NuxtPicture src="/images/floral-lines-4.jpg" />
+          <img src="/images/floral-lines-4.jpg" alt="" />
         </div>
         <div class="mt-[15px] lg:mt-0">
-          <NuxtPicture src="/images/floral-lines-5.jpg" />
+          <img src="/images/floral-lines-5.jpg" alt="" />
         </div>
         <div class="mt-[15px] lg:mt-[50px] lg:mr-[118px]">
-          <NuxtPicture src="/images/floral-lines-6.jpg" />
+          <img src="/images/floral-lines-6.jpg" alt="" />
         </div>
       </div>
     </div>

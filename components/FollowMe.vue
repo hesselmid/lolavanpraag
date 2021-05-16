@@ -5,7 +5,7 @@
     <div class="xl:col-span-3 xl:pl-[120px]">
       <div class="grid grid-cols-20">
         <div class="mt-[23px] col-span-12">
-          <NuxtPicture
+          <img
             src="/images/instagram-placeholder.jpg"
             width="100%"
             height="100%"
@@ -13,14 +13,14 @@
           />
         </div>
         <div class="col-span-7 ml-auto col-start-14">
-          <NuxtPicture
+          <img
             src="/images/instagram-placeholder.jpg"
             width="100%"
             height="100%"
             alt=""
           />
           <div class="mt-[14px]">
-            <NuxtPicture
+            <img
               src="/images/instagram-placeholder.jpg"
               width="100%"
               height="100%"
@@ -66,7 +66,7 @@
       class="hidden xl:grid xl:grid-cols-2 xl:col-span-2 xl:grid-rows-2 xl:ml-[30px]"
     >
       <div class="mt-auto">
-        <NuxtPicture
+        <img
           src="/images/instagram-placeholder.jpg"
           width="100%"
           height="100%"
@@ -74,7 +74,7 @@
         />
       </div>
       <div class="col-span-2 row-span-2 mt-[30px]">
-        <NuxtPicture
+        <img
           src="/images/instagram-placeholder.jpg"
           width="100%"
           height="100%"
