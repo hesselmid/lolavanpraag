@@ -19,19 +19,31 @@
           </picture>
         </div>
         <div class="col-span-7 ml-auto col-start-14">
-          <img
-            src="/images/instagram-placeholder.jpg"
-            width="100%"
-            height="100%"
-            alt=""
-          />
-          <div class="mt-[14px]">
+          <picture>
+            <source srcset="/images/instagram-3.avif" type="image/avif" />
+            <source srcset="/images/instagram-3.webp" type="image/webp" />
+            <source srcset="/images/instagram-3.jpg" type="image/jpeg" />
             <img
-              src="/images/instagram-placeholder.jpg"
-              width="100%"
-              height="100%"
+              class="w-full"
+              src="/images/instagram-3.jpg"
               alt=""
+              width="250"
+              height="250"
             />
+          </picture>
+          <div class="mt-[14px]">
+            <picture>
+              <source srcset="/images/instagram-3.avif" type="image/avif" />
+              <source srcset="/images/instagram-3.webp" type="image/webp" />
+              <source srcset="/images/instagram-3.jpg" type="image/jpeg" />
+              <img
+                class="w-full"
+                src="/images/instagram-3.jpg"
+                alt=""
+                width="250"
+                height="250"
+              />
+            </picture>
           </div>
         </div>
       </div>
@@ -80,12 +92,18 @@
         />
       </div>
       <div class="col-span-2 row-span-2 mt-[30px]">
-        <img
-          src="/images/instagram-placeholder.jpg"
-          width="100%"
-          height="100%"
-          alt=""
-        />
+        <picture>
+          <source srcset="/images/instagram-5.avif" type="image/avif" />
+          <source srcset="/images/instagram-5.webp" type="image/webp" />
+          <source srcset="/images/instagram-5.jpg" type="image/jpeg" />
+          <img
+            class="w-full"
+            src="/images/instagram-5.jpg"
+            alt=""
+            width="450"
+            height="450"
+          />
+        </picture>
       </div>
     </div>
   </div>
