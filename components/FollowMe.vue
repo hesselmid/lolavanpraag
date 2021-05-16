@@ -5,12 +5,18 @@
     <div class="xl:col-span-3 xl:pl-[120px]">
       <div class="grid grid-cols-20">
         <div class="mt-[23px] col-span-12">
-          <img
-            src="/images/instagram-placeholder.jpg"
-            width="100%"
-            height="100%"
-            alt=""
-          />
+          <picture>
+            <source srcset="/images/instagram-1.avif" type="image/avif" />
+            <source srcset="/images/instagram-1.webp" type="image/webp" />
+            <source srcset="/images/instagram-1.jpg" type="image/jpeg" />
+            <img
+              class="w-full"
+              src="/images/instagram-1.jpg"
+              alt=""
+              width="400"
+              height="400"
+            />
+          </picture>
         </div>
         <div class="col-span-7 ml-auto col-start-14">
           <img
