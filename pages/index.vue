@@ -1,5 +1,6 @@
 <template>
   <div>
+    <SocialHead :title="title" :description="description" />
     <div id="hero">
       <div class="h-full bg-dusty-orange bg-opacity-90">
         <div
@@ -272,18 +273,20 @@
 export default {
   data() {
     return {
+      title: "Lola van Praag - Menswear, Textile Design",
+      description:
+        "Lola van Praag is a Menswear Fashion Designer and Textile Artist based in the Netherlands.",
       didYouKnowIsVisible: false,
       fabricExplanationIsVisible: false
     };
   },
   head: {
-    title: "Lola van Praag - Menswear, Textile Design | lolavanpraag.com",
+    title: `${this.title} | lolavanpraag.com`,
     meta: [
       {
         hid: "description",
         name: "description",
-        content:
-          "Lola van Praag is a Menswear Fashion Designer and Textile Artist based in the Netherlands."
+        content: this.description
       }
     ]
   },

@@ -15,6 +15,7 @@
               alt=""
               width="400"
               height="400"
+              loading="lazy"
             />
           </picture>
         </div>
@@ -29,6 +30,7 @@
               alt=""
               width="250"
               height="250"
+              loading="lazy"
             />
           </picture>
           <div class="mt-[14px]">
@@ -42,6 +44,7 @@
                 alt=""
                 width="250"
                 height="250"
+                loading="lazy"
               />
             </picture>
           </div>
@@ -84,12 +87,19 @@
       class="hidden xl:grid xl:grid-cols-2 xl:col-span-2 xl:grid-rows-2 xl:ml-[30px]"
     >
       <div class="mt-auto">
-        <img
-          src="/images/instagram-placeholder.jpg"
-          width="100%"
-          height="100%"
-          alt=""
-        />
+        <picture>
+          <source srcset="/images/instagram-3.avif" type="image/avif" />
+          <source srcset="/images/instagram-3.webp" type="image/webp" />
+          <source srcset="/images/instagram-3.jpg" type="image/jpeg" />
+          <img
+            class="w-full"
+            src="/images/instagram-5.jpg"
+            alt=""
+            width="250"
+            height="250"
+            loading="lazy"
+          />
+        </picture>
       </div>
       <div class="col-span-2 row-span-2 mt-[30px]">
         <picture>
@@ -102,6 +112,7 @@
             alt=""
             width="450"
             height="450"
+            loading="lazy"
           />
         </picture>
       </div>
