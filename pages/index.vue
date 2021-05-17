@@ -108,8 +108,8 @@
             >
             <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
               <img
-                src="/images/project-left.jpg"
-                width="302"
+                src="/images/beyond-the-lipstick-left.jpg"
+                width="391"
                 height="587"
                 alt=""
               />
@@ -118,8 +118,8 @@
               class="hidden xl:group-hover:block absolute top-[278px] right-0"
             >
               <img
-                src="/images/project-right.jpg"
-                width="238"
+                src="/images/beyond-the-lipstick-right.jpg"
+                width="391"
                 height="586"
                 alt=""
               />

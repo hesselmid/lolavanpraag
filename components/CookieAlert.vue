@@ -4,7 +4,7 @@
       class="relative bg-apple-green max-w-[340px] mx-auto pt-[36px] pb-[15px] px-[25px]"
     >
       <img
-        class="absolute top-[15px] right-[15px] w-[10px] 2xl:top-[38px] 2xl:right-[39px] 2xl:w-[15px]"
+        class="absolute top-[15px] right-[15px] w-[10px]"
         src="~assets/images/cross.svg"
         @click="deny"
       />
