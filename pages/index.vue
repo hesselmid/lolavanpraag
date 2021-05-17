@@ -1,7 +1,7 @@
 <template>
   <div>
     <MetaTags :title="title" :description="description" />
-    <div id="hero">
+    <div id="hero" class="bg-center bg-no-repeat bg-cover">
       <div class="h-full bg-dusty-orange bg-opacity-90">
         <div
           class="container mx-auto pt-[191px] pb-[48px] px-[17.5px] md:pt-[266px] md:pb-[53px] md:px-[30px] xl:px-[55px]"
@@ -293,7 +293,7 @@ export default {
 
 <style scoped>
 #hero {
-  background-image: url("~/assets/images/hero-background.jpg");
+  background-image: url("/images/orange hoofd foto opti 1.jpg");
 }
 
 .lola-face {
