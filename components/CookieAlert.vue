@@ -47,6 +47,7 @@ export default {
         bootstrap().then(gtag => {
           this.isOpen = false;
           localStorage.setItem("GDPR:accepted", true);
+          location.reload();
         });
       }
     },
