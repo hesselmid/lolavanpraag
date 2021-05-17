@@ -44,17 +44,17 @@ export default {
     },
     accept() {
       if (process.browser) {
-        this.isOpen = false;
-        localStorage.setItem("GDPR:accepted", true);
-        this.$gtag.enable();
-        this.$gtag.pageview(this.$route);
+        bootstrap().then(gtag => {
+          this.isOpen = false;
+          localStorage.setItem("GDPR:accepted", true);
+          location.reload();
+        });
       }
     },
     deny() {
       if (process.browser) {
         this.isOpen = false;
         localStorage.setItem("GDPR:accepted", false);
-        this.$gtag.disable();
       }
     }
   },
