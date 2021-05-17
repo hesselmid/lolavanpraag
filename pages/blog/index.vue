@@ -10,7 +10,7 @@
     </h1>
     <div class="mt-[10px] font-light text-[14px] leading-[20px]">
       Filter by:
-      <button class="ml-[30px] font-light" @click="selectCategory()">
+      <button class="ml-[30px] font-light" @click="selectCategory('all')">
         all
       </button>
       <button class="ml-[30px] font-light" @click="selectCategory('fashion')">
@@ -23,7 +23,7 @@
     <ul
       class="mt-[20px] grid gap-y-[40px] md:grid-cols-2 md:gap-x-[50px] xl:grid-cols-3"
     >
-      <li v-for="article of chosenArticles" :key="article.slug">
+      <li v-for="article of filteredArticles" :key="article.slug">
         <NuxtLink :to="`/blog/${article.slug}`">
           <div>
             <img class="w-full" :src="article.img" />
@@ -71,7 +71,7 @@ export default {
         { name: "Home", link: "/" },
         { name: "News", link: "/blog" }
       ],
-      shownArticles: []
+      articleList: []
     };
   },
   head() {
@@ -87,8 +87,9 @@ export default {
     };
   },
   computed: {
-    chosenArticles() {
-      return (this.shownArticles = this.articles);
+    filteredArticles() {
+      this.articleList = [...this.articles];
+      return this.articleList;
     }
   },
   methods: {
@@ -97,23 +98,16 @@ export default {
       return new Date(date).toLocaleDateString("en", options);
     },
     selectCategory(cat) {
-      this.shownArticles = this.articles;
-      return this.shownArticles.filter(article => {
-        return article.category === cat;
-      });
+      this.articleList = [...this.articles];
+      console.log(this.articleList);
+      this.articleList = this.articleList.filter(
+        article => article.category === cat
+      );
+      console.log(this.articleList);
     }
   },
-  async asyncData({ $content, params }) {
+  async asyncData({ $content }) {
     const articles = await $content("articles")
-      .only([
-        "title",
-        "description",
-        "img",
-        "slug",
-        "createdAt",
-        "readingTime",
-        "category"
-      ])
       .sortBy("createdAt", "asc")
       .fetch();
 
