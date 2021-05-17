@@ -2,7 +2,7 @@
   <div
     class="container mx-auto pt-[86px] px-[17.5px] md:px-[30px] md:pt-[165px] 2xl:px-[55px]"
   >
-    <SocialHead
+    <MetaTags
       :title="article.title"
       :description="article.description"
       :image="article.img"
@@ -14,11 +14,9 @@
       >
         {{ article.title }}
       </h1>
-      <img
-        class="mt-[10px] w-full max-w-[640px] md:mt-[20px]"
-        :src="article.img"
-        :alt="article.alt"
-      />
+      <div class="mt-[20px] font-light leading-[22px]">
+        {{ formatDate(article.createdAt) }}
+      </div>
       <nuxt-content
         class="mt-[10px] max-w-[640px] md:mt-[20px]"
         :document="article"
@@ -49,6 +47,12 @@ export default {
         { name: "News", link: "/blog" },
         { name: this.article.title, link: this.article.slug }
       ];
+    }
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "long", day: "numeric" };
+      return new Date(date).toLocaleDateString("en", options);
     }
   },
   async asyncData({ $content, params }) {

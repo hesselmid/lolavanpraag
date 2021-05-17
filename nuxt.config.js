@@ -41,7 +41,8 @@ export default {
 
   plugins: [
     "~/plugins/youtube.client.js",
-    "~/plugins/vue-observe-visibility.client.js"
+    "~/plugins/vue-observe-visibility.client.js",
+    "~/plugins/vue-gtag.client.js"
   ],
 
   components: true,

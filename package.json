@@ -13,6 +13,7 @@
     "core-js": "^3.12.1",
     "lite-youtube-embed": "^0.2.0",
     "nuxt": "^2.15.6",
+    "vue-gtag": "^1.16.1",
     "vue-observe-visibility": "^1.0.0"
   },
   "devDependencies": {

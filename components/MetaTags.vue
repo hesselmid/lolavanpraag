@@ -23,7 +23,13 @@ export default {
 
   head() {
     return {
+      title: `${this.title} | lolavanpraag.com`,
       meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.description
+        },
         {
           hid: "twitter:title",
           name: "twitter:title",
