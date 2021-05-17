@@ -39,22 +39,22 @@ export default {
   methods: {
     getGDPR() {
       if (process.browser) {
-        return localStorage.getItem("GDPR:accepted", true);
+        return localStorage.getItem("GDPR:accepted");
       }
     },
     accept() {
       if (process.browser) {
-        bootstrap().then(gtag => {
-          this.isOpen = false;
-          localStorage.setItem("GDPR:accepted", true);
-          location.reload();
-        });
+        this.isOpen = false;
+        localStorage.setItem("GDPR:accepted", true);
+        this.$gtag.enable();
+        this.$gtag.pageview(this.$route);
       }
     },
     deny() {
       if (process.browser) {
         this.isOpen = false;
         localStorage.setItem("GDPR:accepted", false);
+        this.$gtag.disable();
       }
     }
   },
