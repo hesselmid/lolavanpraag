@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] md:pt-[165px] md:pb-[228px] 2xl:px-[55px]"
+    class="container mx-auto pt-[86px] px-[17.5px] md:px-[30px] md:pt-[165px] 2xl:px-[55px]"
   >
     <SocialHead
       :title="article.title"
@@ -14,9 +14,17 @@
       >
         {{ article.title }}
       </h1>
-      <img :src="article.img" :alt="article.alt" />
-      <nuxt-content class="max-w-[640px]" :document="article" />
+      <img
+        class="mt-[10px] w-full max-w-[640px] md:mt-[20px]"
+        :src="article.img"
+        :alt="article.alt"
+      />
+      <nuxt-content
+        class="mt-[10px] max-w-[640px] md:mt-[20px]"
+        :document="article"
+      />
     </article>
+    <FollowMe class="my-[100px] 2xl:mt-[194px] 2xl:mb-[110px]" />
   </div>
 </template>
 

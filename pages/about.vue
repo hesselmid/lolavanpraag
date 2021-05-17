@@ -290,8 +290,8 @@ export default {
     return {
       breadcrumbs: [
         { name: "Home", link: "/" },
-        { name: "About me", link: "/about" },
-      ],
+        { name: "About me", link: "/about" }
+      ]
     };
   },
   head: {
@@ -300,9 +300,9 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "",
-      },
-    ],
-  },
+        content: ""
+      }
+    ]
+  }
 };
 </script>

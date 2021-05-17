@@ -8,7 +8,9 @@
     >
       News
     </h1>
-    <ul class="mt-[20px] grid gap-y-[40px] md:grid-cols-2 xl:grid-cols-3">
+    <ul
+      class="mt-[20px] grid gap-y-[40px] md:grid-cols-2 md:gap-x-[50px] xl:grid-cols-3"
+    >
       <li v-for="article of articles" :key="article.slug">
         <NuxtLink :to="`/blog/${article.slug}`">
           <div>
