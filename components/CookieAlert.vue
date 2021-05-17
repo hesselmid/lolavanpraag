@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed z-50 bottom-[20px] left-0 right-0 container mx-auto px-[17.5px] md:px-[30px] xl:px-[55px] 2xl:bottom-[47px]"
+    class="fixed z-50 bottom-[20px] left-0 right-0 container mx-auto px-[35px] md:px-[60px] xl:px-[110px] 2xl:bottom-[47px]"
     v-if="isOpen"
   >
     <div

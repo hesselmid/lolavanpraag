@@ -8,7 +8,9 @@
     >
       News
     </h1>
-    <div class="mt-[10px] font-light text-[14px] leading-[20px]">
+    <div
+      class="mt-[10px] font-light text-[14px] leading-[20px] md:mt-[25px] md:text-[18px] md:leading-[20px]"
+    >
       Filter by:
       <button class="ml-[30px] font-light" @click="selectCategory('all')">
         all

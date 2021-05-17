@@ -10,6 +10,12 @@
         </h2>
         <div
           class="inline-block mt-[3px] py-[3px] px-[10px] border rounded-[13px] border-electric-pink font-light text-[12px] leading-[17px] text-electric-pink lowercase md:text-[14px] md:leading-[19px]"
+          :class="{
+            'border-electric-pink': category === 'fashion',
+            'text-electric-pink': category === 'fashion',
+            'border-apple-green': category === 'textile',
+            'text-apple-green': category === 'textile'
+          }"
         >
           {{ category }}
         </div>

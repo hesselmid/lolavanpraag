@@ -8,11 +8,25 @@
     >
       Portfolio
     </h1>
+    <div
+      class="mt-[10px] font-light text-[14px] leading-[20px] md:mt-[25px] md:text-[18px] md:leading-[20px]"
+    >
+      Filter by:
+      <button class="ml-[30px] font-light" @click="selectCategory('all')">
+        all
+      </button>
+      <button class="ml-[30px] font-light" @click="selectCategory('fashion')">
+        fashion
+      </button>
+      <button class="ml-[30px] font-light" @click="selectCategory('textile')">
+        textile
+      </button>
+    </div>
     <ul
       class="mt-[20px] md:mt-[40px] md:grid project-grid md:gap-y-[90px] md:gap-x-[50px]"
     >
       <ProjectCard
-        v-for="project in projects"
+        v-for="project in filteredProjects"
         :key="project.slug"
         :title="project.title"
         :description="project.description"
@@ -39,7 +53,7 @@ export default {
           title: "Beyond the Lipstick",
           description:
             "Graduation Collection 2019 – MA Menswear, Westminster University",
-          category: "mode",
+          category: "fashion",
           img: require(`~/assets/images/project-thumbnail-1.jpg`),
           slug: "beyond-the-lipstick"
         },
@@ -48,7 +62,7 @@ export default {
           title: "No Unlocals",
           description:
             "Graduation Collection 2019 – MA Menswear, Westminster University",
-          category: "mode",
+          category: "fashion",
           img: require(`~/assets/images/project-thumbnail-1.jpg`),
           slug: "no-unlocals"
         },
@@ -66,12 +80,22 @@ export default {
           title: "Floral Lines",
           description:
             "Graduation Collection 2014 - BA Fashion, Willem de Kooning Academie",
-          category: "mode",
+          category: "fashion",
           img: require(`~/assets/images/project-thumbnail-3.jpg`),
           slug: "floral-lines"
         }
       ]
     };
+  },
+  computed: {
+    filteredProjects() {
+      return this.projects;
+    }
+  },
+  methods: {
+    selectCategory(cat) {
+      this.projects.filter(project => project.category === cat);
+    }
   },
   head: {
     title: "Portfolio | lolavanpraag.com",
