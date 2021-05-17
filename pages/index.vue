@@ -159,7 +159,7 @@
             <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
               <img
                 src="/images/no-unlocals-left.jpg"
-                width="391"
+                width="388"
                 height="586"
                 alt=""
               />
@@ -169,7 +169,7 @@
             >
               <img
                 src="/images/no-unlocals-right.jpg"
-                width="391"
+                width="388"
                 height="586"
                 alt=""
               />

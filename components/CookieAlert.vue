@@ -6,6 +6,7 @@
       <img
         class="absolute top-[15px] right-[15px] w-[10px]"
         src="~assets/images/cross.svg"
+        alt=""
         @click="deny"
       />
       <div class="font-light text-[14px] leading-[19px] text-center">
