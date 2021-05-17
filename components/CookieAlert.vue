@@ -14,8 +14,8 @@
       <div
         class="font-light text-[14px] leading-[19px] text-center 2xl:inline-block 2xl:text-[19px] 2xl:leading-[26px] 2xl:text-left"
       >
-        We only use functional and analytical cookies to ensure that this
-        website functions optimally. For more info check our Privicy Policy.
+        I use Google Analytics to track how many people visit this website.
+        Click Accept to help me improve my content.
       </div>
       <button
         class="block mt-[20px] mx-auto bg-electric-pink pt-[16px] pb-[20px] px-[54.5px] font-light text-[18px] leading-[24px] lowercase 2xl:inline-block 2xl:mt-0 2xl:ml-[56px]"
@@ -47,7 +47,6 @@ export default {
         bootstrap().then(gtag => {
           this.isOpen = false;
           localStorage.setItem("GDPR:accepted", true);
-          location.reload();
         });
       }
     },

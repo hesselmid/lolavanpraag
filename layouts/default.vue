@@ -1,5 +1,6 @@
 <template>
   <div>
+    <CookieAlert />
     <transition
       enter-active-class="transition duration-700 transform"
       enter-class="-translate-y-full"

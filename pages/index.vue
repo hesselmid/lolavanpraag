@@ -1,7 +1,6 @@
 <template>
   <div>
     <MetaTags :title="title" :description="description" />
-    <CookieAlert />
     <div id="hero">
       <div class="h-full bg-dusty-orange bg-opacity-90">
         <div
