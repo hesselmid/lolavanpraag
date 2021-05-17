@@ -104,6 +104,31 @@
             <NuxtLink
               class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
               to="/portfolio/beyond-the-lipstick"
+              >Soft! 2021</NuxtLink
+            >
+            <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
+              <img
+                src="/images/soft-left.jpg"
+                width="391"
+                height="587"
+                alt=""
+              />
+            </div>
+            <div
+              class="hidden xl:group-hover:block absolute top-[278px] right-0"
+            >
+              <img
+                src="/images/soft-right.jpg"
+                width="391"
+                height="586"
+                alt=""
+              />
+            </div>
+          </li>
+          <li class="group mt-[35px] 2xl:mt-[75px]">
+            <NuxtLink
+              class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
+              to="/portfolio/beyond-the-lipstick"
               >Beyond the Lipstick</NuxtLink
             >
             <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
@@ -133,43 +158,18 @@
             >
             <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
               <img
-                src="/images/project-left.jpg"
-                width="302"
-                height="587"
-                alt=""
-              />
-            </div>
-            <div
-              class="hidden xl:group-hover:block absolute top-[278px] right-0"
-            >
-              <img
-                src="/images/project-right.jpg"
-                width="238"
+                src="/images/no-unlocals-left.jpg"
+                width="391"
                 height="586"
                 alt=""
               />
             </div>
-          </li>
-          <li class="group mt-[35px] 2xl:mt-[75px]">
-            <NuxtLink
-              class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
-              to="/portfolio/its-not-a-flower"
-              >It's Not a Flower</NuxtLink
-            >
-            <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
-              <img
-                src="/images/project-left.jpg"
-                width="302"
-                height="587"
-                alt=""
-              />
-            </div>
             <div
               class="hidden xl:group-hover:block absolute top-[278px] right-0"
             >
               <img
-                src="/images/project-right.jpg"
-                width="238"
+                src="/images/no-unlocals-right.jpg"
+                width="391"
                 height="586"
                 alt=""
               />
