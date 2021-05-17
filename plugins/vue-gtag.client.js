@@ -9,7 +9,8 @@ export default ({ app }) => {
     {
       config: { id: "UA-102074403-1" },
       bootstrap: getGDPR === "true",
-      enabled: getGDPR === "true"
+      enabled: getGDPR === "true",
+      pageTrackerScreenviewEnabled: true
     },
     app.router
   );
