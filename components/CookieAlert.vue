@@ -58,7 +58,7 @@ export default {
       }
     }
   },
-  created() {
+  mounted() {
     if (!this.getGDPR() === true) {
       this.isOpen = true;
     }
