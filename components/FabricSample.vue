@@ -2,7 +2,7 @@
   <div class="relative">
     <img
       class="w-[80px] h-[80px] rounded-full overflow-visible md:w-[190px] md:h-[190px]"
-      src="https://source.unsplash.com/random"
+      :src="image"
       width="190px"
       height="190px"
       alt=""
@@ -23,3 +23,9 @@
     />
   </div>
 </template>
+
+<script>
+export default {
+  props: ["image"]
+};
+</script>

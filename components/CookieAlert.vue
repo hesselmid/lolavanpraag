@@ -1,24 +1,19 @@
 <template>
-  <div
-    class="fixed z-50 bottom-[20px] left-0 right-0 mx-auto px-[35px] md:px-[60px] 2xl:px-[110px] 2xl:bottom-[47px]"
-    v-if="isOpen"
-  >
+  <div class="fixed z-50 bottom-[20px] right-[20px] mx-auto" v-if="isOpen">
     <div
-      class="relative bg-apple-green w-[340px] mx-auto pt-[36px] pb-[15px] px-[25px] 2xl:flex 2xl:justify-beteen 2xl:items-center 2xl:w-full 2xl:pt-[15px] 2xl:pl-[30px]"
+      class="relative bg-apple-green max-w-[340px] mx-auto pt-[36px] pb-[15px] px-[25px]"
     >
       <img
         class="absolute top-[15px] right-[15px] w-[10px] 2xl:top-[38px] 2xl:right-[39px] 2xl:w-[15px]"
         src="~assets/images/cross.svg"
         @click="deny"
       />
-      <div
-        class="font-light text-[14px] leading-[19px] text-center 2xl:inline-block 2xl:text-[19px] 2xl:leading-[26px] 2xl:text-left"
-      >
+      <div class="font-light text-[14px] leading-[19px] text-center">
         I use Google Analytics to track how many people visit this website.
         Click Accept to help me improve my content.
       </div>
       <button
-        class="block mt-[20px] mx-auto bg-electric-pink pt-[16px] pb-[20px] px-[54.5px] font-light text-[18px] leading-[24px] lowercase 2xl:inline-block 2xl:mt-0 2xl:ml-auto"
+        class="block mt-[20px] mx-auto bg-electric-pink pt-[16px] pb-[20px] px-[54.5px] font-light text-[18px] leading-[24px] lowercase"
         @click="accept"
       >
         Accept
