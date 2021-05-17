@@ -8,10 +8,22 @@
     >
       News
     </h1>
+    <div class="mt-[10px] font-light text-[14px] leading-[20px]">
+      Filter by:
+      <button class="ml-[30px] font-light" @click="selectCategory()">
+        all
+      </button>
+      <button class="ml-[30px] font-light" @click="selectCategory('fashion')">
+        fashion
+      </button>
+      <button class="ml-[30px] font-light" @click="selectCategory('textile')">
+        textile
+      </button>
+    </div>
     <ul
       class="mt-[20px] grid gap-y-[40px] md:grid-cols-2 md:gap-x-[50px] xl:grid-cols-3"
     >
-      <li v-for="article of articles" :key="article.slug">
+      <li v-for="article of chosenArticles" :key="article.slug">
         <NuxtLink :to="`/blog/${article.slug}`">
           <div>
             <img class="w-full" :src="article.img" />
@@ -73,10 +85,20 @@ export default {
       ]
     };
   },
+  computed: {
+    chosenArticles() {
+      return this.articles;
+    }
+  },
   methods: {
     formatDate(date) {
       const options = { year: "numeric", month: "long", day: "numeric" };
       return new Date(date).toLocaleDateString("en", options);
+    },
+    selectCategory(cat) {
+      this.articles = this.articles.filter(article => {
+        return article.category === cat;
+      });
     }
   },
   async asyncData({ $content, params }) {
