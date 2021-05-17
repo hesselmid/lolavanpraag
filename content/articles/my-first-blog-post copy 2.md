@@ -3,6 +3,8 @@ title: My first Blog Post
 description: Learning how to use @nuxt/content to create a blog
 img: /thumbnail-1.jpg
 alt: my first blog post
+readingTime: 3
+category: "textile"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac arcu ligula. Quisque at suscipit est. Donec vulputate euismod nibh eget iaculis. Suspendisse quis sapien porta, dignissim velit in, interdum diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at neque consequat, sollicitudin ligula non, volutpat augue. In hendrerit sodales porta. Curabitur iaculis justo massa, in condimentum ex accumsan ac. Cras vitae sodales eros. In suscipit mauris ac lectus dapibus, sit amet elementum nunc finibus. Pellentesque sit amet velit cursus, tempor orci eget, bibendum ipsum. Morbi ut tincidunt justo, non pellentesque leo. Aliquam vulputate porttitor urna, vitae tincidunt metus molestie aliquam. Proin commodo sagittis nibh, a ultricies tellus dictum sit amet. Aenean felis erat, eleifend vel augue sit amet, interdum vestibulum dolor.

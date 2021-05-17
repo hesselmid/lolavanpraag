@@ -15,8 +15,22 @@
         <NuxtLink :to="`/blog/${article.slug}`">
           <div>
             <img class="w-full" :src="article.img" />
-            <div class="mt-[13px] font-light text-[12px] leading-[17px]">
-              {{ formatDate(article.createdAt) }}
+            <div class="mt-[13px] flex justify-between">
+              <div class="font-light text-[12px] leading-[17px]">
+                {{ formatDate(article.createdAt) }}
+                <div>{{ article.readingTime }} min read</div>
+              </div>
+              <div
+                class="self-start py-[3px] px-[10px] border rounded-[13px] font-light text-[12px] leading-[17px] lowercase md:text-[14px] md:leading-[19px]"
+                :class="{
+                  'border-electric-pink': article.category === 'fashion',
+                  'text-electric-pink': article.category === 'fashion',
+                  'border-apple-green': article.category === 'textile',
+                  'text-apple-green': article.category === 'textile'
+                }"
+              >
+                {{ article.category }}
+              </div>
             </div>
             <h2 class="mt-[10px] font-light text-[22px] leading-[31px]">
               {{ article.title }}
@@ -67,7 +81,15 @@ export default {
   },
   async asyncData({ $content, params }) {
     const articles = await $content("articles")
-      .only(["title", "description", "img", "slug", "createdAt"])
+      .only([
+        "title",
+        "description",
+        "img",
+        "slug",
+        "createdAt",
+        "readingTime",
+        "category"
+      ])
       .sortBy("createdAt", "asc")
       .fetch();
 
