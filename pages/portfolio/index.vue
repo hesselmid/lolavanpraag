@@ -12,13 +12,31 @@
       class="mt-[10px] font-light text-[14px] leading-[20px] md:mt-[25px] md:text-[18px] md:leading-[20px]"
     >
       Filter by:
-      <button class="ml-[30px] font-light" @click="selectCategory('all')">
+      <button
+        class="ml-[30px] font-light"
+        :class="{
+          'font-medium': !selectedCategory || selectedCategory === 'all'
+        }"
+        @click="selectCategory('all')"
+      >
         all
       </button>
-      <button class="ml-[30px] font-light" @click="selectCategory('fashion')">
+      <button
+        class="ml-[30px] font-light"
+        :class="{
+          'font-medium': selectedCategory === 'fashion'
+        }"
+        @click="selectCategory('fashion')"
+      >
         fashion
       </button>
-      <button class="ml-[30px] font-light" @click="selectCategory('textile')">
+      <button
+        class="ml-[30px] font-light"
+        :class="{
+          'font-medium': selectedCategory === 'textile'
+        }"
+        @click="selectCategory('textile')"
+      >
         textile
       </button>
     </div>
@@ -85,19 +103,25 @@ export default {
           slug: "floral-lines"
         }
       ],
-      filteredProjects: []
+      selectedCategory: null
     };
+  },
+  computed: {
+    filteredProjects() {
+      if (!this.selectedCategory || this.selectedCategory === "all") {
+        return this.projects;
+      } else if (this.selectedCategory === "textile") {
+        return this.projects.filter(project => project.category === "textile");
+      } else if (this.selectedCategory === "fashion") {
+        return this.projects.filter(project => project.category === "fashion");
+      }
+    }
   },
   methods: {
     selectCategory(cat) {
-      this.filteredProjects === this.projects;
-      this.filteredProjects = this.projects.filter(
-        project => project.category === cat
-      );
+      this.selectedCategory = cat;
+      console.log(this.selectedCategory);
     }
-  },
-  mounted() {
-    this.filteredProjects === this.projects;
   },
   head: {
     title: "Portfolio | lolavanpraag.com",

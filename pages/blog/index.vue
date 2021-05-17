@@ -12,13 +12,31 @@
       class="mt-[10px] font-light text-[14px] leading-[20px] md:mt-[25px] md:text-[18px] md:leading-[20px]"
     >
       Filter by:
-      <button class="ml-[30px] font-light" @click="selectCategory('all')">
+      <button
+        class="ml-[30px] font-light"
+        :class="{
+          'font-medium': !selectedCategory || selectedCategory === 'all'
+        }"
+        @click="selectCategory('all')"
+      >
         all
       </button>
-      <button class="ml-[30px] font-light" @click="selectCategory('fashion')">
+      <button
+        class="ml-[30px] font-light"
+        :class="{
+          'font-medium': selectedCategory === 'fashion'
+        }"
+        @click="selectCategory('fashion')"
+      >
         fashion
       </button>
-      <button class="ml-[30px] font-light" @click="selectCategory('textile')">
+      <button
+        class="ml-[30px] font-light"
+        :class="{
+          'font-medium': selectedCategory === 'textile'
+        }"
+        @click="selectCategory('textile')"
+      >
         textile
       </button>
     </div>
@@ -73,7 +91,7 @@ export default {
         { name: "Home", link: "/" },
         { name: "News", link: "/blog" }
       ],
-      articleList: []
+      selectedCategory: null
     };
   },
   head() {
@@ -90,8 +108,13 @@ export default {
   },
   computed: {
     filteredArticles() {
-      this.articleList = [...this.articles];
-      return this.articleList;
+      if (!this.selectedCategory || this.selectedCategory === "all") {
+        return this.articles;
+      } else if (this.selectedCategory === "textile") {
+        return this.articles.filter(article => article.category === "textile");
+      } else if (this.selectedCategory === "fashion") {
+        return this.articles.filter(article => article.category === "fashion");
+      }
     }
   },
   methods: {
@@ -100,12 +123,8 @@ export default {
       return new Date(date).toLocaleDateString("en", options);
     },
     selectCategory(cat) {
-      this.articleList = [...this.articles];
-      console.log(this.articleList);
-      this.articleList = this.articleList.filter(
-        article => article.category === cat
-      );
-      console.log(this.articleList);
+      this.selectedCategory = cat;
+      console.log(this.selectedCategory);
     }
   },
   async asyncData({ $content }) {
