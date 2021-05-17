@@ -8,10 +8,10 @@ export default ({ app }) => {
     VueGtag,
     {
       config: { id: "UA-102074403-1" },
-      bootstrap: getGDPR === "true",
-      enabled: getGDPR === "true",
-      appName: "lola",
-      pageTrackerScreenviewEnabled: true
+      bootstrap: getGDPR === "true"
+      // enabled: getGDPR === "true",
+      // appName: "lola",
+      // pageTrackerScreenviewEnabled: true
     },
     app.router
   );
