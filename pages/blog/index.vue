@@ -70,7 +70,8 @@ export default {
       breadcrumbs: [
         { name: "Home", link: "/" },
         { name: "News", link: "/blog" }
-      ]
+      ],
+      shownArticles: []
     };
   },
   head() {
@@ -87,7 +88,7 @@ export default {
   },
   computed: {
     chosenArticles() {
-      return this.articles;
+      return (this.shownArticles = this.articles);
     }
   },
   methods: {
@@ -96,7 +97,8 @@ export default {
       return new Date(date).toLocaleDateString("en", options);
     },
     selectCategory(cat) {
-      this.articles = this.articles.filter(article => {
+      this.shownArticles = this.articles;
+      return this.shownArticles.filter(article => {
         return article.category === cat;
       });
     }
