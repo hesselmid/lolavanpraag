@@ -84,18 +84,20 @@ export default {
           img: require(`~/assets/images/project-thumbnail-3.jpg`),
           slug: "floral-lines"
         }
-      ]
+      ],
+      filteredProjects: []
     };
-  },
-  computed: {
-    filteredProjects() {
-      return this.projects;
-    }
   },
   methods: {
     selectCategory(cat) {
-      this.projects.filter(project => project.category === cat);
+      this.filteredProjects === this.projects;
+      this.filteredProjects = this.projects.filter(
+        project => project.category === cat
+      );
     }
+  },
+  mounted() {
+    this.filteredProjects === this.projects;
   },
   head: {
     title: "Portfolio | lolavanpraag.com",
