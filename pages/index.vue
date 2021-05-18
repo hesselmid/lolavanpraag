@@ -106,7 +106,7 @@
               to="/portfolio/beyond-the-lipstick"
               >Soft! 2021</NuxtLink
             >
-            <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
+            <div class="hidden absolute top-[40px] left-0 xl:group-hover:block">
               <img
                 src="/images/soft-left.jpg"
                 width="391"

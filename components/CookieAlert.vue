@@ -11,7 +11,7 @@
       />
       <div class="font-light text-[14px] leading-[19px] text-center">
         I use Google Analytics to track how many people visit this website.
-        Click Accept to help me improve my content.
+        Click accept to help me improve my content.
       </div>
       <button
         class="block mt-[20px] mx-auto bg-electric-pink pt-[16px] pb-[20px] px-[54.5px] font-light text-[18px] leading-[24px] lowercase"

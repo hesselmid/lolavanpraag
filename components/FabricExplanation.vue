@@ -9,12 +9,19 @@
       >
         <img class="md:w-[24px]" src="~/assets/images/cross.svg" />
       </button>
-      <img
-        class="md:h-screen md:object-cover md:object-center"
-        src="~/assets/images/silk.jpg"
-        width="100%"
-        height="100%"
-      />
+
+      <picture>
+        <source srcset="/images/scarf.avif" type="image/avif" />
+        <source srcset="/images/scarf.webp" type="image/webp" />
+        <source srcset="/images/scarf.jpg" type="image/jpeg" />
+        <img
+          class="md:h-screen md:object-cover md:object-center"
+          src="/images/scarf.jpg"
+          alt=""
+          width="1080"
+          height="1080"
+        />
+      </picture>
     </div>
     <div
       class="mt-[20px] px-[17.5px] md:order-1 md:h-screen md:flex md:flex-col md:justify-center md:px-[30px] 2xl:px-[55px]"
