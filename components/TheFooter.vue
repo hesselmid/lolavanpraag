@@ -102,25 +102,7 @@
             Join my mailinglist
           </div>
           <div class="md:inline-block md:ml-[30px] md:w-[345px]">
-            <form
-              class="mt-[20px] border-b border-black flex justify-between items-baseline md:mt-0"
-              @submit.prevent
-            >
-              <input
-                class="w-full pb-[17px] pl-[17px] bg-electric-pink font-light text-[14px] leading-[19px] placeholder-black rounded-none outline-none"
-                type="email"
-                placeholder="Enter your mail"
-              />
-              <button class="h-full" aria-label="Send">
-                <img
-                  src="~/assets/images/arrow.svg"
-                  aria-hidden="true"
-                  width="15px"
-                  height="15px"
-                  alt=""
-                />
-              </button>
-            </form>
+            <Subscribe />
           </div>
         </div>
         <div class="mt-[50px] font-light text-[12px] leading-[17px] md:mt-0">
