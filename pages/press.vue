@@ -1,5 +1,6 @@
 <template>
   <div class="bg-dusty-orange">
+    <MetaTags :title="title" :description="description" />
     <div
       class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] md:pt-[165px] md:pb-[228px] 2xl:px-[55px]"
     >
@@ -54,6 +55,8 @@ export default {
         { name: "Home", link: "/" },
         { name: "Press", link: "/press" }
       ],
+      title: "Press",
+      description: "",
       pressList: [
         {
           year: 2019,
@@ -117,16 +120,6 @@ export default {
         }
       ]
     };
-  },
-  head: {
-    title: "Press | lolavanpraag.com",
-    meta: [
-      {
-        hid: "description",
-        name: "description",
-        content: ""
-      }
-    ]
   }
 };
 </script>

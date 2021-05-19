@@ -1,5 +1,6 @@
 <template>
   <div class="bg-apple-green">
+    <MetaTags :title="title" :description="description" />
     <div
       class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] md:pt-[165px] md:pb-[112px] 2xl:px-[55px]"
     >
@@ -89,41 +90,54 @@
         <h2 class="font-serif font-light text-[24px] leading-[35px]">
           Shoot me a message!
         </h2>
-        <form class="mt-[20px] md:mt-[40px]">
+        <form
+          class="mt-[20px] md:mt-[40px]"
+          name="Contactformulier"
+          method="POST"
+          data-netlify="true"
+        >
+          <input type="hidden" name="form-name" value="Contactformulier" />
           <div class="md:grid md:grid-cols-2 md:gap-x-[113px]">
             <input
               class="block w-full pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none outline-none focus:border-electric-pink focus:placeholder-[#62822D]"
               type="text"
+              name="fname"
               placeholder="First name*"
             />
             <input
               class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none outline-none focus:border-electric-pink focus:placeholder-[#62822D] md:mt-0"
               type="text"
+              name="lname"
               placeholder="Last name*"
             />
             <input
               class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none outline-none focus:border-electric-pink focus:placeholder-[#62822D] md:mt-[60px]"
               type="email"
+              name="email"
               placeholder="E-mail address*"
             />
             <input
               class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none outline-none focus:border-electric-pink focus:placeholder-[#62822D] md:mt-[60px]"
               type="tel"
+              name="phone"
               placeholder="Telephone number*"
             />
             <input
               class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none outline-none focus:border-electric-pink focus:placeholder-[#62822D] md:mt-[60px]"
               type="text"
+              name="subject"
               placeholder="Subject"
             />
             <input
               class="block w-full mt-[40px] pb-[17px] pl-[20px] bg-apple-green border-b border-black font-light text-[14px] leading-[19px] placeholder-black rounded-none outline-none focus:border-electric-pink focus:placeholder-[#62822D] md:row-start-4 md:mt-[60px]"
               type="textarea"
+              name="comment"
               placeholder="Comment*"
             />
           </div>
           <button
             class="mt-[50px] bg-electric-pink h-[60px] px-[62px] lowercase md:mt-[60px]"
+            type="submit"
           >
             Send
           </button>
@@ -141,18 +155,10 @@ export default {
       breadcrumbs: [
         { name: "Home", link: "/" },
         { name: "Contact", link: "/contact" }
-      ]
+      ],
+      title: "Contact",
+      description: ""
     };
-  },
-  head: {
-    title: "Contact | lolavanpraag.com",
-    meta: [
-      {
-        hid: "description",
-        name: "description",
-        content: ""
-      }
-    ]
   }
 };
 </script>

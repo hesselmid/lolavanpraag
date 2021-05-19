@@ -1,5 +1,6 @@
 <template>
   <div>
+    <MetaTags :title="title" :description="description" />
     <div
       class="
         container
@@ -291,18 +292,10 @@ export default {
       breadcrumbs: [
         { name: "Home", link: "/" },
         { name: "About me", link: "/about" }
-      ]
+      ],
+      title: "About Me",
+      description: ""
     };
-  },
-  head: {
-    title: "About Me | lolavanpraag.com",
-    meta: [
-      {
-        hid: "description",
-        name: "description",
-        content: ""
-      }
-    ]
   }
 };
 </script>

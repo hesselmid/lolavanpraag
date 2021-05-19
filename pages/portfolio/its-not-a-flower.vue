@@ -1,5 +1,6 @@
 <template>
   <div class="pt-[86px] pb-[100px] md:pt-[165px] md:pb-[228px] ">
+    <MetaTags :title="title" :description="description" />
     <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
       <Breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
       <h1
@@ -186,20 +187,12 @@ export default {
         { name: "Portfolio", link: "/portfolio" },
         { name: "It's Not a Flower", link: "/portfolio/its-not-a-flower" }
       ],
+      title: "It's Not a Flower",
+      description: "",
       showAnimation1: false,
       showAnimation2: false,
       showAnimation3: false
     };
-  },
-  head: {
-    title: "It's Not a Flower | lolavanpraag.com",
-    meta: [
-      {
-        hid: "description",
-        name: "description",
-        content: ""
-      }
-    ]
   },
   methods: {
     isViewableNow(isVisible, entry) {

@@ -28,18 +28,6 @@
 
 <script>
 export default {
-  head() {
-    return {
-      title: `${this.article.title} | lolavanpraag.com`,
-      meta: [
-        {
-          hid: "description",
-          name: "description",
-          content: this.article.description
-        }
-      ]
-    };
-  },
   computed: {
     breadcrumbs() {
       return [
