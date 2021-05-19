@@ -201,7 +201,7 @@
       <lite-youtube
         class="mt-[30px] max-w-[1440px] md:mt-[40px]"
         style="
-          background-image: url('/images/beyond-the-lipstick-thumbnail.jpg');
+          background-image: url('/images/beyond-the-lipstick-preview.jpg');
         "
         videoid="A61dZiKAUpI"
         params="controls=0&modestbranding=1&rel=0&enablejsapi=1"

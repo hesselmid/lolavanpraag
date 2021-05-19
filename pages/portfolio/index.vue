@@ -75,7 +75,14 @@ export default {
           description:
             "Graduation Collection 2019 – MA Menswear, Westminster University",
           category: "fashion",
-          img: require(`~/assets/images/project-thumbnail-1.jpg`),
+          img: {
+            jpg: "/images/beyond-the-lipstick-thumbnail.jpg",
+            webp: "/images/beyond-the-lipstick-thumbnail.webp",
+            avif: "/images/beyond-the-lipstick-thumbnail.avif",
+            width: "640",
+            height: "427",
+            alt: "Beyond the Lipstick"
+          },
           slug: "beyond-the-lipstick"
         },
         {
@@ -84,7 +91,14 @@ export default {
           description:
             "Graduation Collection 2019 – MA Menswear, Westminster University",
           category: "fashion",
-          img: require(`~/assets/images/project-thumbnail-1.jpg`),
+          img: {
+            jpg: "/images/no-unlocals-thumbnail.jpg",
+            webp: "/images/no-unlocals-thumbnail.webp",
+            avif: "/images/no-unlocals-thumbnail.avif",
+            width: "640",
+            height: "872",
+            alt: "No Unlocals"
+          },
           slug: "no-unlocals"
         },
         {
@@ -93,7 +107,14 @@ export default {
           description:
             "Graduation Collection - MA Textile, Swedish School of Textiles",
           category: "textile",
-          img: require(`~/assets/images/project-thumbnail-2.jpg`),
+          img: {
+            jpg: "/images/its-not-a-flower-thumbnail.jpg",
+            webp: "/images/its-not-a-flower-thumbnail.webp",
+            avif: "/images/its-not-a-flower-thumbnail.avif",
+            width: "1100",
+            height: "777",
+            alt: "It's Not a Flower"
+          },
           slug: "its-not-a-flower"
         },
         {
@@ -102,7 +123,14 @@ export default {
           description:
             "Graduation Collection 2014 - BA Fashion, Willem de Kooning Academie",
           category: "fashion",
-          img: require(`~/assets/images/project-thumbnail-3.jpg`),
+          img: {
+            jpg: "/images/floral-lines-thumbnail.jpg",
+            webp: "/images/floral-lines-thumbnail.webp",
+            avif: "/images/floral-lines-thumbnail.avif",
+            width: "410",
+            height: "615",
+            alt: "Floral Lines"
+          },
           slug: "floral-lines"
         }
       ],

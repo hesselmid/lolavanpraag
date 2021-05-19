@@ -1,6 +1,17 @@
 <template>
   <li class="mt-[40px] mx-auto md:w-full md:m-0">
-    <img class="w-full" :src="img" />
+    <picture>
+      <source :srcset="img.avif" type="image/avif" />
+      <source :srcset="img.webp" type="image/webp" />
+      <source :srcset="img.jpg" type="image/jpeg" />
+      <img
+        class="w-full"
+        :src="img.jpg"
+        :alt="img.alt"
+        :width="img.width"
+        :height="img.height"
+      />
+    </picture>
     <div class="mt-[10px] md:mt-[20px]">
       <div class="flex justify-between">
         <h2
