@@ -56,29 +56,34 @@
             Rademarkers Gallery
           </a>
         </div>
-        <picture class="mt-[30px] col-span-2 row-span-3">
-          <source srcset="/images/floral-lines-2.avif" type="image/avif" />
-          <source srcset="/images/floral-lines-2.webp" type="image/webp" />
-          <source srcset="/images/floral-lines-2.jpg" type="image/jpeg" />
-          <img
-            src="/images/floral-lines-2.jpg"
-            alt="Floral Lines look #2"
-            width="460"
-            height="960"
-          />
-        </picture>
-        <picture class="mt-[15px] col-span-3 row-span-4">
-          <source srcset="/images/floral-lines-1.avif" type="image/avif" />
-          <source srcset="/images/floral-lines-1.webp" type="image/webp" />
-          <source srcset="/images/floral-lines-1.jpg" type="image/jpeg" />
-          <img
-            class="h-full"
-            src="/images/floral-lines-1.jpg"
-            alt="Floral Lines look #1"
-            width="460"
-            height="960"
-          />
-        </picture>
+        <div class="mt-[30px] col-span-2 row-span-3">
+          <picture>
+            <source srcset="/images/floral-lines-2.avif" type="image/avif" />
+            <source srcset="/images/floral-lines-2.webp" type="image/webp" />
+            <source srcset="/images/floral-lines-2.jpg" type="image/jpeg" />
+            <img
+              class="w-full"
+              src="/images/floral-lines-2.jpg"
+              alt="Floral Lines look #2"
+              width="460"
+              height="960"
+            />
+          </picture>
+        </div>
+        <div class="mt-[15px] col-span-3 row-span-4">
+          <picture>
+            <source srcset="/images/floral-lines-1.avif" type="image/avif" />
+            <source srcset="/images/floral-lines-1.webp" type="image/webp" />
+            <source srcset="/images/floral-lines-1.jpg" type="image/jpeg" />
+            <img
+              class="w-full"
+              src="/images/floral-lines-1.jpg"
+              alt="Floral Lines look #1"
+              width="460"
+              height="960"
+            />
+          </picture>
+        </div>
         <div
           class="hidden col-span-2 row-span-2 lg:flex lg:justify-center lg:items-center"
         >
@@ -156,50 +161,62 @@
       <div
         class="mt-[50px] lg:mt-[143px] lg:grid lg:grid-cols-2 lg:gap-x-[50px]"
       >
-        <picture class="lg:mt-[125px] lg:ml-[118px]">
-          <source srcset="/images/floral-lines-3.avif" type="image/avif" />
-          <source srcset="/images/floral-lines-3.webp" type="image/webp" />
-          <source srcset="/images/floral-lines-3.jpg" type="image/jpeg" />
-          <img
-            src="/images/floral-lines-3.jpg"
-            alt="Floral Lines look #3"
-            width="460"
-            height="960"
-          />
-        </picture>
-        <picture class="mt-[15px] lg:mt-0">
-          <source srcset="/images/floral-lines-4.avif" type="image/avif" />
-          <source srcset="/images/floral-lines-4.webp" type="image/webp" />
-          <source srcset="/images/floral-lines-4.jpg" type="image/jpeg" />
-          <img
-            src="/images/floral-lines-4.jpg"
-            alt="Floral Lines look #4"
-            width="460"
-            height="960"
-          />
-        </picture>
-        <picture class="mt-[15px] lg:mt-0">
-          <source srcset="/images/floral-lines-5.avif" type="image/avif" />
-          <source srcset="/images/floral-lines-5.webp" type="image/webp" />
-          <source srcset="/images/floral-lines-5.jpg" type="image/jpeg" />
-          <img
-            src="/images/floral-lines-5.jpg"
-            alt="Floral Lines look #5"
-            width="460"
-            height="960"
-          />
-        </picture>
-        <picture class="mt-[15px] lg:mt-[50px] lg:mr-[118px]">
-          <source srcset="/images/floral-lines-6.avif" type="image/avif" />
-          <source srcset="/images/floral-lines-6.webp" type="image/webp" />
-          <source srcset="/images/floral-lines-6.jpg" type="image/jpeg" />
-          <img
-            src="/images/floral-lines-6.jpg"
-            alt="Floral Lines look #6"
-            width="460"
-            height="960"
-          />
-        </picture>
+        <div class="lg:mt-[125px] lg:ml-[118px]">
+          <picture>
+            <source srcset="/images/floral-lines-3.avif" type="image/avif" />
+            <source srcset="/images/floral-lines-3.webp" type="image/webp" />
+            <source srcset="/images/floral-lines-3.jpg" type="image/jpeg" />
+            <img
+              class="w-full"
+              src="/images/floral-lines-3.jpg"
+              alt="Floral Lines look #3"
+              width="460"
+              height="960"
+            />
+          </picture>
+        </div>
+        <div class="mt-[15px] lg:mt-0">
+          <picture>
+            <source srcset="/images/floral-lines-4.avif" type="image/avif" />
+            <source srcset="/images/floral-lines-4.webp" type="image/webp" />
+            <source srcset="/images/floral-lines-4.jpg" type="image/jpeg" />
+            <img
+              class="w-full"
+              src="/images/floral-lines-4.jpg"
+              alt="Floral Lines look #4"
+              width="460"
+              height="960"
+            />
+          </picture>
+        </div>
+        <div class="mt-[15px] lg:mt-0">
+          <picture>
+            <source srcset="/images/floral-lines-5.avif" type="image/avif" />
+            <source srcset="/images/floral-lines-5.webp" type="image/webp" />
+            <source srcset="/images/floral-lines-5.jpg" type="image/jpeg" />
+            <img
+              class="w-full"
+              src="/images/floral-lines-5.jpg"
+              alt="Floral Lines look #5"
+              width="460"
+              height="960"
+            />
+          </picture>
+        </div>
+        <div class="mt-[15px] lg:mt-[50px] lg:mr-[118px]">
+          <picture>
+            <source srcset="/images/floral-lines-6.avif" type="image/avif" />
+            <source srcset="/images/floral-lines-6.webp" type="image/webp" />
+            <source srcset="/images/floral-lines-6.jpg" type="image/jpeg" />
+            <img
+              class="w-full"
+              src="/images/floral-lines-6.jpg"
+              alt="Floral Lines look #6"
+              width="460"
+              height="960"
+            />
+          </picture>
+        </div>
       </div>
     </div>
   </div>
