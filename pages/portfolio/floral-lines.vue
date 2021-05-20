@@ -154,8 +154,9 @@
       <blockquote
         class="mt-[50px] font-serif font-light text-[34px] leading-[40px] text-electric-pink text-center lg:mt-[116px] lg:text-[80px] lg:leading-[70px]"
       >
-        "One of the most important elements in the construction of a wetsuit are
-        the seams"
+        "I tried to mix traditional pieces like the overall, and traditional
+        techniques like embroidery with shiny and colorful fabrics, and
+        rethought shapes."
       </blockquote>
 
       <div
@@ -172,6 +173,7 @@
               alt="Floral Lines look #3"
               width="460"
               height="960"
+              loading="lazy"
             />
           </picture>
         </div>
@@ -186,6 +188,7 @@
               alt="Floral Lines look #4"
               width="460"
               height="960"
+              loading="lazy"
             />
           </picture>
         </div>
@@ -200,6 +203,7 @@
               alt="Floral Lines look #5"
               width="460"
               height="960"
+              loading="lazy"
             />
           </picture>
         </div>
@@ -214,6 +218,7 @@
               alt="Floral Lines look #6"
               width="460"
               height="960"
+              loading="lazy"
             />
           </picture>
         </div>
@@ -229,6 +234,7 @@
               alt="Floral Lines look #7"
               width="460"
               height="960"
+              loading="lazy"
             />
           </picture>
         </div>
@@ -243,6 +249,7 @@
               alt="Floral Lines look #8"
               width="460"
               height="960"
+              loading="lazy"
             />
           </picture>
         </div>
@@ -257,6 +264,7 @@
               alt="Floral Lines look #9"
               width="460"
               height="960"
+              loading="lazy"
             />
           </picture>
         </div>
@@ -271,6 +279,7 @@
               alt="Floral Lines look #10"
               width="460"
               height="960"
+              loading="lazy"
             />
           </picture>
         </div>
@@ -293,6 +302,16 @@ export default {
       showAnimation1: false,
       showAnimation2: false,
       showAnimation3: false
+    };
+  },
+  head() {
+    return {
+      link: [
+        {
+          rel: "canonical",
+          href: `https://lolavanpraag.netlify.app${$nuxt.$route.path}`
+        }
+      ]
     };
   },
   methods: {
