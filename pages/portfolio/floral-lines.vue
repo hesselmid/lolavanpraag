@@ -74,7 +74,7 @@
               class="w-full"
               src="/images/floral-lines/floral-lines-2.jpg"
               alt="Floral Lines look #2"
-              width="460"
+              width="640"
               height="960"
             />
           </picture>
@@ -97,7 +97,7 @@
               class="w-full"
               src="/images/floral-lines/floral-lines-1.jpg"
               alt="Floral Lines look #1"
-              width="460"
+              width="640"
               height="960"
             />
           </picture>
@@ -244,7 +244,7 @@
               class="w-full"
               src="/images/floral-lines/floral-lines-3.jpg"
               alt="Floral Lines look #3"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -268,7 +268,7 @@
               class="w-full"
               src="/images/floral-lines/floral-lines-4.jpg"
               alt="Floral Lines look #4"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -292,7 +292,7 @@
               class="w-full"
               src="/images/floral-lines/floral-lines-5.jpg"
               alt="Floral Lines look #5"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -316,7 +316,7 @@
               class="w-full"
               src="/images/floral-lines/floral-lines-6.jpg"
               alt="Floral Lines look #6"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -341,7 +341,7 @@
               class="w-full"
               src="/images/floral-lines/floral-lines-7.jpg"
               alt="Floral Lines look #7"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -365,7 +365,7 @@
               class="w-full"
               src="/images/floral-lines/floral-lines-8.jpg"
               alt="Floral Lines look #8"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -389,7 +389,7 @@
               class="w-full"
               src="/images/floral-lines/floral-lines-9.jpg"
               alt="Floral Lines look #9"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -413,7 +413,7 @@
               class="w-full"
               src="/images/floral-lines/floral-lines-10.jpg"
               alt="Floral Lines look #10"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
