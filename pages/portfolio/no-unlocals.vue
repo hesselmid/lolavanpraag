@@ -15,7 +15,7 @@
         surf scene in California. The work of iconic surf photographers Jeff
         Divine and Hugh Holland served as a perfect departure point. Their epic
         photographs provide a vivid and colourful testimony of the evolution of
-        the culture and fashion in the surf scene in that time and place
+        the culture and fashion in the surf scene in that time and place.
       </p>
       <div
         class="lg:mt-[50px] lg:grid lg:grid-cols-5 lg:grid-rows-5 lg:gap-x-[46px]"
@@ -54,21 +54,59 @@
             Rademarkers Gallery
           </a>
         </div>
-        <img
-          class="mt-[30px] col-span-2 row-span-3"
-          src="/images/no-unlocals-1.jpg"
-        />
-        <img
-          class="mt-[15px] col-span-3 row-span-4"
-          src="/images/no-unlocals-2.jpg"
-        />
+        <div class="mt-[30px] col-span-2 row-span-3">
+          <picture>
+            <source
+              srcset="/images/no-unlocals/no-unlocals-2.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-2.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-2.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-full"
+              src="/images/no-unlocals/no-unlocals-2.jpg"
+              alt="No Unlocals look #2"
+              width="460"
+              height="960"
+            />
+          </picture>
+        </div>
+        <div class="mt-[15px] col-span-3 row-span-4">
+          <picture>
+            <source
+              srcset="/images/no-unlocals/no-unlocals-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-1.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-full"
+              src="/images/no-unlocals/no-unlocals-1.jpg"
+              alt="No Unlocals look #1"
+              width="460"
+              height="960"
+            />
+          </picture>
+        </div>
         <div
           class="hidden col-span-2 row-span-2 lg:flex lg:justify-center lg:items-center"
         >
           <blockquote
             class="font-serif font-light text-[60px] leading-[58px] text-center"
           >
-            "To kick-start this project I collected a bunch of old wetsuits"
+            “To kick-start this project I collected a bunch of old wetsuits”
           </blockquote>
         </div>
       </div>
@@ -98,77 +136,398 @@
     <div
       class="mt-[30px] pl-[17.5px] flex flex-nowrap overflow-x-auto lg:mt-0 lg:pl-[55px] lg:h-[724px] lg:items-center"
     >
-      <img
-        class="w-[252px] flex-shrink-0 lg:w-[345px]"
-        v-observe-visibility="{ callback: isViewableNow, once: true }"
-        :class="{
-          'visible animation-1': showAnimation1,
-          invisible: !showAnimation1
-        }"
-        src="/images/no-unlocals-3.jpg"
-        width="345.21px"
-        height="344.03px"
-        alt=""
-      />
-      <img
-        class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[176px] lg:ml-[24px] lg:w-[345px]"
-        v-observe-visibility="{ callback: isViewableNow, once: true }"
-        :class="{
-          'visible animation-2': showAnimation2,
-          invisible: !showAnimation2
-        }"
-        src="/images/no-unlocals-4.jpg"
-        width="345.21px"
-        height="344.03px"
-        alt=""
-      />
-      <img
-        class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[24px] lg:ml-[24px] lg:w-[345px]"
-        v-observe-visibility="{ callback: isViewableNow, once: true }"
-        :class="{
-          'visible animation-3': showAnimation3,
-          invisible: !showAnimation3
-        }"
-        src="/images/no-unlocals-9.jpg"
-        width="345.21px"
-        height="344.03px"
-        alt=""
-      />
+      <picture>
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-1.avif"
+          type="image/avif"
+        />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-1.webp"
+          type="image/webp"
+        />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-1.jpg"
+          type="image/jpeg"
+        />
+        <img
+          class="w-[252px] flex-shrink-0 lg:w-[345px]"
+          v-observe-visibility="{ callback: isViewableNow, once: true }"
+          :class="{
+            'visible animation-1': showAnimation1,
+            invisible: !showAnimation1
+          }"
+          src="/images/floral-lines/floral-lines-rollin-1.jpg"
+          alt="Floral Lines AFW look #1"
+          width="345"
+          height="517"
+          loading="lazy"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-2.avif"
+          type="image/avif"
+        />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-2.webp"
+          type="image/webp"
+        />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-2.jpg"
+          type="image/jpeg"
+        />
+        <img
+          class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[176px] lg:ml-[24px] lg:w-[345px]"
+          v-observe-visibility="{ callback: isViewableNow, once: true }"
+          :class="{
+            'visible animation-2': showAnimation2,
+            invisible: !showAnimation2
+          }"
+          src="/images/floral-lines/floral-lines-rollin-2.jpg"
+          alt="Floral Lines AFW look #2"
+          width="345"
+          height="517"
+          loading="lazy"
+        />
+      </picture>
+      <picture>
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-3.avif"
+          type="image/avif"
+        />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-3.webp"
+          type="image/webp"
+        />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-3.jpg"
+          type="image/jpeg"
+        />
+        <img
+          class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[24px] lg:ml-[24px] lg:w-[345px]"
+          v-observe-visibility="{ callback: isViewableNow, once: true }"
+          :class="{
+            'visible animation-3': showAnimation3,
+            invisible: !showAnimation3
+          }"
+          src="/images/floral-lines/floral-lines-rollin-1.jpg"
+          alt="Floral Lines AFW look #3"
+          width="345"
+          height="517"
+          loading="lazy"
+        />
+      </picture>
     </div>
     <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
       <p
         class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-0 lg:ml-auto lg:mr-[231px] lg:max-w-[640px]"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Another iconic piece in the surfer’s wardrobe is of course the Hawaiian
+        shirt. I visited the Royal Botanic Gardens, Kew to do visual research
+        and take photographs of the exotic flowers and plants they exhibit.
+        Based on my photographs I developed hand-drawn prints, which I printed
+        onto the fabric of my garments by the means of screen printing.
       </p>
 
       <blockquote
         class="mt-[50px] font-serif font-light text-[34px] leading-[40px] text-electric-pink text-center lg:mt-[116px] lg:text-[80px] lg:leading-[70px]"
       >
-        "One of the most important elements in the construction of a wetsuit are
-        the seams"
+        “One of the most important elements in the construction of a wetsuit are
+        the seams”
       </blockquote>
 
       <div
         class="mt-[50px] lg:mt-[143px] lg:grid lg:grid-cols-2 lg:gap-x-[50px]"
       >
         <div class="lg:mt-[125px] lg:ml-[118px]">
-          <img src="/images/no-unlocals-5.jpg" alt="" />
+          <picture>
+            <source
+              srcset="/images/no-unlocals/no-unlocals-3.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-3.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-3.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-full"
+              src="/images/no-unlocals/no-unlocals-3.jpg"
+              alt="No Unlocals look #3"
+              width="460"
+              height="960"
+              loading="lazy"
+            />
+          </picture>
         </div>
         <div class="mt-[15px] lg:mt-0">
-          <img src="/images/no-unlocals-6.jpg" alt="" />
+          <picture>
+            <source
+              srcset="/images/no-unlocals/no-unlocals-4.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-4.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-4.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-full"
+              src="/images/no-unlocals/no-unlocals-4.jpg"
+              alt="No Unlocals look #4"
+              width="460"
+              height="960"
+              loading="lazy"
+            />
+          </picture>
         </div>
         <div class="mt-[15px] lg:mt-0">
-          <img src="/images/no-unlocals-7.jpg" alt="" />
+          <picture>
+            <source
+              srcset="/images/no-unlocals/no-unlocals-5.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-5.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-5.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-full"
+              src="/images/no-unlocals/no-unlocals-5.jpg"
+              alt="No Unlocals look #5"
+              width="460"
+              height="960"
+              loading="lazy"
+            />
+          </picture>
         </div>
         <div class="mt-[15px] lg:mt-[50px] lg:mr-[118px]">
-          <img src="/images/no-unlocals-8.jpg" alt="" />
+          <picture>
+            <source
+              srcset="/images/no-unlocals/no-unlocals-6.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-6.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-6.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-full"
+              src="/images/no-unlocals/no-unlocals-6.jpg"
+              alt="No Unlocals look #6"
+              width="460"
+              height="960"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+
+        <div class="lg:mt-[125px] lg:ml-[118px]">
+          <picture>
+            <source
+              srcset="/images/no-unlocals/no-unlocals-7.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-7.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-7.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-full"
+              src="/images/no-unlocals/no-unlocals-7.jpg"
+              alt="No Unlocals look #7"
+              width="460"
+              height="960"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <div class="mt-[15px] lg:mt-0">
+          <picture>
+            <source
+              srcset="/images/no-unlocals/no-unlocals-8.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-8.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-8.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-full"
+              src="/images/no-unlocals/no-unlocals-8.jpg"
+              alt="No Unlocals look #8"
+              width="460"
+              height="960"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <div class="mt-[15px] lg:mt-0">
+          <picture>
+            <source
+              srcset="/images/no-unlocals/no-unlocals-9.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-9.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-9.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-full"
+              src="/images/no-unlocals/no-unlocals-9.jpg"
+              alt="No Unlocals look #9"
+              width="460"
+              height="960"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <div class="mt-[15px] lg:mt-[50px] lg:mr-[118px]">
+          <picture>
+            <source
+              srcset="/images/no-unlocals/no-unlocals-10.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-10.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-10.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-full"
+              src="/images/no-unlocals/no-unlocals-10.jpg"
+              alt="No Unlocals look #10"
+              width="460"
+              height="960"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+
+        <div class="lg:mt-[125px] lg:ml-[118px]">
+          <picture>
+            <source
+              srcset="/images/no-unlocals/no-unlocals-11.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-11.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-11.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-full"
+              src="/images/no-unlocals/no-unlocals-11.jpg"
+              alt="No Unlocals look #11"
+              width="460"
+              height="960"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <div class="mt-[15px] lg:mt-0">
+          <picture>
+            <source
+              srcset="/images/no-unlocals/no-unlocals-12.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-12.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-12.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-full"
+              src="/images/no-unlocals/no-unlocals-12.jpg"
+              alt="No Unlocals look #12"
+              width="460"
+              height="960"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <div class="mt-[15px] lg:mt-0">
+          <picture>
+            <source
+              srcset="/images/no-unlocals/no-unlocals-13.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-13.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-13.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-full"
+              src="/images/no-unlocals/no-unlocals-13.jpg"
+              alt="No Unlocals look #13"
+              width="460"
+              height="960"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <div class="mt-[15px] lg:mt-[50px] lg:mr-[118px]">
+          <picture>
+            <source
+              srcset="/images/no-unlocals/no-unlocals-14.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-14.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/no-unlocals/no-unlocals-14.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="w-full"
+              src="/images/no-unlocals/no-unlocals-10.jpg"
+              alt="No Unlocals look #14"
+              width="460"
+              height="960"
+              loading="lazy"
+            />
+          </picture>
         </div>
       </div>
     </div>
