@@ -75,6 +75,12 @@ export default {
           property: "og:image:alt",
           content: this.title
         }
+      ],
+      link: [
+        {
+          rel: "canonical",
+          href: `https://lolavanpraag.netlify.app${this.$route.path}`
+        }
       ]
     };
   }

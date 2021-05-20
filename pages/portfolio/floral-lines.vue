@@ -113,42 +113,60 @@
     <div
       class="mt-[30px] pl-[17.5px] flex flex-nowrap overflow-x-auto lg:mt-0 lg:pl-[55px] lg:h-[724px] lg:items-center"
     >
-      <img
-        class="w-[252px] flex-shrink-0 lg:w-[345px]"
-        v-observe-visibility="{ callback: isViewableNow, once: true }"
-        :class="{
-          'visible animation-1': showAnimation1,
-          invisible: !showAnimation1
-        }"
-        src="/images/floral-lines-rollin-1.jpg"
-        width="345.21px"
-        height="344.03px"
-        alt=""
-      />
-      <img
-        class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[176px] lg:ml-[24px] lg:w-[345px]"
-        v-observe-visibility="{ callback: isViewableNow, once: true }"
-        :class="{
-          'visible animation-2': showAnimation2,
-          invisible: !showAnimation2
-        }"
-        src="/images/floral-lines-rollin-2.jpg"
-        width="345.21px"
-        height="344.03px"
-        alt=""
-      />
-      <img
-        class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[24px] lg:ml-[24px] lg:w-[345px]"
-        v-observe-visibility="{ callback: isViewableNow, once: true }"
-        :class="{
-          'visible animation-3': showAnimation3,
-          invisible: !showAnimation3
-        }"
-        src="/images/floral-lines-rollin-3.jpg"
-        width="345.21px"
-        height="344.03px"
-        alt=""
-      />
+      <picture>
+        <source srcset="/images/floral-lines-rollin-1.avif" type="image/avif" />
+        <source srcset="/images/floral-lines-rollin-1.webp" type="image/webp" />
+        <source srcset="/images/floral-lines-rollin-1.jpg" type="image/jpeg" />
+        <img
+          class="w-[252px] flex-shrink-0 lg:w-[345px]"
+          v-observe-visibility="{ callback: isViewableNow, once: true }"
+          :class="{
+            'visible animation-1': showAnimation1,
+            invisible: !showAnimation1
+          }"
+          src="/images/floral-lines-rollin-1.jpg"
+          alt="Floral Lines AFW look #1"
+          width="345"
+          height="517"
+          loading="lazy"
+        />
+      </picture>
+      <picture>
+        <source srcset="/images/floral-lines-rollin-2.avif" type="image/avif" />
+        <source srcset="/images/floral-lines-rollin-2.webp" type="image/webp" />
+        <source srcset="/images/floral-lines-rollin-2.jpg" type="image/jpeg" />
+        <img
+          class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[176px] lg:ml-[24px] lg:w-[345px]"
+          v-observe-visibility="{ callback: isViewableNow, once: true }"
+          :class="{
+            'visible animation-2': showAnimation2,
+            invisible: !showAnimation2
+          }"
+          src="/images/floral-lines-rollin-2.jpg"
+          alt="Floral Lines AFW look #2"
+          width="345"
+          height="517"
+          loading="lazy"
+        />
+      </picture>
+      <picture>
+        <source srcset="/images/floral-lines-rollin-3.avif" type="image/avif" />
+        <source srcset="/images/floral-lines-rollin-3.webp" type="image/webp" />
+        <source srcset="/images/floral-lines-rollin-3.jpg" type="image/jpeg" />
+        <img
+          class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[24px] lg:ml-[24px] lg:w-[345px]"
+          v-observe-visibility="{ callback: isViewableNow, once: true }"
+          :class="{
+            'visible animation-3': showAnimation3,
+            invisible: !showAnimation3
+          }"
+          src="/images/floral-lines-rollin-1.jpg"
+          alt="Floral Lines AFW look #3"
+          width="345"
+          height="517"
+          loading="lazy"
+        />
+      </picture>
     </div>
     <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
       <blockquote
@@ -302,16 +320,6 @@ export default {
       showAnimation1: false,
       showAnimation2: false,
       showAnimation3: false
-    };
-  },
-  head() {
-    return {
-      link: [
-        {
-          rel: "canonical",
-          href: `https://lolavanpraag.netlify.app${this.$route.path}`
-        }
-      ]
     };
   },
   methods: {
