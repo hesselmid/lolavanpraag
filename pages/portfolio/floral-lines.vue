@@ -90,7 +90,8 @@
           <blockquote
             class="font-serif font-light text-[60px] leading-[58px] text-center"
           >
-            "To kick-start this project I collected a bunch of old wetsuits"
+            “This phenomenon is beautifully illustrated by the newly opened
+            McDonalds and its big M”
           </blockquote>
         </div>
       </div>
@@ -172,9 +173,9 @@
       <blockquote
         class="mt-[50px] font-serif font-light text-[34px] leading-[40px] text-electric-pink text-center lg:mt-[116px] lg:text-[80px] lg:leading-[70px]"
       >
-        "I tried to mix traditional pieces like the overall, and traditional
+        “I tried to mix traditional pieces like the overall, and traditional
         techniques like embroidery with shiny and colorful fabrics, and
-        rethought shapes."
+        rethought shapes.”
       </blockquote>
 
       <div
