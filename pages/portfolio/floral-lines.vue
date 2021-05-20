@@ -58,12 +58,21 @@
         </div>
         <div class="mt-[30px] col-span-2 row-span-3">
           <picture>
-            <source srcset="/images/floral-lines-2.avif" type="image/avif" />
-            <source srcset="/images/floral-lines-2.webp" type="image/webp" />
-            <source srcset="/images/floral-lines-2.jpg" type="image/jpeg" />
+            <source
+              srcset="/images/floral-lines/floral-lines-2.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-2.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-2.jpg"
+              type="image/jpeg"
+            />
             <img
               class="w-full"
-              src="/images/floral-lines-2.jpg"
+              src="/images/floral-lines/floral-lines-2.jpg"
               alt="Floral Lines look #2"
               width="460"
               height="960"
@@ -72,12 +81,21 @@
         </div>
         <div class="mt-[15px] col-span-3 row-span-4">
           <picture>
-            <source srcset="/images/floral-lines-1.avif" type="image/avif" />
-            <source srcset="/images/floral-lines-1.webp" type="image/webp" />
-            <source srcset="/images/floral-lines-1.jpg" type="image/jpeg" />
+            <source
+              srcset="/images/floral-lines/floral-lines-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-1.jpg"
+              type="image/jpeg"
+            />
             <img
               class="w-full"
-              src="/images/floral-lines-1.jpg"
+              src="/images/floral-lines/floral-lines-1.jpg"
               alt="Floral Lines look #1"
               width="460"
               height="960"
@@ -115,9 +133,18 @@
       class="mt-[30px] pl-[17.5px] flex flex-nowrap overflow-x-auto lg:mt-0 lg:pl-[55px] lg:h-[724px] lg:items-center"
     >
       <picture>
-        <source srcset="/images/floral-lines-rollin-1.avif" type="image/avif" />
-        <source srcset="/images/floral-lines-rollin-1.webp" type="image/webp" />
-        <source srcset="/images/floral-lines-rollin-1.jpg" type="image/jpeg" />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-1.avif"
+          type="image/avif"
+        />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-1.webp"
+          type="image/webp"
+        />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-1.jpg"
+          type="image/jpeg"
+        />
         <img
           class="w-[252px] flex-shrink-0 lg:w-[345px]"
           v-observe-visibility="{ callback: isViewableNow, once: true }"
@@ -125,7 +152,7 @@
             'visible animation-1': showAnimation1,
             invisible: !showAnimation1
           }"
-          src="/images/floral-lines-rollin-1.jpg"
+          src="/images/floral-lines/floral-lines-rollin-1.jpg"
           alt="Floral Lines AFW look #1"
           width="345"
           height="517"
@@ -133,9 +160,18 @@
         />
       </picture>
       <picture>
-        <source srcset="/images/floral-lines-rollin-2.avif" type="image/avif" />
-        <source srcset="/images/floral-lines-rollin-2.webp" type="image/webp" />
-        <source srcset="/images/floral-lines-rollin-2.jpg" type="image/jpeg" />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-2.avif"
+          type="image/avif"
+        />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-2.webp"
+          type="image/webp"
+        />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-2.jpg"
+          type="image/jpeg"
+        />
         <img
           class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[176px] lg:ml-[24px] lg:w-[345px]"
           v-observe-visibility="{ callback: isViewableNow, once: true }"
@@ -143,7 +179,7 @@
             'visible animation-2': showAnimation2,
             invisible: !showAnimation2
           }"
-          src="/images/floral-lines-rollin-2.jpg"
+          src="/images/floral-lines/floral-lines-rollin-2.jpg"
           alt="Floral Lines AFW look #2"
           width="345"
           height="517"
@@ -151,9 +187,18 @@
         />
       </picture>
       <picture>
-        <source srcset="/images/floral-lines-rollin-3.avif" type="image/avif" />
-        <source srcset="/images/floral-lines-rollin-3.webp" type="image/webp" />
-        <source srcset="/images/floral-lines-rollin-3.jpg" type="image/jpeg" />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-3.avif"
+          type="image/avif"
+        />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-3.webp"
+          type="image/webp"
+        />
+        <source
+          srcset="/images/floral-lines/floral-lines-rollin-3.jpg"
+          type="image/jpeg"
+        />
         <img
           class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[24px] lg:ml-[24px] lg:w-[345px]"
           v-observe-visibility="{ callback: isViewableNow, once: true }"
@@ -161,7 +206,7 @@
             'visible animation-3': showAnimation3,
             invisible: !showAnimation3
           }"
-          src="/images/floral-lines-rollin-1.jpg"
+          src="/images/floral-lines/floral-lines-rollin-1.jpg"
           alt="Floral Lines AFW look #3"
           width="345"
           height="517"
@@ -183,12 +228,21 @@
       >
         <div class="lg:mt-[125px] lg:ml-[118px]">
           <picture>
-            <source srcset="/images/floral-lines-3.avif" type="image/avif" />
-            <source srcset="/images/floral-lines-3.webp" type="image/webp" />
-            <source srcset="/images/floral-lines-3.jpg" type="image/jpeg" />
+            <source
+              srcset="/images/floral-lines/floral-lines-3.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-3.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-3.jpg"
+              type="image/jpeg"
+            />
             <img
               class="w-full"
-              src="/images/floral-lines-3.jpg"
+              src="/images/floral-lines/floral-lines-3.jpg"
               alt="Floral Lines look #3"
               width="460"
               height="960"
@@ -198,12 +252,21 @@
         </div>
         <div class="mt-[15px] lg:mt-0">
           <picture>
-            <source srcset="/images/floral-lines-4.avif" type="image/avif" />
-            <source srcset="/images/floral-lines-4.webp" type="image/webp" />
-            <source srcset="/images/floral-lines-4.jpg" type="image/jpeg" />
+            <source
+              srcset="/images/floral-lines/floral-lines-4.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-4.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-4.jpg"
+              type="image/jpeg"
+            />
             <img
               class="w-full"
-              src="/images/floral-lines-4.jpg"
+              src="/images/floral-lines/floral-lines-4.jpg"
               alt="Floral Lines look #4"
               width="460"
               height="960"
@@ -213,12 +276,21 @@
         </div>
         <div class="mt-[15px] lg:mt-0">
           <picture>
-            <source srcset="/images/floral-lines-5.avif" type="image/avif" />
-            <source srcset="/images/floral-lines-5.webp" type="image/webp" />
-            <source srcset="/images/floral-lines-5.jpg" type="image/jpeg" />
+            <source
+              srcset="/images/floral-lines/floral-lines-5.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-5.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-5.jpg"
+              type="image/jpeg"
+            />
             <img
               class="w-full"
-              src="/images/floral-lines-5.jpg"
+              src="/images/floral-lines/floral-lines-5.jpg"
               alt="Floral Lines look #5"
               width="460"
               height="960"
@@ -228,12 +300,21 @@
         </div>
         <div class="mt-[15px] lg:mt-[50px] lg:mr-[118px]">
           <picture>
-            <source srcset="/images/floral-lines-6.avif" type="image/avif" />
-            <source srcset="/images/floral-lines-6.webp" type="image/webp" />
-            <source srcset="/images/floral-lines-6.jpg" type="image/jpeg" />
+            <source
+              srcset="/images/floral-lines/floral-lines-6.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-6.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-6.jpg"
+              type="image/jpeg"
+            />
             <img
               class="w-full"
-              src="/images/floral-lines-6.jpg"
+              src="/images/floral-lines/floral-lines-6.jpg"
               alt="Floral Lines look #6"
               width="460"
               height="960"
@@ -244,12 +325,21 @@
 
         <div class="lg:mt-[125px] lg:ml-[118px]">
           <picture>
-            <source srcset="/images/floral-lines-7.avif" type="image/avif" />
-            <source srcset="/images/floral-lines-7.webp" type="image/webp" />
-            <source srcset="/images/floral-lines-7.jpg" type="image/jpeg" />
+            <source
+              srcset="/images/floral-lines/floral-lines-7.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-7.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-7.jpg"
+              type="image/jpeg"
+            />
             <img
               class="w-full"
-              src="/images/floral-lines-7.jpg"
+              src="/images/floral-lines/floral-lines-7.jpg"
               alt="Floral Lines look #7"
               width="460"
               height="960"
@@ -259,12 +349,21 @@
         </div>
         <div class="mt-[15px] lg:mt-0">
           <picture>
-            <source srcset="/images/floral-lines-8.avif" type="image/avif" />
-            <source srcset="/images/floral-lines-8.webp" type="image/webp" />
-            <source srcset="/images/floral-lines-8.jpg" type="image/jpeg" />
+            <source
+              srcset="/images/floral-lines/floral-lines-8.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-8.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-8.jpg"
+              type="image/jpeg"
+            />
             <img
               class="w-full"
-              src="/images/floral-lines-8.jpg"
+              src="/images/floral-lines/floral-lines-8.jpg"
               alt="Floral Lines look #8"
               width="460"
               height="960"
@@ -274,12 +373,21 @@
         </div>
         <div class="mt-[15px] lg:mt-0">
           <picture>
-            <source srcset="/images/floral-lines-9.avif" type="image/avif" />
-            <source srcset="/images/floral-lines-9.webp" type="image/webp" />
-            <source srcset="/images/floral-lines-9.jpg" type="image/jpeg" />
+            <source
+              srcset="/images/floral-lines/floral-lines-9.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-9.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-9.jpg"
+              type="image/jpeg"
+            />
             <img
               class="w-full"
-              src="/images/floral-lines-9.jpg"
+              src="/images/floral-lines/floral-lines-9.jpg"
               alt="Floral Lines look #9"
               width="460"
               height="960"
@@ -289,12 +397,21 @@
         </div>
         <div class="mt-[15px] lg:mt-[50px] lg:mr-[118px]">
           <picture>
-            <source srcset="/images/floral-lines-10.avif" type="image/avif" />
-            <source srcset="/images/floral-lines-10.webp" type="image/webp" />
-            <source srcset="/images/floral-lines-10.jpg" type="image/jpeg" />
+            <source
+              srcset="/images/floral-lines/floral-lines-10.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-10.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/floral-lines/floral-lines-10.jpg"
+              type="image/jpeg"
+            />
             <img
               class="w-full"
-              src="/images/floral-lines-10.jpg"
+              src="/images/floral-lines/floral-lines-10.jpg"
               alt="Floral Lines look #10"
               width="460"
               height="960"
