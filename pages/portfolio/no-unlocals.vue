@@ -72,7 +72,7 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-2.jpg"
               alt="No Unlocals look #2"
-              width="460"
+              width="640"
               height="960"
             />
           </picture>
@@ -95,7 +95,7 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-1.jpg"
               alt="No Unlocals look #1"
-              width="460"
+              width="640"
               height="960"
             />
           </picture>
@@ -257,7 +257,7 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-3.jpg"
               alt="No Unlocals look #3"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -281,7 +281,7 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-4.jpg"
               alt="No Unlocals look #4"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -305,7 +305,7 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-5.jpg"
               alt="No Unlocals look #5"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -329,7 +329,7 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-6.jpg"
               alt="No Unlocals look #6"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -354,7 +354,7 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-7.jpg"
               alt="No Unlocals look #7"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -378,7 +378,7 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-8.jpg"
               alt="No Unlocals look #8"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -402,7 +402,7 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-9.jpg"
               alt="No Unlocals look #9"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -426,7 +426,7 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-10.jpg"
               alt="No Unlocals look #10"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -451,7 +451,7 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-11.jpg"
               alt="No Unlocals look #11"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -475,7 +475,7 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-12.jpg"
               alt="No Unlocals look #12"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -499,7 +499,7 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-13.jpg"
               alt="No Unlocals look #13"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
@@ -523,7 +523,7 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-14.jpg"
               alt="No Unlocals look #14"
-              width="460"
+              width="640"
               height="960"
               loading="lazy"
             />
