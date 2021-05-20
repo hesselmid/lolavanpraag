@@ -76,9 +76,9 @@ export default {
             "Graduation Collection 2019 – MA Menswear, Westminster University",
           category: "fashion",
           img: {
-            jpg: "/images/beyond-the-lipstick-thumbnail.jpg",
-            webp: "/images/beyond-the-lipstick-thumbnail.webp",
-            avif: "/images/beyond-the-lipstick-thumbnail.avif",
+            jpg: "/images/portfolio/beyond-the-lipstick-thumbnail.jpg",
+            webp: "/images/portfolio/beyond-the-lipstick-thumbnail.webp",
+            avif: "/images/portfolio/beyond-the-lipstick-thumbnail.avif",
             width: "640",
             height: "427",
             alt: "Beyond the Lipstick"
@@ -92,9 +92,9 @@ export default {
             "Graduation Collection 2019 – MA Menswear, Westminster University",
           category: "fashion",
           img: {
-            jpg: "/images/no-unlocals-thumbnail.jpg",
-            webp: "/images/no-unlocals-thumbnail.webp",
-            avif: "/images/no-unlocals-thumbnail.avif",
+            jpg: "/images/portfolio/no-unlocals-thumbnail.jpg",
+            webp: "/images/portfolio/no-unlocals-thumbnail.webp",
+            avif: "/images/portfolio/no-unlocals-thumbnail.avif",
             width: "640",
             height: "872",
             alt: "No Unlocals"
@@ -108,9 +108,9 @@ export default {
             "Graduation Collection - MA Textile, Swedish School of Textiles",
           category: "textile",
           img: {
-            jpg: "/images/its-not-a-flower-thumbnail.jpg",
-            webp: "/images/its-not-a-flower-thumbnail.webp",
-            avif: "/images/its-not-a-flower-thumbnail.avif",
+            jpg: "/images/portfolio/its-not-a-flower-thumbnail.jpg",
+            webp: "/images/portfolio/its-not-a-flower-thumbnail.webp",
+            avif: "/images/portfolio/its-not-a-flower-thumbnail.avif",
             width: "1100",
             height: "777",
             alt: "It's Not a Flower"
@@ -124,9 +124,9 @@ export default {
             "Graduation Collection 2014 - BA Fashion, Willem de Kooning Academie",
           category: "fashion",
           img: {
-            jpg: "/images/floral-lines-thumbnail.jpg",
-            webp: "/images/floral-lines-thumbnail.webp",
-            avif: "/images/floral-lines-thumbnail.avif",
+            jpg: "/images/portfolio/floral-lines-thumbnail.jpg",
+            webp: "/images/portfolio/floral-lines-thumbnail.webp",
+            avif: "/images/portfolio/floral-lines-thumbnail.avif",
             width: "410",
             height: "615",
             alt: "Floral Lines"

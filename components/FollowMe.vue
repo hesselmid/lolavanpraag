@@ -6,12 +6,21 @@
       <div class="grid grid-cols-20">
         <div class="mt-[23px] col-span-12">
           <picture>
-            <source srcset="/images/instagram-1.avif" type="image/avif" />
-            <source srcset="/images/instagram-1.webp" type="image/webp" />
-            <source srcset="/images/instagram-1.jpg" type="image/jpeg" />
+            <source
+              srcset="/images/instagram/instagram-1.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/instagram/instagram-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/instagram/instagram-1.jpg"
+              type="image/jpeg"
+            />
             <img
               class="w-full"
-              src="/images/instagram-1.jpg"
+              src="/images/instagram/instagram-1.jpg"
               alt=""
               width="400"
               height="400"
@@ -21,12 +30,21 @@
         </div>
         <div class="col-span-7 ml-auto col-start-14">
           <picture>
-            <source srcset="/images/instagram-2.avif" type="image/avif" />
-            <source srcset="/images/instagram-2.webp" type="image/webp" />
-            <source srcset="/images/instagram-2.jpg" type="image/jpeg" />
+            <source
+              srcset="/images/instagram/instagram-2.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/instagram/instagram-2.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/instagram/instagram-2.jpg"
+              type="image/jpeg"
+            />
             <img
               class="w-full"
-              src="/images/instagram-2.jpg"
+              src="/images/instagram/instagram-2.jpg"
               alt=""
               width="250"
               height="250"
@@ -35,12 +53,21 @@
           </picture>
           <div class="mt-[14px]">
             <picture>
-              <source srcset="/images/instagram-3.avif" type="image/avif" />
-              <source srcset="/images/instagram-3.webp" type="image/webp" />
-              <source srcset="/images/instagram-3.jpg" type="image/jpeg" />
+              <source
+                srcset="/images/instagram/instagram-3.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="/images/instagram/instagram-3.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="/images/instagram/instagram-3.jpg"
+                type="image/jpeg"
+              />
               <img
                 class="w-full"
-                src="/images/instagram-3.jpg"
+                src="/images/instagram/instagram-3.jpg"
                 alt=""
                 width="250"
                 height="250"
@@ -88,12 +115,21 @@
     >
       <div class="mt-auto">
         <picture>
-          <source srcset="/images/instagram-4.avif" type="image/avif" />
-          <source srcset="/images/instagram-4.webp" type="image/webp" />
-          <source srcset="/images/instagram-4.jpg" type="image/jpeg" />
+          <source
+            srcset="/images/instagram/instagram-4.avif"
+            type="image/avif"
+          />
+          <source
+            srcset="/images/instagram/instagram-4.webp"
+            type="image/webp"
+          />
+          <source
+            srcset="/images/instagram/instagram-4.jpg"
+            type="image/jpeg"
+          />
           <img
             class="w-full"
-            src="/images/instagram-4.jpg"
+            src="/images/instagram/instagram-4.jpg"
             alt=""
             width="250"
             height="250"
@@ -103,12 +139,21 @@
       </div>
       <div class="col-span-2 row-span-2 mt-[30px]">
         <picture>
-          <source srcset="/images/instagram-5.avif" type="image/avif" />
-          <source srcset="/images/instagram-5.webp" type="image/webp" />
-          <source srcset="/images/instagram-5.jpg" type="image/jpeg" />
+          <source
+            srcset="/images/instagram/instagram-5.avif"
+            type="image/avif"
+          />
+          <source
+            srcset="/images/instagram/instagram-5.webp"
+            type="image/webp"
+          />
+          <source
+            srcset="/images/instagram/instagram-5.jpg"
+            type="image/jpeg"
+          />
           <img
             class="w-full"
-            src="/images/instagram-5.jpg"
+            src="/images/instagram/instagram-5.jpg"
             alt=""
             width="450"
             height="450"
