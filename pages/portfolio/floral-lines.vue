@@ -323,7 +323,7 @@
           </picture>
         </div>
 
-        <div class="lg:mt-[125px] lg:ml-[118px]">
+        <div class="mt-[15px] lg:mt-[125px] lg:ml-[118px]">
           <picture>
             <source
               srcset="/images/floral-lines/floral-lines-7.avif"

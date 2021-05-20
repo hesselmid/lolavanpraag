@@ -336,7 +336,7 @@
           </picture>
         </div>
 
-        <div class="lg:mt-[125px] lg:ml-[118px]">
+        <div class="mt-[15px] lg:mt-[125px] lg:ml-[118px]">
           <picture>
             <source
               srcset="/images/no-unlocals/no-unlocals-7.avif"
@@ -433,7 +433,7 @@
           </picture>
         </div>
 
-        <div class="lg:mt-[125px] lg:ml-[118px]">
+        <div class="mt-[15px] lg:mt-[125px] lg:ml-[118px]">
           <picture>
             <source
               srcset="/images/no-unlocals/no-unlocals-11.avif"
@@ -521,7 +521,7 @@
             />
             <img
               class="w-full"
-              src="/images/no-unlocals/no-unlocals-10.jpg"
+              src="/images/no-unlocals/no-unlocals-14.jpg"
               alt="No Unlocals look #14"
               width="460"
               height="960"
