@@ -309,7 +309,7 @@ export default {
       link: [
         {
           rel: "canonical",
-          href: `https://lolavanpraag.netlify.app${$nuxt.$route.path}`
+          href: `https://lolavanpraag.netlify.app${this.$route.path}`
         }
       ]
     };
