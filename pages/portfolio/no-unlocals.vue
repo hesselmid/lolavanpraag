@@ -138,15 +138,15 @@
     >
       <picture>
         <source
-          srcset="/images/floral-lines/floral-lines-rollin-1.avif"
+          srcset="/images/no-unlocals/no-unlocals-rollin-1.avif"
           type="image/avif"
         />
         <source
-          srcset="/images/floral-lines/floral-lines-rollin-1.webp"
+          srcset="/images/no-unlocals/no-unlocals-rollin-1.webp"
           type="image/webp"
         />
         <source
-          srcset="/images/floral-lines/floral-lines-rollin-1.jpg"
+          srcset="/images/no-unlocals/no-unlocals-rollin-1.jpg"
           type="image/jpeg"
         />
         <img
@@ -156,24 +156,24 @@
             'visible animation-1': showAnimation1,
             invisible: !showAnimation1
           }"
-          src="/images/floral-lines/floral-lines-rollin-1.jpg"
-          alt="Floral Lines AFW look #1"
+          src="/images/no-unlocals/no-unlocals-rollin-1.jpg"
+          alt="Wetsuit inspiration #1"
           width="345"
-          height="517"
+          height="244"
           loading="lazy"
         />
       </picture>
       <picture>
         <source
-          srcset="/images/floral-lines/floral-lines-rollin-2.avif"
+          srcset="/images/no-unlocals/no-unlocals-rollin-2.avif"
           type="image/avif"
         />
         <source
-          srcset="/images/floral-lines/floral-lines-rollin-2.webp"
+          srcset="/images/no-unlocals/no-unlocals-rollin-2.webp"
           type="image/webp"
         />
         <source
-          srcset="/images/floral-lines/floral-lines-rollin-2.jpg"
+          srcset="/images/no-unlocals/no-unlocals-rollin-2.jpg"
           type="image/jpeg"
         />
         <img
@@ -183,24 +183,24 @@
             'visible animation-2': showAnimation2,
             invisible: !showAnimation2
           }"
-          src="/images/floral-lines/floral-lines-rollin-2.jpg"
-          alt="Floral Lines AFW look #2"
+          src="/images/no-unlocals/no-unlocals-rollin-2.jpg"
+          alt="Wetsuit inspiration #2"
           width="345"
-          height="517"
+          height="244"
           loading="lazy"
         />
       </picture>
       <picture>
         <source
-          srcset="/images/floral-lines/floral-lines-rollin-3.avif"
+          srcset="/images/no-unlocals/no-unlocals-rollin-3.avif"
           type="image/avif"
         />
         <source
-          srcset="/images/floral-lines/floral-lines-rollin-3.webp"
+          srcset="/images/no-unlocals/no-unlocals-rollin-3.webp"
           type="image/webp"
         />
         <source
-          srcset="/images/floral-lines/floral-lines-rollin-3.jpg"
+          srcset="/images/no-unlocals/no-unlocals-rollin-3.jpg"
           type="image/jpeg"
         />
         <img
@@ -210,10 +210,10 @@
             'visible animation-3': showAnimation3,
             invisible: !showAnimation3
           }"
-          src="/images/floral-lines/floral-lines-rollin-1.jpg"
-          alt="Floral Lines AFW look #3"
+          src="/images/no-unlocals/no-unlocals-rollin-1.jpg"
+          alt="Wetsuit inspiration #3"
           width="345"
-          height="517"
+          height="244"
           loading="lazy"
         />
       </picture>
