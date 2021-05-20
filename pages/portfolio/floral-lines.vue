@@ -11,7 +11,7 @@
       <p
         class="mt-[10px] font-light leading-[22px] md:mt-[15px] md:max-w-[640px] md:text-[24px] md:leading-[30px]"
       >
-        Floral lines represents the way global and local processes intersect
+        Floral Lines represents the way global and local processes intersect
         with each other in one particular area, the Flower Bulb Region, and form
         a new hybrid aesthetic. An area which is still deeply organized around
         tradition and religion, but at the same time being heavily changed by
@@ -315,8 +315,9 @@ export default {
         { name: "Portfolio", link: "/portfolio" },
         { name: "Floral Lines", link: "/portfolio/floral-lines" }
       ],
-      title: "Floral Lines Collection",
-      description: "",
+      title: "Floral Lines",
+      description:
+        "Floral Lines represents the way global and local processes intersect  with each other in one particular area, the Flower Bulb Region, and form a new hybrid aesthetic.",
       showAnimation1: false,
       showAnimation2: false,
       showAnimation3: false
