@@ -297,7 +297,7 @@ export default {
         { name: "Portfolio", link: "/portfolio" },
         { name: "Floral Lines", link: "/portfolio/floral-lines" }
       ],
-      title: "Floral Lines",
+      title: "Floral Lines Collection",
       description: "",
       showAnimation1: false,
       showAnimation2: false,
