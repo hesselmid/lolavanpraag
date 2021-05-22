@@ -76,12 +76,21 @@
         </div>
         <div class="pt-[30px] xl:pt-[244px]">
           <picture>
-            <source srcset="/images/lola-van-praag.avif" type="image/avif" />
-            <source srcset="/images/lola-van-praag.webp" type="image/webp" />
-            <source srcset="/images/lola-van-praag.jpg" type="image/jpeg" />
+            <source
+              srcset="/images/home/lola-van-praag.avif"
+              type="image/avif"
+            />
+            <source
+              srcset="/images/home/lola-van-praag.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/images/home/lola-van-praag.jpg"
+              type="image/jpeg"
+            />
             <img
               class="w-[270px] md:w-[460px]"
-              src="/images/lola-van-praag.jpg"
+              src="/images/home/lola-van-praag.jpg"
               alt="Lola van Praag"
               width="460"
               height="595"
