@@ -72,9 +72,9 @@
       </div>
       <div class="relative pt-[35px]">
         <picture>
-          <source srcset="/images/lola-van-praag.avif" type="image/avif" />
-          <source srcset="/images/lola-van-praag.webp" type="image/webp" />
-          <source srcset="/images/lola-van-praag.jpg" type="image/jpeg" />
+          <source srcset="/images/home/lola-van-praag.avif" type="image/avif" />
+          <source srcset="/images/home/lola-van-praag.webp" type="image/webp" />
+          <source srcset="/images/home/lola-van-praag.jpg" type="image/jpeg" />
           <img
             class="w-[270px] md:w-[460px]"
             src="/images/lola-van-praag.jpg"
@@ -87,7 +87,7 @@
           class="absolute top-[83px] left-[229px] w-[80px] h-[80px] md:top-[72px] md:left-[400px] md:w-[190px] md:h-[190px]"
           @click="toggleFabricExplanation"
         >
-          <FabricSample image="/images/scarf-sample.jpg" />
+          <FabricSample image="/images/home/scarf-sample.jpg" />
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@
             >
             <div class="hidden absolute top-[40px] left-0 xl:group-hover:block">
               <img
-                src="/images/soft-left.jpg"
+                src="/images/home/soft-left.jpg"
                 width="391"
                 height="587"
                 alt=""
@@ -118,7 +118,7 @@
               class="hidden xl:group-hover:block absolute top-[278px] right-0"
             >
               <img
-                src="/images/soft-right.jpg"
+                src="/images/home/soft-right.jpg"
                 width="391"
                 height="586"
                 alt=""
@@ -133,7 +133,7 @@
             >
             <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
               <img
-                src="/images/beyond-the-lipstick-left.jpg"
+                src="/images/home/beyond-the-lipstick-left.jpg"
                 width="391"
                 height="587"
                 alt=""
@@ -143,7 +143,7 @@
               class="hidden xl:group-hover:block absolute top-[278px] right-0"
             >
               <img
-                src="/images/beyond-the-lipstick-right.jpg"
+                src="/images/home/beyond-the-lipstick-right.jpg"
                 width="391"
                 height="586"
                 alt=""
@@ -158,7 +158,7 @@
             >
             <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
               <img
-                src="/images/no-unlocals-left.jpg"
+                src="/images/home/no-unlocals-left.jpg"
                 width="388"
                 height="586"
                 alt=""
@@ -168,7 +168,7 @@
               class="hidden xl:group-hover:block absolute top-[278px] right-0"
             >
               <img
-                src="/images/no-unlocals-right.jpg"
+                src="/images/home/no-unlocals-right.jpg"
                 width="388"
                 height="586"
                 alt=""

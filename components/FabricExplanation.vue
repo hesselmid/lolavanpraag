@@ -11,12 +11,12 @@
       </button>
 
       <picture>
-        <source srcset="/images/scarf.avif" type="image/avif" />
-        <source srcset="/images/scarf.webp" type="image/webp" />
-        <source srcset="/images/scarf.jpg" type="image/jpeg" />
+        <source srcset="/images/home/scarf.avif" type="image/avif" />
+        <source srcset="/images/home/scarf.webp" type="image/webp" />
+        <source srcset="/images/home/scarf.jpg" type="image/jpeg" />
         <img
           class="md:h-screen md:object-cover md:object-center"
-          src="/images/scarf.jpg"
+          src="/images/home/scarf.jpg"
           alt=""
           width="1080"
           height="1080"
