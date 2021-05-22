@@ -95,8 +95,8 @@
               class="w-full"
               src="/images/no-unlocals/no-unlocals-1.jpg"
               alt="No Unlocals look #1"
-              width="640"
-              height="960"
+              width="1280"
+              height="1678"
             />
           </picture>
         </div>
