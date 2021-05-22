@@ -264,28 +264,13 @@
           </picture>
         </div>
         <div class="mt-[15px] lg:mt-0">
-          <picture>
-            <source
-              srcset="/images/no-unlocals/no-unlocals-4.avif"
-              type="image/avif"
-            />
-            <source
-              srcset="/images/no-unlocals/no-unlocals-4.webp"
-              type="image/webp"
-            />
-            <source
-              srcset="/images/no-unlocals/no-unlocals-4.jpg"
-              type="image/jpeg"
-            />
-            <img
-              class="w-full"
-              src="/images/no-unlocals/no-unlocals-4.jpg"
-              alt="No Unlocals look #4"
-              width="640"
-              height="960"
-              loading="lazy"
-            />
-          </picture>
+          <OptimizedImage
+            classes="w-full"
+            src="/images/no-unlocals/no-unlocals-4"
+            alt="No Unlocals look #4"
+            width="640"
+            height="960"
+          />
         </div>
         <div class="mt-[15px] lg:mt-0">
           <picture>
