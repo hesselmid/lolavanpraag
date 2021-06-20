@@ -5,75 +5,33 @@
     <div class="xl:col-span-3 xl:pl-[120px]">
       <div class="grid grid-cols-20">
         <div class="mt-[23px] col-span-12">
-          <picture>
-            <source
-              srcset="/images/instagram/instagram-1.avif"
-              type="image/avif"
-            />
-            <source
-              srcset="/images/instagram/instagram-1.webp"
-              type="image/webp"
-            />
-            <source
-              srcset="/images/instagram/instagram-1.jpg"
-              type="image/jpeg"
-            />
-            <img
-              class="w-full"
-              src="/images/instagram/instagram-1.jpg"
-              alt=""
-              width="400"
-              height="400"
-              loading="lazy"
-            />
-          </picture>
+          <img
+            class="w-full"
+            src="/images/instagram/instagram-1.jpg"
+            alt=""
+            width="400"
+            height="400"
+            loading="lazy"
+          />
         </div>
         <div class="col-span-7 ml-auto col-start-14">
-          <picture>
-            <source
-              srcset="/images/instagram/instagram-2.avif"
-              type="image/avif"
-            />
-            <source
-              srcset="/images/instagram/instagram-2.webp"
-              type="image/webp"
-            />
-            <source
-              srcset="/images/instagram/instagram-2.jpg"
-              type="image/jpeg"
-            />
+          <img
+            class="w-full"
+            src="/images/instagram/instagram-2.jpg"
+            alt=""
+            width="250"
+            height="250"
+            loading="lazy"
+          />
+          <div class="mt-[14px]">
             <img
               class="w-full"
-              src="/images/instagram/instagram-2.jpg"
+              src="/images/instagram/instagram-3.jpg"
               alt=""
               width="250"
               height="250"
               loading="lazy"
             />
-          </picture>
-          <div class="mt-[14px]">
-            <picture>
-              <source
-                srcset="/images/instagram/instagram-3.avif"
-                type="image/avif"
-              />
-              <source
-                srcset="/images/instagram/instagram-3.webp"
-                type="image/webp"
-              />
-              <source
-                srcset="/images/instagram/instagram-3.jpg"
-                type="image/jpeg"
-              />
-              <img
-                class="w-full"
-                src="/images/instagram/instagram-3.jpg"
-                alt=""
-                width="250"
-                height="250"
-                loading="lazy"
-              />
-            </picture>
           </div>
         </div>
       </div>
@@ -114,52 +72,24 @@
       class="hidden xl:grid xl:grid-cols-2 xl:col-span-2 xl:grid-rows-2 xl:ml-[30px]"
     >
       <div class="mt-auto">
-        <picture>
-          <source
-            srcset="/images/instagram/instagram-4.avif"
-            type="image/avif"
-          />
-          <source
-            srcset="/images/instagram/instagram-4.webp"
-            type="image/webp"
-          />
-          <source
-            srcset="/images/instagram/instagram-4.jpg"
-            type="image/jpeg"
-          />
-          <img
-            class="w-full"
-            src="/images/instagram/instagram-4.jpg"
-            alt=""
-            width="250"
-            height="250"
-            loading="lazy"
-          />
-        </picture>
+        <img
+          class="w-full"
+          src="/images/instagram/instagram-4.jpg"
+          alt=""
+          width="250"
+          height="250"
+          loading="lazy"
+        />
       </div>
       <div class="col-span-2 row-span-2 mt-[30px]">
-        <picture>
-          <source
-            srcset="/images/instagram/instagram-5.avif"
-            type="image/avif"
-          />
-          <source
-            srcset="/images/instagram/instagram-5.webp"
-            type="image/webp"
-          />
-          <source
-            srcset="/images/instagram/instagram-5.jpg"
-            type="image/jpeg"
-          />
-          <img
-            class="w-full"
-            src="/images/instagram/instagram-5.jpg"
-            alt=""
-            width="450"
-            height="450"
-            loading="lazy"
-          />
-        </picture>
+        <img
+          class="w-full"
+          src="/images/instagram/instagram-5.jpg"
+          alt=""
+          width="450"
+          height="450"
+          loading="lazy"
+        />
       </div>
     </div>
   </div>

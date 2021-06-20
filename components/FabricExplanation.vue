@@ -10,18 +10,13 @@
         <img class="md:w-[24px]" src="~/assets/images/cross.svg" />
       </button>
 
-      <picture>
-        <source srcset="/images/home/scarf.avif" type="image/avif" />
-        <source srcset="/images/home/scarf.webp" type="image/webp" />
-        <source srcset="/images/home/scarf.jpg" type="image/jpeg" />
-        <img
-          class="md:h-screen md:object-cover md:object-center"
-          src="/images/home/scarf.jpg"
-          alt=""
-          width="1080"
-          height="1080"
-        />
-      </picture>
+      <img
+        class="md:h-screen md:object-cover md:object-center"
+        src="/images/home/scarf.jpg"
+        alt=""
+        width="1080"
+        height="1080"
+      />
     </div>
     <div
       class="mt-[20px] px-[17.5px] md:order-1 md:h-screen md:flex md:flex-col md:justify-center md:px-[30px] 2xl:px-[55px]"

@@ -71,18 +71,13 @@
         >
       </div>
       <div class="relative pt-[35px]">
-        <picture>
-          <source srcset="/images/home/lola-van-praag.avif" type="image/avif" />
-          <source srcset="/images/home/lola-van-praag.webp" type="image/webp" />
-          <source srcset="/images/home/lola-van-praag.jpg" type="image/jpeg" />
-          <img
-            class="w-[270px] md:w-[460px]"
-            src="/images/lola-van-praag.jpg"
-            alt="Lola van Praag"
-            width="460"
-            height="595"
-          />
-        </picture>
+        <img
+          class="w-[270px] md:w-[460px]"
+          src="/images/home/lola-van-praag.jpg"
+          alt="Lola van Praag"
+          width="460"
+          height="595"
+        />
         <div
           class="absolute top-[83px] left-[229px] w-[80px] h-[80px] md:top-[72px] md:left-[400px] md:w-[190px] md:h-[190px]"
           @click="toggleFabricExplanation"
