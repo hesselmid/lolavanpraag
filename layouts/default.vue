@@ -1,6 +1,6 @@
 <template>
   <div>
-    <CookieAlert />
+    <cookie-alert />
     <transition
       enter-active-class="transition duration-700 transform"
       enter-class="-translate-y-full"
@@ -9,10 +9,10 @@
       leave-class="translate-y-0"
       leave-to-class="-translate-y-full"
     >
-      <TheHamburgerMenu v-if="this.$store.state.menuVisible" />
+      <the-hamburger-menu v-if="this.$store.state.menuVisible" />
     </transition>
-    <TheHeader />
-    <Nuxt />
-    <TheFooter />
+    <the-header />
+    <nuxt />
+    <the-footer />
   </div>
 </template>

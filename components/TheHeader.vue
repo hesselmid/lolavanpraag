@@ -4,18 +4,18 @@
   >
     <ul class="hidden md:flex md:justify-around md:items-center">
       <li>
-        <NuxtLink class="font-light text-[18px] leading-[24px]" to="/about"
-          >About me</NuxtLink
+        <nuxt-link class="font-light text-[18px] leading-[24px]" to="/about"
+          >About me</nuxt-link
         >
       </li>
       <li>
-        <NuxtLink class="font-light text-[18px] leading-[24px]" to="/portfolio"
-          >Portfolio</NuxtLink
+        <nuxt-link class="font-light text-[18px] leading-[24px]" to="/portfolio"
+          >Portfolio</nuxt-link
         >
       </li>
     </ul>
     <div class="col-start-2">
-      <NuxtLink to="/" aria-label="Logo">
+      <nuxt-link to="/" aria-label="Logo">
         <img
           class="mx-auto w-[120px] md:w-[200px]"
           src="~/assets/images/logo-pink.svg"
@@ -23,7 +23,7 @@
           height="59.74px"
           alt="Logo"
         />
-      </NuxtLink>
+      </nuxt-link>
     </div>
     <div class="flex justify-end md:hidden">
       <button @click="toggleMenu" aria-label="Open Menu">
@@ -32,18 +32,18 @@
     </div>
     <ul class="hidden md:flex md:justify-around md:items-center">
       <li>
-        <NuxtLink class="font-light text-[18px] leading-[24px]" to="/press"
-          >Press</NuxtLink
+        <nuxt-link class="font-light text-[18px] leading-[24px]" to="/press"
+          >Press</nuxt-link
         >
       </li>
       <li>
-        <NuxtLink class="font-light text-[18px] leading-[24px]" to="/blog"
-          >News</NuxtLink
+        <nuxt-link class="font-light text-[18px] leading-[24px]" to="/blog"
+          >News</nuxt-link
         >
       </li>
       <li>
-        <NuxtLink class="font-light text-[18px] leading-[24px]" to="/contact"
-          >Contact</NuxtLink
+        <nuxt-link class="font-light text-[18px] leading-[24px]" to="/contact"
+          >Contact</nuxt-link
         >
       </li>
     </ul>

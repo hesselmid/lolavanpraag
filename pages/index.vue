@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MetaTags :title="title" :description="description" />
+    <meta-tags :title="title" :description="description" />
     <div id="hero" class="bg-center bg-no-repeat bg-cover">
       <div class="h-full bg-dusty-orange bg-opacity-90">
         <div
@@ -38,7 +38,7 @@
             />
           </div>
         </div>
-        <Marquee />
+        <marquee />
       </div>
     </div>
 
@@ -63,11 +63,11 @@
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum
         </p>
-        <BaseLink
+        <base-link
           class="mt-[20px] ml-[20px] group md:mt-[60px] md:ml-[30px]"
           pink="true"
           link="/about"
-          >About me</BaseLink
+          >About me</base-link
         >
       </div>
       <div class="relative pt-[35px]">
@@ -82,7 +82,7 @@
           class="absolute top-[83px] left-[229px] w-[80px] h-[80px] md:top-[72px] md:left-[400px] md:w-[190px] md:h-[190px]"
           @click="toggleFabricExplanation"
         >
-          <FabricSample image="/images/home/scarf-sample.jpg" />
+          <fabric-sample image="/images/home/scarf-sample.jpg" />
         </div>
       </div>
     </div>
@@ -96,10 +96,10 @@
         </h2>
         <ul class="mt-[30px] flex flex-col items-center 2xl:mt-[75px]">
           <li class="group">
-            <NuxtLink
+            <nuxt-link
               class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
               to="/portfolio/beyond-the-lipstick"
-              >Soft! 2021</NuxtLink
+              >Soft! 2021</nuxt-link
             >
             <div class="hidden absolute top-[40px] left-0 xl:group-hover:block">
               <img
@@ -121,10 +121,10 @@
             </div>
           </li>
           <li class="group mt-[35px] 2xl:mt-[75px]">
-            <NuxtLink
+            <nuxt-link
               class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
               to="/portfolio/beyond-the-lipstick"
-              >Beyond the Lipstick</NuxtLink
+              >Beyond the Lipstick</nuxt-link
             >
             <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
               <img
@@ -146,10 +146,10 @@
             </div>
           </li>
           <li class="group mt-[35px] 2xl:mt-[75px]">
-            <NuxtLink
+            <nuxt-link
               class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
               to="/portfolio/no-unlocals"
-              >No Unlocals</NuxtLink
+              >No Unlocals</nuxt-link
             >
             <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
               <img
@@ -171,7 +171,7 @@
             </div>
           </li>
         </ul>
-        <NuxtLink
+        <nuxt-link
           class="mt-[30px] group flex justify-center 2xl:mt-[107px]"
           to="/portfolio"
         >
@@ -197,7 +197,7 @@
               More projects
             </div>
           </div>
-        </NuxtLink>
+        </nuxt-link>
       </div>
     </div>
 
@@ -255,9 +255,9 @@
       </div>
     </div>
 
-    <FollowMe class="my-[100px] 2xl:mt-[194px] 2xl:mb-[110px]" />
+    <follow-me class="my-[100px] 2xl:mt-[194px] 2xl:mb-[110px]" />
 
-    <FabricExplanation
+    <fabric-explanation
       v-if="fabricExplanationIsVisible"
       @closeFabricExplanation="toggleFabricExplanation"
     />

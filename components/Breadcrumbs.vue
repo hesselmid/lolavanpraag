@@ -6,7 +6,7 @@
       v-for="crumb in breadcrumbs"
       :key="crumb.name"
     >
-      <NuxtLink :to="crumb.link">{{ crumb.name }}</NuxtLink>
+      <nuxt-link :to="crumb.link">{{ crumb.name }}</nuxt-link>
     </li>
   </ul>
 </template>

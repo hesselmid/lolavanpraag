@@ -1,10 +1,10 @@
 <template>
   <div class="bg-dusty-orange">
-    <MetaTags :title="title" :description="description" />
+    <meta-tags :title="title" :description="description" />
     <div
       class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] md:pt-[165px] md:pb-[228px] 2xl:px-[55px]"
     >
-      <Breadcrumbs :breadcrumbs="breadcrumbs" color="#C55F00" />
+      <breadcrumbs :breadcrumbs="breadcrumbs" color="#C55F00" />
       <h1
         class="mt-[20px] font-serif font-light text-[32px] leading-[32px] md:text-[90px] md:leading-[80px]"
       >

@@ -32,11 +32,11 @@
         {{ description }}
       </p>
 
-      <BaseLink
+      <base-link
         class="mt-[15px] ml-[20px] group md:mt-[20px] md:ml-[30px]"
         black="true"
         :link="`/portfolio/${slug}`"
-        >View Project</BaseLink
+        >View Project</base-link
       >
     </div>
   </li>

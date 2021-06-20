@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MetaTags :title="title" :description="description" />
+    <meta-tags :title="title" :description="description" />
     <div
       class="
         container
@@ -12,7 +12,7 @@
         2xl:px-[55px]
       "
     >
-      <Breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
+      <breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
 
       <div
         class="
@@ -276,7 +276,7 @@
       </div>
     </div>
 
-    <FollowMe class="mt-[48px] mb-[100px] md:mt-[135px] 2xl:mb-[100px]" />
+    <follow-me class="mt-[48px] mb-[100px] md:mt-[135px] 2xl:mb-[100px]" />
   </div>
 </template>
 

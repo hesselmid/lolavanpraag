@@ -2,8 +2,8 @@
   <div
     class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] md:pt-[165px] md:pb-[228px] 2xl:px-[55px]"
   >
-    <MetaTags :title="title" :description="description" />
-    <Breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
+    <meta-tags :title="title" :description="description" />
+    <breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
     <h1
       class="mt-[20px] font-serif font-light text-[32px] leading-[32px] md:text-[90px] md:leading-[90px]"
     >
@@ -44,7 +44,7 @@
     <ul
       class="mt-[20px] md:mt-[40px] md:grid project-grid md:gap-y-[90px] md:gap-x-[50px]"
     >
-      <ProjectCard
+      <project-card
         v-for="project in filteredProjects"
         :key="project.slug"
         :title="project.title"

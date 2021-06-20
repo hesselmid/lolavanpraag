@@ -1,8 +1,8 @@
 <template>
   <div class="pt-[86px] pb-[100px] md:pt-[165px] md:pb-[228px] ">
-    <MetaTags :title="title" :description="description" />
+    <meta-tags :title="title" :description="description" />
     <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
-      <Breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
+      <breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
       <h1
         class="mt-[20px] font-serif font-light text-[32px] leading-[32px] md:mt-[15px] md:text-[90px] md:leading-[90px]"
       >
@@ -74,7 +74,7 @@
       </div>
     </div>
 
-    <Marquee class="hidden lg:block" />
+    <marquee class="hidden lg:block" />
 
     <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
       <p

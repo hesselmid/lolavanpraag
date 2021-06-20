@@ -1,10 +1,10 @@
 <template>
   <div class="bg-apple-green">
-    <MetaTags :title="title" :description="description" />
+    <meta-tags :title="title" :description="description" />
     <div
       class="container mx-auto pt-[86px] pb-[100px] px-[17.5px] md:px-[30px] md:pt-[165px] md:pb-[112px] 2xl:px-[55px]"
     >
-      <Breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
+      <breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
       <h1
         class="mt-[20px] font-serif font-light text-[32px] leading-[32px] md:text-[90px] md:leading-[80px]"
       >
@@ -144,7 +144,7 @@
         </form>
       </div>
     </div>
-    <Marquee class="sticky bottom-0" />
+    <marquee class="sticky bottom-0" />
   </div>
 </template>
 

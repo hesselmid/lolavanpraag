@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink class="inline-block group" :to="link">
+  <nuxt-link class="inline-block group" :to="link">
     <img
       :class="{
         'inline-block': black,
@@ -36,7 +36,7 @@
     >
       <slot> </slot>
     </div>
-  </NuxtLink>
+  </nuxt-link>
 </template>
 
 <script>

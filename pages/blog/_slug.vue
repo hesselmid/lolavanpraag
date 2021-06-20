@@ -2,12 +2,12 @@
   <div
     class="container mx-auto pt-[86px] px-[17.5px] md:px-[30px] md:pt-[165px] 2xl:px-[55px]"
   >
-    <MetaTags
+    <meta-tags
       :title="article.title"
       :description="article.description"
       :image="article.img"
     />
-    <Breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
+    <breadcrumbs :breadcrumbs="breadcrumbs" color="#A3A3A3" />
     <article>
       <h1
         class="mt-[20px] font-serif font-light text-[32px] leading-[32px] md:text-[90px] md:leading-[90px]"
@@ -22,7 +22,7 @@
         :document="article"
       />
     </article>
-    <FollowMe class="my-[100px] 2xl:mt-[194px] 2xl:mb-[110px]" />
+    <follow-me class="my-[100px] 2xl:mt-[194px] 2xl:mb-[110px]" />
   </div>
 </template>
 

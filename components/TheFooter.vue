@@ -102,7 +102,7 @@
             Join my mailinglist
           </div>
           <div class="md:inline-block md:ml-[30px] md:w-[345px]">
-            <Subscribe />
+            <subscribe />
           </div>
         </div>
         <div class="mt-[50px] font-light text-[12px] leading-[17px] md:mt-0">
