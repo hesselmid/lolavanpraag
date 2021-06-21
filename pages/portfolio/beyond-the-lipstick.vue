@@ -11,11 +11,14 @@
       <p
         class="mt-[10px] font-light leading-[22px] md:mt-[15px] md:max-w-[640px] md:text-[24px] md:leading-[30px]"
       >
-        My graduate collection, NO UNLOCALS, is inspired by the 70’s and 80’s
-        surf scene in California. The work of iconic surf photographers Jeff
-        Divine and Hugh Holland served as a perfect departure point. Their epic
-        photographs provide a vivid and colourful testimony of the evolution of
-        the culture and fashion in the surf scene in that time and place
+        The collection “Beyond the Lipstick” was made specially for “Visions of”
+        a collaboration between Duran Lantink and Amsterdam Fashion week. To
+        give young designers a platform with a focus on sustainability. The
+        collection was inspired by the book Mauvais Genre by Sebastien Lifshitz,
+        which contains photographs of crossdressers dating back all the way to
+        1860. The people in the book use clothing as an instrument of freedom,
+        playing around with identity. I wanted to show this concept in my own
+        collection and give it a modern twist.
       </p>
       <div
         class="lg:mt-[50px] lg:grid lg:grid-cols-5 lg:grid-rows-5 lg:gap-x-[46px]"
@@ -68,7 +71,9 @@
           <blockquote
             class="font-serif font-light text-[60px] leading-[58px] text-center"
           >
-            "To kick-start this project I collected a bunch of old wetsuits"
+            "The collection was inspired by the book Mauvais Genre by Sebastien
+            Lifshitz, which contains photographs of crossdressers dating back
+            all the way to 1860."
           </blockquote>
         </div>
       </div>
@@ -80,19 +85,18 @@
       <p
         class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-[69px] lg:ml-[231px] lg:max-w-[640px]"
       >
-        To kick-start this project I collected a bunch of old wetsuits. I
-        deconstructed these in order to learn about the way they are built and
-        to get an idea about the patterns used by pioneering surf companies like
-        O’Neill and Rip Curl.
-      </p>
-      <p
-        class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:ml-[231px] lg:max-w-[640px]"
-      >
-        One of the most important elements in the construction of a wetsuit are
-        the seams. They are stitched and taped in a very unique way to
-        accommodate for the manoeuvrability required for surfing. I have tried
-        to put an emphasis on the seams by exaggerating them – using them
-        predominantly in decorative, rather than a purely functional, way.
+        To explore the concept of sustainability I collected materials all over
+        the Netherlands from peoples house who had textiles, buttons, brooches
+        and yarns that would otherwise just be laying around next to newly
+        bought eco textiles and regenerated old clothing pieces. The collection
+        was made in collaboration with multiple craftspeople. I went and
+        collected crochet dollies that people had made (mostly elderly) that I
+        used to create one total look. This was especially nice since it gave
+        all the people who gifted my the doilies a feeling of togetherness and
+        pride knowing that their work in some way would also be shown on the
+        Amsterdam Fashion Week. For this collection I also collaborated with
+        many other people such as seamstress, a jeansmaker and a knitting lady
+        to use their knowledge and expertise.
       </p>
     </div>
     <div
@@ -139,13 +143,9 @@
       <p
         class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-0 lg:ml-auto lg:mr-[231px] lg:max-w-[640px]"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        During the Amsterdam Fashion Week 2020 the collection was shown in a
+        performance made in collaboration with choreographer Marne van Opstal
+        and performed by dancers from the Fashion composers agency.
       </p>
 
       <blockquote
