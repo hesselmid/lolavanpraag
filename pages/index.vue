@@ -98,7 +98,7 @@
           <li class="group">
             <nuxt-link
               class="font-serif font-light uppercase text-[40px] leading-[35px] hover:font-sans hover:text-electric-pink hover:underline hover:italic lg:text-[90px] lg:leading-[75px]"
-              to="/portfolio/beyond-the-lipstick"
+              to="/portfolio/soft-2021"
               >Soft! 2021</nuxt-link
             >
             <div class="hidden absolute top-[40px] left-0 xl:group-hover:block">
@@ -106,7 +106,7 @@
                 src="/images/home/soft-left.jpg"
                 width="391"
                 height="587"
-                alt=""
+                alt="Soft! 2021 #1"
               />
             </div>
             <div
@@ -115,8 +115,8 @@
               <img
                 src="/images/home/soft-right.jpg"
                 width="391"
-                height="586"
-                alt=""
+                height="587"
+                alt="Soft! 2021 #2"
               />
             </div>
           </li>
@@ -131,7 +131,7 @@
                 src="/images/home/beyond-the-lipstick-left.jpg"
                 width="391"
                 height="587"
-                alt=""
+                alt="Beyond the Lipstick #1"
               />
             </div>
             <div
@@ -141,7 +141,7 @@
                 src="/images/home/beyond-the-lipstick-right.jpg"
                 width="391"
                 height="586"
-                alt=""
+                alt="Beyond the Lipstick #2"
               />
             </div>
           </li>
@@ -155,8 +155,8 @@
               <img
                 src="/images/home/no-unlocals-left.png"
                 width="388"
-                height="586"
-                alt=""
+                height="590"
+                alt="No Unlocals #1"
               />
             </div>
             <div
@@ -165,8 +165,8 @@
               <img
                 src="/images/home/no-unlocals-right.png"
                 width="388"
-                height="586"
-                alt=""
+                height="589"
+                alt="No Unlocals #2"
               />
             </div>
           </li>
