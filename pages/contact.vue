@@ -74,13 +74,6 @@
           >
             Rademarkers Gallery
           </a>
-          <a
-            class="block font-light leading-[32px] md:text-[20px] md:leading-[40px]"
-            href="https://hetechtewerk.studio/"
-            target="_blank"
-            rel="nofollow noreferrer noopener"
-            >HEW Gallery</a
-          >
         </div>
       </div>
 

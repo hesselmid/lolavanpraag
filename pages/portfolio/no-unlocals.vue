@@ -17,6 +17,14 @@
         photographs provide a vivid and colourful testimony of the evolution of
         the culture and fashion in the surf scene in that time and place.
       </p>
+      <p
+        class="mt-[10px] font-light leading-[22px] md:mt-[15px] md:max-w-[640px] md:text-[24px] md:leading-[30px]"
+      >
+        To kick-start this project I collected a bunch of old wetsuits. I
+        deconstructed these in order to learn about the way they are built and
+        to get an idea about the patterns used by pioneering surf companies like
+        O’Neill and Rip Curl.
+      </p>
       <div
         class="lg:mt-[50px] lg:grid lg:grid-cols-5 lg:grid-rows-5 lg:gap-x-[46px]"
       >
@@ -32,27 +40,29 @@
             <li
               class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
             >
-              Neoprene
+              Hand-dyed cotton
             </li>
             <li
               class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
             >
-              Cotton
+              Lamé fabric
+            </li>
+            <li
+              class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
+            >
+              Silk velvet
+            </li>
+            <li
+              class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
+            >
+              Overstock fabrics
+            </li>
+            <li
+              class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
+            >
+              Adhesive tape
             </li>
           </ul>
-          <h2
-            class="mt-[20px] font-medium leading-[22px] md:text-[24px] md:leading-[30px] xl:mt-[50px]"
-          >
-            Find this collection at the following gallery:
-          </h2>
-          <a
-            class="leading-[22px] underline md:text-[24px] md:leading-[30px]"
-            href="https://www.rademakersgallery.com/"
-            target="_blank"
-            rel="nofollow noreferrer noopener"
-          >
-            Rademarkers Gallery
-          </a>
         </div>
         <div class="mt-[30px] col-span-2 row-span-3">
           <img
@@ -68,8 +78,8 @@
             class="w-full"
             src="/images/no-unlocals/no-unlocals-1.jpg"
             alt="No Unlocals look #1"
-            width="1280"
-            height="1678"
+            width="640"
+            height="960"
           />
         </div>
         <div
@@ -78,7 +88,7 @@
           <blockquote
             class="font-serif font-light text-[60px] leading-[58px] text-center"
           >
-            “To kick-start this project I collected a bunch of old wetsuits”
+            “To kick-start this project I collected a bunch of old wetsuits.”
           </blockquote>
         </div>
       </div>
@@ -90,19 +100,20 @@
       <p
         class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-[69px] lg:ml-[231px] lg:max-w-[640px]"
       >
-        To kick-start this project I collected a bunch of old wetsuits. I
-        deconstructed these in order to learn about the way they are built and
-        to get an idea about the patterns used by pioneering surf companies like
-        O’Neill and Rip Curl.
-      </p>
-      <p
-        class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:ml-[231px] lg:max-w-[640px]"
-      >
         One of the most important elements in the construction of a wetsuit are
         the seams. They are stitched and taped in a very unique way to
         accommodate for the manoeuvrability required for surfing. I have tried
         to put an emphasis on the seams by exaggerating them – using them
         predominantly in decorative, rather than a purely functional, way.
+      </p>
+      <p
+        class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-[69px] lg:ml-[231px] lg:max-w-[640px]"
+      >
+        Another iconic piece in the surfer’s wardrobe is of course the Hawaiian
+        shirt. I visited the Royal Botanic Gardens, Kew to do visual research
+        and take photographs of the exotic flowers and plants they exhibit.
+        Based on my photographs I developed hand-drawn prints, which I printed
+        onto the fabric of my garments by the means of screen printing.
       </p>
     </div>
     <div
@@ -116,9 +127,9 @@
           invisible: !showAnimation1
         }"
         src="/images/no-unlocals/no-unlocals-rollin-1.jpg"
-        alt="Wetsuit inspiration #1"
+        alt="Floral Lines AFW look #1"
         width="345"
-        height="244"
+        height="517"
         loading="lazy"
       />
 
@@ -130,9 +141,9 @@
           invisible: !showAnimation2
         }"
         src="/images/no-unlocals/no-unlocals-rollin-2.jpg"
-        alt="Wetsuit inspiration #2"
+        alt="Floral Lines AFW look #2"
         width="345"
-        height="244"
+        height="517"
         loading="lazy"
       />
 
@@ -143,29 +154,19 @@
           'visible animation-3': showAnimation3,
           invisible: !showAnimation3
         }"
-        src="/images/no-unlocals/no-unlocals-rollin-1.jpg"
-        alt="Wetsuit inspiration #3"
+        src="/images/no-unlocals/no-unlocals-rollin-3.jpg"
+        alt="Floral Lines AFW look #3"
         width="345"
-        height="244"
+        height="517"
         loading="lazy"
       />
     </div>
     <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
-      <p
-        class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-0 lg:ml-auto lg:mr-[231px] lg:max-w-[640px]"
-      >
-        Another iconic piece in the surfer’s wardrobe is of course the Hawaiian
-        shirt. I visited the Royal Botanic Gardens, Kew to do visual research
-        and take photographs of the exotic flowers and plants they exhibit.
-        Based on my photographs I developed hand-drawn prints, which I printed
-        onto the fabric of my garments by the means of screen printing.
-      </p>
-
       <blockquote
         class="mt-[50px] font-serif font-light text-[34px] leading-[40px] text-electric-pink text-center lg:mt-[116px] lg:text-[80px] lg:leading-[70px]"
       >
-        “One of the most important elements in the construction of a wetsuit are
-        the seams”
+        “Based on my photographs I developed hand-drawn prints, which I printed
+        onto the fabric of my garments by the means of screen printing.”
       </blockquote>
 
       <div
@@ -188,6 +189,7 @@
             alt="No Unlocals look #4"
             width="640"
             height="960"
+            loading="lazy"
           />
         </div>
         <div class="mt-[15px] lg:mt-0">
@@ -224,7 +226,7 @@
         <div class="mt-[15px] lg:mt-0">
           <img
             class="w-full"
-            src="/images/no-unlocals/no-unlocals-8.jpg"
+            src="/images/no-unlocals/no-unlocals-8.png"
             alt="No Unlocals look #8"
             width="640"
             height="960"
@@ -234,7 +236,7 @@
         <div class="mt-[15px] lg:mt-0">
           <img
             class="w-full"
-            src="/images/no-unlocals/no-unlocals-9.jpg"
+            src="/images/no-unlocals/no-unlocals-9.png"
             alt="No Unlocals look #9"
             width="640"
             height="960"
@@ -255,8 +257,8 @@
         <div class="mt-[15px] lg:mt-[125px] lg:ml-[118px]">
           <img
             class="w-full"
-            src="/images/no-unlocals/no-unlocals-11.jpg"
-            alt="No Unlocals look #11"
+            src="/images/no-unlocals/no-unlocals-11.png"
+            alt="No Unlocals look #7"
             width="640"
             height="960"
             loading="lazy"
@@ -265,8 +267,8 @@
         <div class="mt-[15px] lg:mt-0">
           <img
             class="w-full"
-            src="/images/no-unlocals/no-unlocals-12.jpg"
-            alt="No Unlocals look #12"
+            src="/images/no-unlocals/no-unlocals-12.png"
+            alt="No Unlocals look #8"
             width="640"
             height="960"
             loading="lazy"
@@ -275,8 +277,8 @@
         <div class="mt-[15px] lg:mt-0">
           <img
             class="w-full"
-            src="/images/no-unlocals/no-unlocals-13.jpg"
-            alt="No Unlocals look #13"
+            src="/images/no-unlocals/no-unlocals-13.png"
+            alt="No Unlocals look #9"
             width="640"
             height="960"
             loading="lazy"
@@ -285,8 +287,8 @@
         <div class="mt-[15px] lg:mt-[50px] lg:mr-[118px]">
           <img
             class="w-full"
-            src="/images/no-unlocals/no-unlocals-14.jpg"
-            alt="No Unlocals look #14"
+            src="/images/no-unlocals/no-unlocals-14.png"
+            alt="No Unlocals look #10"
             width="640"
             height="960"
             loading="lazy"

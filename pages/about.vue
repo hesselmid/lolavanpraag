@@ -77,7 +77,7 @@
         <div class="pt-[30px] xl:pt-[244px]">
           <img
             class="w-[270px] md:w-[460px]"
-            src="/images/home/lola-van-praag.jpg"
+            src="/images/about/lola-van-praag.jpg"
             alt="Lola van Praag"
             width="460"
             height="595"
@@ -196,7 +196,7 @@
       <lite-youtube
         class="mt-[30px] max-w-[1440px] md:mt-[40px]"
         style="
-          background-image: url('/images/beyond-the-lipstick-preview.jpg');
+          background-image: url('/images/about/beyond-the-lipstick-preview.jpg');
         "
         videoid="A61dZiKAUpI"
         params="controls=0&modestbranding=1&rel=0&enablejsapi=1"

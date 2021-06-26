@@ -153,7 +153,7 @@
             >
             <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
               <img
-                src="/images/home/no-unlocals-left.jpg"
+                src="/images/home/no-unlocals-left.png"
                 width="388"
                 height="586"
                 alt=""
@@ -163,7 +163,7 @@
               class="hidden xl:group-hover:block absolute top-[278px] right-0"
             >
               <img
-                src="/images/home/no-unlocals-right.jpg"
+                src="/images/home/no-unlocals-right.png"
                 width="388"
                 height="586"
                 alt=""
@@ -288,7 +288,7 @@ export default {
 
 <style scoped>
 #hero {
-  background-image: url("/images/orange hoofd foto opti 1.jpg");
+  background-image: url("/images/home/hero-background.jpg");
 }
 
 .lola-face {

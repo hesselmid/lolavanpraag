@@ -34,27 +34,29 @@
             <li
               class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
             >
-              Neoprene
+              Cotton
             </li>
             <li
               class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
             >
-              Cotton
+              (Raw) Silk
+            </li>
+            <li
+              class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
+            >
+              Wool
+            </li>
+            <li
+              class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
+            >
+              Technical fabrics
+            </li>
+            <li
+              class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
+            >
+              Neoprene
             </li>
           </ul>
-          <h2
-            class="mt-[20px] font-medium leading-[22px] md:text-[24px] md:leading-[30px] xl:mt-[50px]"
-          >
-            Find this collection at the following gallery:
-          </h2>
-          <a
-            class="leading-[22px] underline md:text-[24px] md:leading-[30px]"
-            href="https://www.rademakersgallery.com/"
-            target="_blank"
-            rel="nofollow noreferrer noopener"
-          >
-            Rademarkers Gallery
-          </a>
         </div>
         <div class="mt-[30px] col-span-2 row-span-3">
           <img
@@ -139,7 +141,7 @@
           'visible animation-3': showAnimation3,
           invisible: !showAnimation3
         }"
-        src="/images/floral-lines/floral-lines-rollin-1.jpg"
+        src="/images/floral-lines/floral-lines-rollin-3.jpg"
         alt="Floral Lines AFW look #3"
         width="345"
         height="517"

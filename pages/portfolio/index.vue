@@ -71,14 +71,26 @@ export default {
       projects: [
         {
           order: 1,
+          title: "Soft! 2021",
+          description:
+            "Graduation Collection 2019 – MA Menswear, Westminster University",
+          category: "textile",
+          img: {
+            jpg: "/images/portfolio/soft!-2021-portfoliopage.jpg",
+            width: "640",
+            height: "427",
+            alt: "Soft! 2021"
+          },
+          slug: "soft-2021"
+        },
+        {
+          order: 2,
           title: "Beyond the Lipstick",
           description:
             "Graduation Collection 2019 – MA Menswear, Westminster University",
           category: "fashion",
           img: {
-            jpg: "/images/portfolio/beyond-the-lipstick-thumbnail.jpg",
-            webp: "/images/portfolio/beyond-the-lipstick-thumbnail.webp",
-            avif: "/images/portfolio/beyond-the-lipstick-thumbnail.avif",
+            jpg: "/images/portfolio/beyond-the-lipstick-portfoliopage.jpg",
             width: "640",
             height: "427",
             alt: "Beyond the Lipstick"
@@ -86,15 +98,27 @@ export default {
           slug: "beyond-the-lipstick"
         },
         {
-          order: 2,
+          order: 3,
+          title: "Scarf project",
+          description:
+            "Graduation Collection 2019 – MA Menswear, Westminster University",
+          category: "textile",
+          img: {
+            jpg: "/images/portfolio/scarf-project-portfoliopage.jpg",
+            width: "640",
+            height: "427",
+            alt: "Scarf project"
+          },
+          slug: "scarf-project"
+        },
+        {
+          order: 4,
           title: "No Unlocals",
           description:
             "Graduation Collection 2019 – MA Menswear, Westminster University",
           category: "fashion",
           img: {
-            jpg: "/images/portfolio/no-unlocals-thumbnail.jpg",
-            webp: "/images/portfolio/no-unlocals-thumbnail.webp",
-            avif: "/images/portfolio/no-unlocals-thumbnail.avif",
+            jpg: "/images/portfolio/no-unlocals-portfoliopage.jpg",
             width: "640",
             height: "872",
             alt: "No Unlocals"
@@ -102,15 +126,13 @@ export default {
           slug: "no-unlocals"
         },
         {
-          order: 3,
+          order: 5,
           title: "It’s Not a Flower",
           description:
             "Graduation Collection - MA Textile, Swedish School of Textiles",
           category: "textile",
           img: {
-            jpg: "/images/portfolio/its-not-a-flower-thumbnail.jpg",
-            webp: "/images/portfolio/its-not-a-flower-thumbnail.webp",
-            avif: "/images/portfolio/its-not-a-flower-thumbnail.avif",
+            jpg: "/images/portfolio/it's-not-a-flower-projectpagina.jpg",
             width: "1100",
             height: "777",
             alt: "It's Not a Flower"
@@ -118,15 +140,13 @@ export default {
           slug: "its-not-a-flower"
         },
         {
-          order: 4,
+          order: 6,
           title: "Floral Lines",
           description:
             "Graduation Collection 2014 - BA Fashion, Willem de Kooning Academie",
           category: "fashion",
           img: {
-            jpg: "/images/portfolio/floral-lines-thumbnail.jpg",
-            webp: "/images/portfolio/floral-lines-thumbnail.webp",
-            avif: "/images/portfolio/floral-lines-thumbnail.avif",
+            jpg: "/images/portfolio/floral-lines-portfoliopage.jpg",
             width: "410",
             height: "615",
             alt: "Floral Lines"

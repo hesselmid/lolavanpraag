@@ -33,12 +33,22 @@
             <li
               class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
             >
-              Neoprene
+              Polyester yarns
             </li>
             <li
               class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
             >
-              Cotton
+              Lurex yarns
+            </li>
+            <li
+              class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
+            >
+              Filling thread
+            </li>
+            <li
+              class="font-light leading-[22px] md:text-[24px] md:leading-[30px]"
+            >
+              Overstock material
             </li>
           </ul>
           <h2
@@ -55,21 +65,32 @@
             Rademarkers Gallery
           </a>
         </div>
-        <img
-          class="mt-[30px] col-span-2 row-span-3"
-          src="/images/flower-1.jpg"
-        />
-        <img
-          class="mt-[15px] col-span-3 row-span-4"
-          src="/images/flower-2.jpg"
-        />
+        <div class="mt-[30px] col-span-2 row-span-3">
+          <img
+            class="w-full"
+            src="/images/its-not-a-flower/its-not-a-flower-2.jpg"
+            alt="Floral Lines look #2"
+            width="640"
+            height="960"
+          />
+        </div>
+        <div class="mt-[15px] col-span-3 row-span-4">
+          <img
+            class="w-full"
+            src="/images/its-not-a-flower/its-not-a-flower-1.jpg"
+            alt="Floral Lines look #1"
+            width="640"
+            height="960"
+          />
+        </div>
         <div
           class="hidden col-span-2 row-span-2 lg:flex lg:justify-center lg:items-center"
         >
           <blockquote
             class="font-serif font-light text-[60px] leading-[58px] text-center"
           >
-            "To kick-start this project I collected a bunch of old wetsuits"
+            “Flowers have played a predominantly decorative rol in the world of
+            textile.”
           </blockquote>
         </div>
       </div>
@@ -88,7 +109,7 @@
         female sexuality and its portrayal in modern media.
       </p>
       <p
-        class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:ml-[231px] lg:max-w-[640px]"
+        class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-[69px] lg:ml-[231px] lg:max-w-[640px]"
       >
         I choose to use two textile techniques: double bed circle jacquard
         knitting and heat transfer print. The combination of these two
@@ -98,80 +119,119 @@
         print, but on the varying surface of the textiles.
       </p>
     </div>
-    <div
-      class="mt-[30px] pl-[17.5px] flex flex-nowrap overflow-x-auto lg:mt-0 lg:pl-[55px] lg:h-[724px] lg:items-center"
-    >
-      <img
-        class="w-[252px] flex-shrink-0 lg:w-[345px]"
-        v-observe-visibility="{ callback: isViewableNow, once: true }"
-        :class="{
-          'visible animation-1': showAnimation1,
-          invisible: !showAnimation1
-        }"
-        src="/images/no-unlocals-3.jpg"
-        width="345.21px"
-        height="344.03px"
-        alt=""
-      />
-      <img
-        class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[176px] lg:ml-[24px] lg:w-[345px]"
-        v-observe-visibility="{ callback: isViewableNow, once: true }"
-        :class="{
-          'visible animation-2': showAnimation2,
-          invisible: !showAnimation2
-        }"
-        src="/images/no-unlocals-4.jpg"
-        width="345.21px"
-        height="344.03px"
-        alt=""
-      />
-      <img
-        class="ml-[5px] w-[252px] flex-shrink-0 lg:mt-[24px] lg:ml-[24px] lg:w-[345px]"
-        v-observe-visibility="{ callback: isViewableNow, once: true }"
-        :class="{
-          'visible animation-3': showAnimation3,
-          invisible: !showAnimation3
-        }"
-        src="/images/no-unlocals-9.jpg"
-        width="345.21px"
-        height="344.03px"
-        alt=""
-      />
-    </div>
-    <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
-      <p
-        class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-0 lg:ml-auto lg:mr-[231px] lg:max-w-[640px]"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </p>
 
+    <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
       <blockquote
         class="mt-[50px] font-serif font-light text-[34px] leading-[40px] text-electric-pink text-center lg:mt-[116px] lg:text-[80px] lg:leading-[70px]"
       >
-        "One of the most important elements in the construction of a wetsuit are
-        the seams"
+        “The combination of these two techniques allowed me to play with the
+        fore- and background of the textile and let them overlap.”
       </blockquote>
 
       <div
         class="mt-[50px] lg:mt-[143px] lg:grid lg:grid-cols-2 lg:gap-x-[50px]"
       >
         <div class="lg:mt-[125px] lg:ml-[118px]">
-          <img src="/images/flower-3.jpg" alt="" />
+          <img
+            class="w-full"
+            src="/images/its-not-a-flower/its-not-a-flower-3.jpg"
+            alt="Floral Lines look #3"
+            width="640"
+            height="960"
+            loading="lazy"
+          />
         </div>
         <div class="mt-[15px] lg:mt-0">
-          <img src="/images/flower-4.jpg" alt="" />
+          <img
+            class="w-full"
+            src="/images/its-not-a-flower/its-not-a-flower-4.jpg"
+            alt="Floral Lines look #4"
+            width="640"
+            height="960"
+            loading="lazy"
+          />
         </div>
         <div class="mt-[15px] lg:mt-0">
-          <img src="/images/flower-5.jpg" alt="" />
+          <img
+            class="w-full"
+            src="/images/its-not-a-flower/its-not-a-flower-5.jpg"
+            alt="Floral Lines look #5"
+            width="640"
+            height="960"
+            loading="lazy"
+          />
         </div>
         <div class="mt-[15px] lg:mt-[50px] lg:mr-[118px]">
-          <img src="/images/flower-6.jpg" alt="" />
+          <img
+            class="w-full"
+            src="/images/its-not-a-flower/its-not-a-flower-6.jpg"
+            alt="Floral Lines look #6"
+            width="640"
+            height="960"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="mt-[15px] lg:mt-[125px] lg:ml-[118px]">
+          <img
+            class="w-full"
+            src="/images/its-not-a-flower/its-not-a-flower-7.jpg"
+            alt="Floral Lines look #7"
+            width="640"
+            height="960"
+            loading="lazy"
+          />
+        </div>
+        <div class="mt-[15px] lg:mt-0">
+          <img
+            class="w-full"
+            src="/images/its-not-a-flower/its-not-a-flower-8.jpg"
+            alt="Floral Lines look #8"
+            width="640"
+            height="960"
+            loading="lazy"
+          />
+        </div>
+        <div class="mt-[15px] lg:mt-0">
+          <img
+            class="w-full"
+            src="/images/its-not-a-flower/its-not-a-flower-9.jpg"
+            alt="Floral Lines look #9"
+            width="640"
+            height="960"
+            loading="lazy"
+          />
+        </div>
+        <div class="mt-[15px] lg:mt-[50px] lg:mr-[118px]">
+          <img
+            class="w-full"
+            src="/images/its-not-a-flower/its-not-a-flower-10.jpg"
+            alt="Floral Lines look #10"
+            width="640"
+            height="960"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="mt-[15px] lg:mt-[125px] lg:ml-[118px]">
+          <img
+            class="w-full"
+            src="/images/its-not-a-flower/its-not-a-flower-11.jpg"
+            alt="Floral Lines look #7"
+            width="640"
+            height="960"
+            loading="lazy"
+          />
+        </div>
+        <div class="mt-[15px] lg:mt-0">
+          <img
+            class="w-full"
+            src="/images/its-not-a-flower/its-not-a-flower-12.jpg"
+            alt="Floral Lines look #8"
+            width="640"
+            height="960"
+            loading="lazy"
+          />
         </div>
       </div>
     </div>
