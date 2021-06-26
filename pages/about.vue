@@ -80,7 +80,7 @@
             src="/images/about/lola-van-praag.jpg"
             alt="Lola van Praag"
             width="460"
-            height="595"
+            height="690"
           />
         </div>
       </div>

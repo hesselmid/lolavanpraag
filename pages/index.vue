@@ -76,7 +76,7 @@
           src="/images/home/lola-van-praag.jpg"
           alt="Lola van Praag"
           width="460"
-          height="595"
+          height="690"
         />
         <div
           class="absolute top-[83px] left-[229px] w-[80px] h-[80px] md:top-[72px] md:left-[400px] md:w-[190px] md:h-[190px]"
