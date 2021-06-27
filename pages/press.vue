@@ -59,21 +59,41 @@ export default {
       description: "",
       pressList: [
         {
+          year: 2020,
+          pressItems: [
+            {
+              title:
+                "AFW - Maak Kennis met de Visions Of Talenten: Lola van Praag",
+              link:
+                "https://amsterdamfashionweek.nl/maak-kennis-met-de-visions-of-talenten-lola-van-praag/",
+              img: require(`~/assets/images/press-placeholder kopie.jpg`)
+            },
+            {
+              title: "Leidsch Dagblad - Focus op mode: Lola van Praag",
+              link: "https://www.leidschdagblad.nl/cnt/dmf20210309_32908091",
+              img: require(`~/assets/images/press-placeholder kopie.jpg`)
+            }
+          ]
+        },
+        {
           year: 2019,
           pressItems: [
             {
               title: "Dazed - Westminster Menswear",
-              link: "",
+              link:
+                "https://www.dazeddigital.com/fashion/gallery/27597/0/westminster-menswear-ma-2019",
               img: require(`~/assets/images/press-placeholder kopie.jpg`)
             },
             {
               title: "Fashion Crossover London - Inflatable couture",
-              link: "",
+              link:
+                "https://www.fashioncrossover-london.com/inflatable-couture-kitchen-aprons-and-fashion-elves-spotted-at-the-westminster-2019-ma-menswear-show-i1836",
               img: require(`~/assets/images/press-placeholder.jpg`)
             },
             {
               title: "City countdown",
-              link: "",
+              link:
+                "https://citycountdown.com/index.php/2019/06/10/university-of-westminister-ma-menswear/",
               img: require(`~/assets/images/press-placeholder.jpg`)
             }
           ]
@@ -83,7 +103,7 @@ export default {
           pressItems: [
             {
               title: "The Issue Magazine",
-              link: "",
+              link: "http://www.theissuemagazine.com/LOLA-VAN-PRAAG",
               img: require(`~/assets/images/press-placeholder.jpg`)
             }
           ]
@@ -93,27 +113,30 @@ export default {
           pressItems: [
             {
               title: "Schön! Magazine - one of a kind",
-              link: "",
+              link: "https://schonmagazine.com/oneofakind/",
               img: require(`~/assets/images/press-placeholder.jpg`)
             },
             {
               title: "HNTK - Lichting",
-              link: "",
+              link: "https://htnk.nl/news/lichting-2014",
               img: require(`~/assets/images/press-placeholder.jpg`)
             },
             {
               title: "Telegraaf - Dit zijn de modetalenten van Lichting",
-              link: "",
+              link:
+                "https://www.telegraaf.nl/nieuws/457965/dit-zijn-de-modetalenten-van-lichting-2014",
               img: require(`~/assets/images/press-placeholder.jpg`)
             },
             {
               title: "Textilia - Bastian Visch wint Lichting",
-              link: "",
+              link:
+                "https://www.textilia.nl/Nieuws/Bastian_Visch_wint_Lichting_2014-140713214700#.XSSobZMzZhE",
               img: require(`~/assets/images/press-placeholder.jpg`)
             },
             {
               title: "BRANKOPOPOVICBLOG - Lichting supported by V&D",
-              link: "",
+              link:
+                "http://brankopopovic.blogspot.com/2014/07/lichting-2014-supported-by-v.html#.XSSpYpMzZhE",
               img: require(`~/assets/images/press-placeholder.jpg`)
             }
           ]
