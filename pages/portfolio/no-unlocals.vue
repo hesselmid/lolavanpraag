@@ -70,7 +70,7 @@
             src="/images/no-unlocals/no-unlocals-2.jpg"
             alt="No Unlocals look #2"
             width="640"
-            height="960"
+            height="909"
           />
         </div>
         <div class="mt-[15px] col-span-3 row-span-4">
@@ -78,8 +78,8 @@
             class="w-full"
             src="/images/no-unlocals/no-unlocals-1.jpg"
             alt="No Unlocals look #1"
-            width="640"
-            height="960"
+            width="800"
+            height="1204"
           />
         </div>
         <div
@@ -127,9 +127,9 @@
           invisible: !showAnimation1
         }"
         src="/images/no-unlocals/no-unlocals-rollin-1.jpg"
-        alt="Floral Lines AFW look #1"
+        alt="No Unlocals rollin #1"
         width="345"
-        height="517"
+        height="244"
         loading="lazy"
       />
 
@@ -141,9 +141,9 @@
           invisible: !showAnimation2
         }"
         src="/images/no-unlocals/no-unlocals-rollin-2.jpg"
-        alt="Floral Lines AFW look #2"
+        alt="No Unlocals rollin #2"
         width="345"
-        height="517"
+        height="244"
         loading="lazy"
       />
 
@@ -155,9 +155,9 @@
           invisible: !showAnimation3
         }"
         src="/images/no-unlocals/no-unlocals-rollin-3.jpg"
-        alt="Floral Lines AFW look #3"
+        alt="No Unlocals rollin #3"
         width="345"
-        height="517"
+        height="244"
         loading="lazy"
       />
     </div>
@@ -178,7 +178,7 @@
             src="/images/no-unlocals/no-unlocals-3.jpg"
             alt="No Unlocals look #3"
             width="640"
-            height="960"
+            height="872"
             loading="lazy"
           />
         </div>
@@ -188,7 +188,7 @@
             src="/images/no-unlocals/no-unlocals-4.jpg"
             alt="No Unlocals look #4"
             width="640"
-            height="960"
+            height="991"
             loading="lazy"
           />
         </div>
@@ -198,7 +198,7 @@
             src="/images/no-unlocals/no-unlocals-5.jpg"
             alt="No Unlocals look #5"
             width="640"
-            height="960"
+            height="865"
             loading="lazy"
           />
         </div>
@@ -219,7 +219,7 @@
             src="/images/no-unlocals/no-unlocals-7.jpg"
             alt="No Unlocals look #7"
             width="640"
-            height="960"
+            height="849"
             loading="lazy"
           />
         </div>
@@ -229,7 +229,7 @@
             src="/images/no-unlocals/no-unlocals-8.png"
             alt="No Unlocals look #8"
             width="640"
-            height="960"
+            height="966"
             loading="lazy"
           />
         </div>
@@ -239,17 +239,17 @@
             src="/images/no-unlocals/no-unlocals-9.png"
             alt="No Unlocals look #9"
             width="640"
-            height="960"
+            height="964"
             loading="lazy"
           />
         </div>
         <div class="mt-[15px] lg:mt-[50px] lg:mr-[118px]">
           <img
             class="w-full"
-            src="/images/no-unlocals/no-unlocals-10.jpg"
+            src="/images/no-unlocals/no-unlocals-10.png"
             alt="No Unlocals look #10"
             width="640"
-            height="960"
+            height="979"
             loading="lazy"
           />
         </div>
@@ -258,9 +258,9 @@
           <img
             class="w-full"
             src="/images/no-unlocals/no-unlocals-11.png"
-            alt="No Unlocals look #7"
+            alt="No Unlocals look #11"
             width="640"
-            height="960"
+            height="961"
             loading="lazy"
           />
         </div>
@@ -268,9 +268,9 @@
           <img
             class="w-full"
             src="/images/no-unlocals/no-unlocals-12.png"
-            alt="No Unlocals look #8"
+            alt="No Unlocals look #12"
             width="640"
-            height="960"
+            height="923"
             loading="lazy"
           />
         </div>
@@ -278,9 +278,9 @@
           <img
             class="w-full"
             src="/images/no-unlocals/no-unlocals-13.png"
-            alt="No Unlocals look #9"
+            alt="No Unlocals look #13"
             width="640"
-            height="960"
+            height="977"
             loading="lazy"
           />
         </div>
@@ -288,9 +288,9 @@
           <img
             class="w-full"
             src="/images/no-unlocals/no-unlocals-14.png"
-            alt="No Unlocals look #10"
+            alt="No Unlocals look #14"
             width="640"
-            height="960"
+            height="994"
             loading="lazy"
           />
         </div>
