@@ -33,6 +33,8 @@
               <a
                 class="font-serif font-light text-[26px] leading-[32px] hover:font-sans hover:font-extralight hover:italic hover:text-apple-green hover:underline md:text-[75px] md:leading-[75px]"
                 :href="pressItem.link"
+                target="_blank"
+                rel="nofollow noreferrer noopener"
                 >{{ pressItem.title }}</a
               >
               <img
