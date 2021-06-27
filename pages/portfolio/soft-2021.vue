@@ -66,8 +66,8 @@
             class="w-full"
             src="/images/soft-2021/soft-2021-1.jpg"
             alt="Soft! 2021 #1"
-            width="640"
-            height="960"
+            width="800"
+            height="533"
           />
         </div>
         <div
@@ -187,7 +187,7 @@
             src="/images/soft-2021/soft-2021-10.jpg"
             alt="Soft! 2021 #10"
             width="640"
-            height="960"
+            height="427"
             loading="lazy"
           />
         </div>
