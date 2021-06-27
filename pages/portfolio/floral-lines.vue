@@ -72,8 +72,8 @@
             class="w-full"
             src="/images/floral-lines/floral-lines-1.jpg"
             alt="Floral Lines look #1"
-            width="640"
-            height="960"
+            width="800"
+            height="1200"
           />
         </div>
         <div
@@ -130,7 +130,7 @@
         src="/images/floral-lines/floral-lines-rollin-2.jpg"
         alt="Floral Lines AFW look #2"
         width="345"
-        height="517"
+        height="237"
         loading="lazy"
       />
 
@@ -144,7 +144,7 @@
         src="/images/floral-lines/floral-lines-rollin-3.jpg"
         alt="Floral Lines AFW look #3"
         width="345"
-        height="517"
+        height="238"
         loading="lazy"
       />
     </div>

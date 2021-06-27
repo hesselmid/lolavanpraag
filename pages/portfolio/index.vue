@@ -77,8 +77,8 @@ export default {
           category: "textile",
           img: {
             jpg: "/images/portfolio/soft!-2021-portfoliopage.jpg",
-            width: "640",
-            height: "427",
+            width: "1100",
+            height: "733",
             alt: "Soft! 2021"
           },
           slug: "soft-2021"
@@ -91,8 +91,8 @@ export default {
           category: "fashion",
           img: {
             jpg: "/images/portfolio/beyond-the-lipstick-portfoliopage.jpg",
-            width: "640",
-            height: "427",
+            width: "1100",
+            height: "733",
             alt: "Beyond the Lipstick"
           },
           slug: "beyond-the-lipstick"
@@ -105,8 +105,8 @@ export default {
           category: "textile",
           img: {
             jpg: "/images/portfolio/scarf-project-portfoliopage.jpg",
-            width: "640",
-            height: "427",
+            width: "1100",
+            height: "1100",
             alt: "Scarf project"
           },
           slug: "scarf-project"
@@ -119,8 +119,8 @@ export default {
           category: "fashion",
           img: {
             jpg: "/images/portfolio/no-unlocals-portfoliopage.jpg",
-            width: "640",
-            height: "872",
+            width: "1100",
+            height: "1498",
             alt: "No Unlocals"
           },
           slug: "no-unlocals"
@@ -147,8 +147,8 @@ export default {
           category: "fashion",
           img: {
             jpg: "/images/portfolio/floral-lines-portfoliopage.jpg",
-            width: "410",
-            height: "615",
+            width: "1100",
+            height: "1650",
             alt: "Floral Lines"
           },
           slug: "floral-lines"
