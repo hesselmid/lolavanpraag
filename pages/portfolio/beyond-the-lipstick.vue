@@ -55,8 +55,8 @@
             class="w-full"
             src="/images/beyond-the-lipstick/beyond-the-lipstick-1.jpg"
             alt="Beyond the Lipstick #1"
-            width="640"
-            height="960"
+            width="800"
+            height="1200"
           />
         </div>
         <div
@@ -197,7 +197,7 @@
           <img
             class="w-full"
             src="/images/beyond-the-lipstick/beyond-the-lipstick-11.jpg"
-            alt="Beyond the Lipstick #7"
+            alt="Beyond the Lipstick #11"
             width="640"
             height="960"
             loading="lazy"
@@ -207,7 +207,7 @@
           <img
             class="w-full"
             src="/images/beyond-the-lipstick/beyond-the-lipstick-12.jpg"
-            alt="Beyond the Lipstick #8"
+            alt="Beyond the Lipstick #12"
             width="640"
             height="960"
             loading="lazy"
@@ -217,9 +217,9 @@
           <img
             class="w-full"
             src="/images/beyond-the-lipstick/beyond-the-lipstick-13.jpg"
-            alt="Beyond the Lipstick #9"
+            alt="Beyond the Lipstick #13"
             width="640"
-            height="960"
+            height="427"
             loading="lazy"
           />
         </div>
@@ -227,9 +227,9 @@
           <img
             class="w-full"
             src="/images/beyond-the-lipstick/beyond-the-lipstick-14.jpg"
-            alt="Beyond the Lipstick #10"
+            alt="Beyond the Lipstick #14"
             width="640"
-            height="960"
+            height="427"
             loading="lazy"
           />
         </div>
@@ -238,9 +238,9 @@
           <img
             class="w-full"
             src="/images/beyond-the-lipstick/beyond-the-lipstick-15.jpg"
-            alt="Beyond the Lipstick #7"
+            alt="Beyond the Lipstick #15"
             width="640"
-            height="960"
+            height="427"
             loading="lazy"
           />
         </div>
@@ -248,9 +248,9 @@
           <img
             class="w-full"
             src="/images/beyond-the-lipstick/beyond-the-lipstick-16.jpg"
-            alt="Beyond the Lipstick #8"
+            alt="Beyond the Lipstick #16"
             width="640"
-            height="960"
+            height="427"
             loading="lazy"
           />
         </div>
