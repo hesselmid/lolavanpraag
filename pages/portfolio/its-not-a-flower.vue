@@ -69,18 +69,18 @@
           <img
             class="w-full"
             src="/images/its-not-a-flower/its-not-a-flower-2.jpg"
-            alt="Floral Lines look #2"
+            alt="It's Not a Flower #2"
             width="640"
-            height="960"
+            height="825"
           />
         </div>
         <div class="mt-[15px] col-span-3 row-span-4">
           <img
             class="w-full"
             src="/images/its-not-a-flower/its-not-a-flower-1.jpg"
-            alt="Floral Lines look #1"
-            width="640"
-            height="960"
+            alt="It's Not a Flower #1"
+            width="800"
+            height="1111"
           />
         </div>
         <div
@@ -135,9 +135,9 @@
           <img
             class="w-full"
             src="/images/its-not-a-flower/its-not-a-flower-3.jpg"
-            alt="Floral Lines look #3"
+            alt="It's Not a Flower #3"
             width="640"
-            height="960"
+            height="427"
             loading="lazy"
           />
         </div>
@@ -145,9 +145,9 @@
           <img
             class="w-full"
             src="/images/its-not-a-flower/its-not-a-flower-4.jpg"
-            alt="Floral Lines look #4"
+            alt="It's Not a Flower #4"
             width="640"
-            height="960"
+            height="427"
             loading="lazy"
           />
         </div>
@@ -155,9 +155,9 @@
           <img
             class="w-full"
             src="/images/its-not-a-flower/its-not-a-flower-5.jpg"
-            alt="Floral Lines look #5"
+            alt="It's Not a Flower #5"
             width="640"
-            height="960"
+            height="574"
             loading="lazy"
           />
         </div>
@@ -165,9 +165,9 @@
           <img
             class="w-full"
             src="/images/its-not-a-flower/its-not-a-flower-6.jpg"
-            alt="Floral Lines look #6"
+            alt="It's Not a Flower #6"
             width="640"
-            height="960"
+            height="427"
             loading="lazy"
           />
         </div>
@@ -176,9 +176,9 @@
           <img
             class="w-full"
             src="/images/its-not-a-flower/its-not-a-flower-7.jpg"
-            alt="Floral Lines look #7"
+            alt="It's Not a Flower #7"
             width="640"
-            height="960"
+            height="642"
             loading="lazy"
           />
         </div>
@@ -186,9 +186,9 @@
           <img
             class="w-full"
             src="/images/its-not-a-flower/its-not-a-flower-8.jpg"
-            alt="Floral Lines look #8"
+            alt="It's Not a Flower #8"
             width="640"
-            height="960"
+            height="415"
             loading="lazy"
           />
         </div>
@@ -196,9 +196,9 @@
           <img
             class="w-full"
             src="/images/its-not-a-flower/its-not-a-flower-9.jpg"
-            alt="Floral Lines look #9"
+            alt="It's Not a Flower #9"
             width="640"
-            height="960"
+            height="452"
             loading="lazy"
           />
         </div>
@@ -206,9 +206,9 @@
           <img
             class="w-full"
             src="/images/its-not-a-flower/its-not-a-flower-10.jpg"
-            alt="Floral Lines look #10"
+            alt="It's Not a Flower #10"
             width="640"
-            height="960"
+            height="453"
             loading="lazy"
           />
         </div>
@@ -217,9 +217,9 @@
           <img
             class="w-full"
             src="/images/its-not-a-flower/its-not-a-flower-11.jpg"
-            alt="Floral Lines look #7"
+            alt="It's Not a Flower #7"
             width="640"
-            height="960"
+            height="507"
             loading="lazy"
           />
         </div>
@@ -227,9 +227,9 @@
           <img
             class="w-full"
             src="/images/its-not-a-flower/its-not-a-flower-12.jpg"
-            alt="Floral Lines look #8"
+            alt="It's Not a Flower #8"
             width="640"
-            height="960"
+            height="427"
             loading="lazy"
           />
         </div>
