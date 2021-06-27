@@ -66,8 +66,8 @@
             class="w-full"
             src="/images/scarf-project/scarf-project-1.jpg"
             alt="Scarf project #1"
-            width="640"
-            height="960"
+            width="800"
+            height="1200"
           />
         </div>
         <div
@@ -115,7 +115,7 @@
             src="/images/scarf-project/scarf-project-3.jpg"
             alt="Scarf project #3"
             width="640"
-            height="960"
+            height="640"
             loading="lazy"
           />
         </div>
