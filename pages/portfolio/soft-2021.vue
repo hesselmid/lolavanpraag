@@ -11,13 +11,12 @@
       <p
         class="mt-[10px] font-light leading-[22px] md:mt-[15px] md:max-w-[640px] md:text-[24px] md:leading-[30px]"
       >
-        Floral Lines represents the way global and local processes intersect
-        with each other in one particular area, the Flower Bulb Region, and form
-        a new hybrid aesthetic. An area which is still deeply organized around
-        tradition and religion, but at the same time being heavily changed by
-        the process of globalization. This phenomenon is beautifully illustrated
-        by the newly opened McDonalds and its big ‘M’ towering and shining
-        bright above the widespread flower fields.
+        In collaboration with the Textile Museum Tilburg, Lola developed a
+        series of new wall objects for the Soft! exposition at Rademakers
+        Gallery. Because of Covid it was not possible to travel and after being
+        alone in the Netherlands for a year and a half, she found the
+        inspiration for the collection in the region where she grew up as a
+        teenager.
       </p>
       <div
         class="lg:mt-[50px] lg:grid lg:grid-cols-5 lg:grid-rows-5 lg:gap-x-[46px]"
@@ -89,12 +88,16 @@
       <p
         class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-[69px] lg:ml-[231px] lg:max-w-[640px]"
       >
-        For my final exam I was inspired by the visual consequences of this
-        phenomenon, but also by the social transformations which it implies.
-        Traditional opinions about gender have changed, and this is reflected in
-        what people are ought to wear. In my collection I tried to mix
-        traditional pieces like the overall, and traditional techniques like
-        embroidery with shiny and colorful fabrics, and rethought shapes.
+        The Textile Museum gave her the opportunity to work with the industrial
+        knitting machine. During the making process, she not only focused on the
+        images, but also especially on the technique in which the work was
+        performed. During this process she searched for methods to apply
+        computer-aided techniques in new ways. The design is designed in
+        different layers. In addition, she pushed the machine using many
+        different and complex yarns, even applying manual shifts during the
+        knitting of images to get around the maximum amount of colors. An
+        unorthodox method of using this industrial machine to make autonomous
+        work. Lola van Praag combines the manual with the mechanical.
       </p>
     </div>
 

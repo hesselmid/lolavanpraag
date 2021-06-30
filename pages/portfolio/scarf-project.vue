@@ -11,13 +11,14 @@
       <p
         class="mt-[10px] font-light leading-[22px] md:mt-[15px] md:max-w-[640px] md:text-[24px] md:leading-[30px]"
       >
-        Floral Lines represents the way global and local processes intersect
-        with each other in one particular area, the Flower Bulb Region, and form
-        a new hybrid aesthetic. An area which is still deeply organized around
-        tradition and religion, but at the same time being heavily changed by
-        the process of globalization. This phenomenon is beautifully illustrated
-        by the newly opened McDonalds and its big ‘M’ towering and shining
-        bright above the widespread flower fields.
+        For me a scarf can be seen as a piece that moves between begin an object
+        and a wearable. The floral prints that I designed for the collection NO
+        Unlocals was translated in new color ways and produced in collaboration
+        by Coccon crafts loom. They are a company located in Jharkand India. The
+        scarves are produced eco-friendly and are made of Peace silk (This means
+        that the caterpillar can complete its entire life cycle.) In addition,
+        Coccon trains women so that they can work within the company and do not
+        have to be financially dependent on their man.
       </p>
       <div
         class="lg:mt-[50px] lg:grid lg:grid-cols-5 lg:grid-rows-5 lg:gap-x-[46px]"
