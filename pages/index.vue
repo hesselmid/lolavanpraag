@@ -55,13 +55,14 @@
         <p
           class="mt-[20px] font-light leading-[22px] md:mt-[15px] md:text-[24px] md:leading-[30px]"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum
+          Lola van Praag (1992, Amsterdam, Netherlands) is a Dutch textile and
+          fashion designer based in Leiden. She followed two master's degrees.
+          One in textile design at the Swedish School of Textiles (Borås,
+          Sweden) where she focused on industrial knitting and printing
+          techniques and a second in fashion design at the University of
+          Westminster (London, UK) with a specialization in menswear. After
+          graduating she moved back to the Netherlands where she started her own
+          studio.
         </p>
         <base-link
           class="mt-[20px] ml-[20px] group md:mt-[60px] md:ml-[30px]"

@@ -45,14 +45,14 @@
               md:leading-[30px]
             "
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
+            Lola van Praag (1992, Amsterdam, Netherlands) is a Dutch textile and
+            fashion designer based in Leiden. She followed two master's degrees.
+            One in textile design at the Swedish School of Textiles (Borås,
+            Sweden) where she focused on industrial knitting and printing
+            techniques and a second in fashion design at the University of
+            Westminster (London, UK) with a specialization in menswear. After
+            graduating she moved back to the Netherlands where she started her
+            own studio.
           </p>
           <p
             class="
@@ -64,14 +64,13 @@
               md:leading-[30px]
             "
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
+            Lola's love for creating does not lie in producing an end product,
+            but mainly in the process that precedes it. She likes to experiment
+            with materials in order to discover their hidden potential. She is
+            very curious about different craft techniques and how these methods
+            can be applied in a contemporary way. Because of her often
+            unorthodox methods in which manual and mechanical merge, surprising
+            results are achieved.
           </p>
         </div>
         <div class="pt-[30px] xl:pt-[244px]">
@@ -183,13 +182,10 @@
             2xl:leading-[30px]
           "
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          She combines these technical elaborations with idiosyncratic color
+          combinations and a preference for glitter. She brings all this
+          together in a series of different creative excesses, from fashion
+          collection to wall objects.
         </p>
       </div>
 
