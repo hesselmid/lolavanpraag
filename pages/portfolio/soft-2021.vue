@@ -14,9 +14,8 @@
         In collaboration with the Textile Museum Tilburg, Lola developed a
         series of new wall objects for the Soft! exposition at Rademakers
         Gallery. Because of Covid it was not possible to travel and after being
-        alone in the Netherlands for a year and a half, she found the
-        inspiration for the collection in the region where she grew up as a
-        teenager.
+        alone in the Netherlands for a year and a half, she found inspiration
+        for the collection in the region where she grew up as a teenager.
       </p>
       <div
         class="lg:mt-[50px] lg:grid lg:grid-cols-5 lg:grid-rows-5 lg:gap-x-[46px]"
@@ -75,8 +74,8 @@
           <blockquote
             class="font-serif font-light text-[60px] leading-[58px] text-center"
           >
-            “This phenomenon is beautifully illustrated by the newly opened
-            McDonalds and its big M”
+            “Lola found inspiration for the collection in the region where she
+            grew up as a teenager.”
           </blockquote>
         </div>
       </div>
@@ -105,9 +104,8 @@
       <blockquote
         class="mt-[50px] font-serif font-light text-[34px] leading-[40px] text-electric-pink text-center lg:mt-[116px] lg:text-[80px] lg:leading-[70px]"
       >
-        “I tried to mix traditional pieces like the overall, and traditional
-        techniques like embroidery with shiny and colorful fabrics, and
-        rethought shapes.”
+        “During this process she searched for methods to apply computer-aided
+        techniques in new ways.”
       </blockquote>
 
       <div

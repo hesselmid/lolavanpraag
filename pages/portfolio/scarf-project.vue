@@ -77,8 +77,8 @@
           <blockquote
             class="font-serif font-light text-[60px] leading-[58px] text-center"
           >
-            “This phenomenon is beautifully illustrated by the newly opened
-            McDonalds and its big M”
+            “For me a scarf can be seen as a piece that moves between begin an
+            object and a wearable.”
           </blockquote>
         </div>
       </div>
@@ -87,26 +87,6 @@
     <marquee class="hidden lg:block" />
 
     <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
-      <p
-        class="mt-[30px] font-light leading-[22px] md:text-[24px] md:leading-[30px] lg:mt-[69px] lg:ml-[231px] lg:max-w-[640px]"
-      >
-        For my final exam I was inspired by the visual consequences of this
-        phenomenon, but also by the social transformations which it implies.
-        Traditional opinions about gender have changed, and this is reflected in
-        what people are ought to wear. In my collection I tried to mix
-        traditional pieces like the overall, and traditional techniques like
-        embroidery with shiny and colorful fabrics, and rethought shapes.
-      </p>
-    </div>
-    <div class="container mx-auto px-[17.5px] md:px-[30px] lg:px-[55px]">
-      <blockquote
-        class="mt-[50px] font-serif font-light text-[34px] leading-[40px] text-electric-pink text-center lg:mt-[116px] lg:text-[80px] lg:leading-[70px]"
-      >
-        “I tried to mix traditional pieces like the overall, and traditional
-        techniques like embroidery with shiny and colorful fabrics, and
-        rethought shapes.”
-      </blockquote>
-
       <div
         class="mt-[50px] lg:mt-[143px] lg:grid lg:grid-cols-2 lg:gap-x-[50px]"
       >
