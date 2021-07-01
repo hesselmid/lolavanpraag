@@ -72,8 +72,7 @@ export default {
         {
           order: 1,
           title: "Soft! 2021",
-          description:
-            "Graduation Collection 2019 – MA Menswear, Westminster University",
+          description: "2021 Soft! Exposition @ Rademakers Gallery",
           category: "textile",
           img: {
             jpg: "/images/portfolio/soft!-2021-portfoliopage.jpg",
@@ -86,8 +85,7 @@ export default {
         {
           order: 2,
           title: "Beyond the Lipstick",
-          description:
-            "Graduation Collection 2019 – MA Menswear, Westminster University",
+          description: "Amsterdam Fashion Week 2020 – Visions of Duran Lantink",
           category: "fashion",
           img: {
             jpg: "/images/portfolio/beyond-the-lipstick-portfoliopage.jpg",
@@ -100,8 +98,7 @@ export default {
         {
           order: 3,
           title: "Scarf project",
-          description:
-            "Graduation Collection 2019 – MA Menswear, Westminster University",
+          description: "2020 - collaboration with Coccon",
           category: "textile",
           img: {
             jpg: "/images/portfolio/scarf-project-portfoliopage.jpg",
