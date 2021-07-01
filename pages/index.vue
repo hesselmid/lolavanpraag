@@ -9,10 +9,10 @@
           <p
             class="font-serif text-electric-pink text-[34px] leading-[40px] xl:text-[84px] xl:leading-[86px]"
           >
-            Colour was swapped out for sequins in Lola van Praag’s
-            <span class="font-sans underline">NO UNLOCALS</span>
-            graduate collection. She sent out brightly sparkling models dressed
-            in tight-fitting sequin-heavy wetsuits.
+            In collaboration with the Textile Museum Tilburg, Lola developed a
+            series of new wall objects for the
+            <span class="font-sans underline uppercase">Soft!</span> exposition
+            at Rademakers Gallery.
           </p>
           <div class="mt-[40px] ml-[20px] xl:mt-[60px] xl:ml-[30px]">
             <img
@@ -22,11 +22,12 @@
               height="14px"
               alt=""
             />
-            <div
+            <nuxt-link
               class="inline-block ml-[29px] lowercase text-[18px] leading-[24px] text-electric-pink"
+              to="/portfolio/soft-2021"
             >
               View project
-            </div>
+            </nuxt-link>
           </div>
           <div class="hidden mt-[54px] xl:block">
             <img
