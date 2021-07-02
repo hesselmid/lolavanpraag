@@ -58,6 +58,10 @@ export default {
   line-height: 22px;
 }
 
+.nuxt-content a {
+  text-decoration: underline;
+}
+
 @media (min-width: 1024px) {
   .nuxt-content p {
     margin-top: 20px;

@@ -1,7 +1,7 @@
 ---
-title: SOFT! - Rademakers Gallery
+title: "Announcing: SOFT! - Rademakers Gallery"
 description: I'm delighted to tell you about my latest work that I've developed in collaboration with the Textile Museum Tilburg.
-img: /blog/soft-2021-1.jpg
+img: /images/blog/soft-2021-1.jpg
 alt: Soft 2021!
 readingTime: 2
 category: "textile"
