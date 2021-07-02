@@ -11,14 +11,15 @@
       <p
         class="mt-[10px] font-light leading-[22px] md:mt-[15px] md:max-w-[640px] md:text-[24px] md:leading-[30px]"
       >
-        For me a scarf can be seen as a piece that moves between begin an object
-        and a wearable. The floral prints that I designed for the collection NO
-        Unlocals was translated in new color ways and produced in collaboration
-        by Coccon crafts loom. They are a company located in Jharkand India. The
-        scarves are produced eco-friendly and are made of Peace silk (This means
-        that the caterpillar can complete its entire life cycle.) In addition,
-        Coccon trains women so that they can work within the company and do not
-        have to be financially dependent on their man.
+        For me a scarf can be seen as a piece that moves between being an object
+        and a wearable. The floral prints that I designed for the collection
+        <nuxt-link to="/portfolio/no-unlocals">NO UNLOCALS</nuxt-link> was
+        translated in new color ways and produced in collaboration by Coccon
+        crafts loom. They are a company located in Jharkand India. The scarves
+        are produced eco-friendly and are made of Peace silk (This means that
+        the caterpillar can complete its entire life cycle.) In addition, Coccon
+        trains women so that they can work within the company and do not have to
+        be financially dependent on their man.
       </p>
       <div
         class="lg:mt-[50px] lg:grid lg:grid-cols-5 lg:grid-rows-5 lg:gap-x-[46px]"
@@ -115,7 +116,8 @@ export default {
         { name: "Scarf project", link: "/portfolio/scarf-project" }
       ],
       title: "Scarf project",
-      description: "",
+      description:
+        "For me a scarf can be seen as a piece that moves between being an object and a wearable.",
       showAnimation1: false,
       showAnimation2: false,
       showAnimation3: false

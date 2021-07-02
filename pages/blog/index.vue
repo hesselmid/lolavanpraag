@@ -92,8 +92,8 @@ export default {
         { name: "Home", link: "/" },
         { name: "News", link: "/blog" }
       ],
-      title: "Blog",
-      description: "",
+      title: "News",
+      description: "Read the latest news on our blog!",
       selectedCategory: null
     };
   },

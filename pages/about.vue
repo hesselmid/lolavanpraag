@@ -285,7 +285,8 @@ export default {
         { name: "About me", link: "/about" }
       ],
       title: "About Me",
-      description: ""
+      description:
+        "Lola van Praag (1992, Amsterdam, Netherlands) is a Dutch textile and fashion designer based in Leiden."
     };
   }
 };

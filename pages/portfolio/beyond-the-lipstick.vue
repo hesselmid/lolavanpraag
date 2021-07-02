@@ -269,7 +269,8 @@ export default {
         { name: "Beyond the Lipstick", link: "/portfolio/beyond-the-lipstick" }
       ],
       title: "Beyond the Lipstick",
-      description: "",
+      description:
+        "The collection “Beyond the Lipstick” was made specially for “Visions of” a collaboration between Duran Lantink and Amsterdam Fashion week.",
       showAnimation1: false,
       showAnimation2: false,
       showAnimation3: false

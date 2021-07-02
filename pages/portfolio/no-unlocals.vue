@@ -309,7 +309,8 @@ export default {
         { name: "No Unlocals", link: "/portfolio/no-unlocals" }
       ],
       title: "No Unlocals",
-      description: "",
+      description:
+        "My graduate collection, NO UNLOCALS, is inspired by the 70’s and 80’s surf scene in California.",
       showAnimation1: false,
       showAnimation2: false,
       showAnimation3: false

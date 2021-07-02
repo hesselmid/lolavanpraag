@@ -58,7 +58,8 @@ export default {
         { name: "Press", link: "/press" }
       ],
       title: "Press",
-      description: "",
+      description:
+        "On this page you'll find an overview of press articles about my work.",
       pressList: [
         {
           year: 2020,

@@ -207,7 +207,8 @@ export default {
         { name: "Soft! 2021", link: "/portfolio/soft-2021" }
       ],
       title: "Soft! 2021",
-      description: "",
+      description:
+        "In collaboration with the Textile Museum Tilburg, Lola developed a series of new wall objects for the Soft! exposition at Rademakers Gallery.",
       showAnimation1: false,
       showAnimation2: false,
       showAnimation3: false

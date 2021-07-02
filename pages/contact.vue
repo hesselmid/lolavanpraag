@@ -150,7 +150,8 @@ export default {
         { name: "Contact", link: "/contact" }
       ],
       title: "Contact",
-      description: ""
+      description:
+        "Want to get in touch? Fill out the contact form  or follow our accounts on social media."
     };
   }
 };

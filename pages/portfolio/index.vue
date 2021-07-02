@@ -67,7 +67,8 @@ export default {
         { name: "Portfolio", link: "/portfolio" }
       ],
       title: "Portfolio",
-      description: "",
+      description:
+        "On this page you'll find an overview of all my current and previous projects.",
       projects: [
         {
           order: 1,
