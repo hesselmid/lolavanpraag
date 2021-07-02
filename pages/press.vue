@@ -84,13 +84,13 @@ export default {
               title: "Dazed - Westminster Menswear",
               link:
                 "https://www.dazeddigital.com/fashion/gallery/27597/0/westminster-menswear-ma-2019",
-              img: require(`~/assets/images/press-placeholder kopie.jpg`)
+              img: "/images/press/dazed-2019.png"
             },
             {
               title: "Fashion Crossover London - Inflatable couture",
               link:
                 "https://www.fashioncrossover-london.com/inflatable-couture-kitchen-aprons-and-fashion-elves-spotted-at-the-westminster-2019-ma-menswear-show-i1836",
-              img: require(`~/assets/images/press-placeholder.jpg`)
+              img: "/images/press/fashioncrossover-2019.png"
             },
             {
               title: "City countdown",
