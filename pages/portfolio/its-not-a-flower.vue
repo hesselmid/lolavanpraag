@@ -248,7 +248,8 @@ export default {
         { name: "It's Not a Flower", link: "/portfolio/its-not-a-flower" }
       ],
       title: "It's Not a Flower",
-      description: "",
+      description:
+        "My MA textile collection aims to explore ways in which textile can be used as a medium for expressing narrative and identity.",
       showAnimation1: false,
       showAnimation2: false,
       showAnimation3: false

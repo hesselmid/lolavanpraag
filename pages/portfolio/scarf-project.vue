@@ -13,8 +13,10 @@
       >
         For me a scarf can be seen as a piece that moves between being an object
         and a wearable. The floral prints that I designed for the collection
-        <nuxt-link to="/portfolio/no-unlocals">NO UNLOCALS</nuxt-link> was
-        translated in new color ways and produced in collaboration by Coccon
+        <nuxt-link class="underline" to="/portfolio/no-unlocals"
+          >NO UNLOCALS</nuxt-link
+        >
+        was translated in new color ways and produced in collaboration by Coccon
         crafts loom. They are a company located in Jharkand India. The scarves
         are produced eco-friendly and are made of Peace silk (This means that
         the caterpillar can complete its entire life cycle.) In addition, Coccon
