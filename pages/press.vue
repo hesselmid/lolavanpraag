@@ -38,7 +38,7 @@
                 >{{ pressItem.title }}</a
               >
               <img
-                class="hidden lg:group-hover:block fixed top-[184.5px] right-0"
+                class="hidden lg:group-hover:block fixed top-[184.5px] right-0 w-[500px]"
                 :src="pressItem.img"
               />
             </li>
@@ -68,12 +68,12 @@ export default {
                 "AFW - Maak Kennis met de Visions Of Talenten: Lola van Praag",
               link:
                 "https://amsterdamfashionweek.nl/maak-kennis-met-de-visions-of-talenten-lola-van-praag/",
-              img: require(`~/assets/images/press-placeholder kopie.jpg`)
+              img: "/images/press/afw-2020.png"
             },
             {
               title: "Leidsch Dagblad - Focus op mode: Lola van Praag",
               link: "https://www.leidschdagblad.nl/cnt/dmf20210309_32908091",
-              img: require(`~/assets/images/press-placeholder kopie.jpg`)
+              img: "/images/press/leidsch-dagblad-2020.png"
             }
           ]
         },
