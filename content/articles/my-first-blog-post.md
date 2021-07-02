@@ -1,14 +1,24 @@
 ---
-title: My first Blog Post
-description: Learning how to use @nuxt/content to create a blog
-img: /thumbnail-1.jpg
-alt: my first blog post
-readingTime: 3
+title: SOFT! - Rademakers Gallery
+description: I'm delighted to tell you about my latest work that I've developed in collaboration with the Textile Museum Tilburg.
+img: /blog/soft-2021-1.jpg
+alt: Soft 2021!
+readingTime: 2
 category: "textile"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac arcu ligula. Quisque at suscipit est. Donec vulputate euismod nibh eget iaculis. Suspendisse quis sapien porta, dignissim velit in, interdum diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc at neque consequat, sollicitudin ligula non, volutpat augue. In hendrerit sodales porta. Curabitur iaculis justo massa, in condimentum ex accumsan ac. Cras vitae sodales eros. In suscipit mauris ac lectus dapibus, sit amet elementum nunc finibus. Pellentesque sit amet velit cursus, tempor orci eget, bibendum ipsum. Morbi ut tincidunt justo, non pellentesque leo. Aliquam vulputate porttitor urna, vitae tincidunt metus molestie aliquam. Proin commodo sagittis nibh, a ultricies tellus dictum sit amet. Aenean felis erat, eleifend vel augue sit amet, interdum vestibulum dolor.
+_The female artists and designers - Lola van Praag, Mae Engelgeer, Beppe Kessler, Joana Schneider and Kiki van Eijk - share a fascination for textiles in all kinds of colors, materials and shapes._
 
-Suspendisse ut risus purus. Nullam aliquet id sem in ultricies. Integer aliquet nisi nec odio vulputate, et eleifend diam maximus. Nulla sed arcu nec nibh sodales mattis. Donec viverra, diam viverra semper euismod, velit risus auctor arcu, eget luctus orci neque id quam. Donec arcu lectus, facilisis ut ultrices a, viverra euismod est. Curabitur maximus, tellus eget interdum porttitor, diam eros imperdiet odio, lobortis tempus lectus libero vulputate lectus.
+_With ‘SOFT!’, Pien Rademakers weaves a layered red thread in responds to the zeitgeist - and the great need for tactility._
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies pretium velit. Duis pretium vitae tortor porttitor finibus. Quisque ac libero pellentesque, bibendum turpis et, sagittis diam. Nulla vestibulum pretium velit, eu efficitur enim finibus vitae. Fusce nulla lacus, blandit et tortor eget, consectetur condimentum dolor. Nam iaculis hendrerit felis ut faucibus. Sed lacinia finibus turpis vitae finibus. Integer eu gravida nisi. In bibendum enim velit, id luctus metus vestibulum sit amet. Ut porta convallis ex, non bibendum sapien rutrum eget.
+In the last one and a half years Covid has made traveling very difficult. Every now and then - in order to escape the city - I visited my parents, who live in the flower bulb region. When the tulip season arrived and the promise of the vaccins slowly became a reality I got inspired. I translated my newfound love for the flower bulb region into a series of drawings, which I - together with the people from the TextielLab Tilburg - made into fabric. The Textile Museum in Tilburg gave me the opportunity to work on the industrial knitting machine. Normally these machines are used to create fabrics for furniture or t-shirts. For this project I've tried to find new ways to use these industrial machines. All the designs exist of several different layers. This gave me the opportunity to play with texture and 3D-effects. Besides that I used several different types of yarn which I switched manually in order to circumvent the maximum amount of colors these machines are normally capable of. An unorthodox method of making autonomous work with this industrial machine, combining the manual with the mechanical.
+
+[LOLA VAN PRAAG - ONLINE CATALOGUE](https://privateviews.artlogic.net/2/d439648828dafce8819c6a/)
+
+You are very welcome to visit us Thursday to Sunday between 12.00 - 17.00.
+
+If you would like to have a private appointment with Pien Rademakers, please book via our booking system.
+
+[BOOK YOUR APPOINTMENT WITH PIEN RADEMAKERS](https://calendly.com/rademakersgallery/30min?back=1&month=2021-07)
+
+The exhibition is open until 24th July 2021
