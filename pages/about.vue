@@ -229,7 +229,8 @@
             2xl:leading-[180px]
           "
         >
-          new wave - 2019 / amfi young talent -2018
+          2020 Talentprogram “Visions of” with Duran Lantink during Amsterdam
+          fashion week
         </div>
       </div>
       <div class="w-full overflow-y-hidden">
@@ -248,10 +249,10 @@
             2xl:leading-[180px]
           "
         >
-          amfi young talent -2018
+          2014 “Lichting Fashion show” Amsterdam Fashion week, The Netherlands
         </div>
       </div>
-      <div class="w-full overflow-y-hidden">
+      <!-- <div class="w-full overflow-y-hidden">
         <div
           class="
             pl-[17.5px]
@@ -269,7 +270,7 @@
         >
           Dutch fashion award
         </div>
-      </div>
+      </div> -->
     </div>
 
     <follow-me class="mt-[48px] mb-[100px] md:mt-[135px] 2xl:mb-[100px]" />

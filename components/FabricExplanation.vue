@@ -24,18 +24,19 @@
       <h2
         class="font-serif font-light text-[32px] leading-[32px] md:text-[50px] md:leading-[73px]"
       >
-        Silk
+        Scarf project (2021)
       </h2>
       <p
         class="mt-[20px] font-light leading-[22px] md:mt-[30px] md:text-[24px] md:leading-[30px]"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum
+        For me a scarf can be seen as a piece that moves between being an object
+        and a wearable. The floral prints that I designed for the collection NO
+        UNLOCALS was translated in new color ways and produced in collaboration
+        by Coccon crafts loom. They are a company located in Jharkand India. The
+        scarves are produced eco-friendly and are made of Peace silk (This means
+        that the caterpillar can complete its entire life cycle.) In addition,
+        Coccon trains women so that they can work within the company and do not
+        have to be financially dependent on their man.
       </p>
     </div>
   </div>
