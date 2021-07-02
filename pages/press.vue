@@ -127,13 +127,13 @@ export default {
               title: "Telegraaf - Dit zijn de modetalenten van Lichting",
               link:
                 "https://www.telegraaf.nl/nieuws/457965/dit-zijn-de-modetalenten-van-lichting-2014",
-              img: require(`~/assets/images/press-placeholder.jpg`)
+              img: "/images/press/telegraaf-2014.png"
             },
             {
               title: "Textilia - Bastian Visch wint Lichting",
               link:
                 "https://www.textilia.nl/Nieuws/Bastian_Visch_wint_Lichting_2014-140713214700#.XSSobZMzZhE",
-              img: require(`~/assets/images/press-placeholder.jpg`)
+              img: "/images/press/textilia-2014.png"
             },
             {
               title: "BRANKOPOPOVICBLOG - Lichting supported by V&D",
