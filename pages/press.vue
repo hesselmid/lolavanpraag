@@ -96,7 +96,7 @@ export default {
               title: "City countdown",
               link:
                 "https://citycountdown.com/index.php/2019/06/10/university-of-westminister-ma-menswear/",
-              img: require(`~/assets/images/press-placeholder.jpg`)
+              img: "/images/press/city-countdown-2019.png"
             }
           ]
         },
@@ -116,7 +116,7 @@ export default {
             {
               title: "Schön! Magazine - one of a kind",
               link: "https://schonmagazine.com/oneofakind/",
-              img: require(`~/assets/images/press-placeholder.jpg`)
+              img: "/images/press/shon-2014.png"
             },
             {
               title: "HNTK - Lichting",
@@ -139,7 +139,7 @@ export default {
               title: "BRANKOPOPOVICBLOG - Lichting supported by V&D",
               link:
                 "http://brankopopovic.blogspot.com/2014/07/lichting-2014-supported-by-v.html#.XSSpYpMzZhE",
-              img: require(`~/assets/images/press-placeholder.jpg`)
+              img: "/images/press/branko-2014.png"
             }
           ]
         }
