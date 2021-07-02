@@ -17,7 +17,7 @@ export default {
     },
     image: {
       type: String,
-      default: "https://nuxtjs.org/nuxt-card.png"
+      default: "/default-social-image.jpg"
     }
   },
 
