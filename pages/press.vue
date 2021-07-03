@@ -101,16 +101,16 @@ export default {
             }
           ]
         },
-        {
-          year: 2017,
-          pressItems: [
-            {
-              title: "The Issue Magazine",
-              link: "http://www.theissuemagazine.com/LOLA-VAN-PRAAG",
-              img: require(`~/assets/images/press-placeholder.jpg`)
-            }
-          ]
-        },
+        // {
+        //   year: 2017,
+        //   pressItems: [
+        //     {
+        //       title: "The Issue Magazine",
+        //       link: "http://www.theissuemagazine.com/LOLA-VAN-PRAAG",
+        //       img: require(`~/assets/images/press-placeholder.jpg`)
+        //     }
+        //   ]
+        // },
         {
           year: 2014,
           pressItems: [
@@ -119,11 +119,11 @@ export default {
               link: "https://schonmagazine.com/oneofakind/",
               img: "/images/press/shon-2014.png"
             },
-            {
-              title: "HNTK - Lichting",
-              link: "https://htnk.nl/news/lichting-2014",
-              img: require(`~/assets/images/press-placeholder.jpg`)
-            },
+            // {
+            //   title: "HNTK - Lichting",
+            //   link: "https://htnk.nl/news/lichting-2014",
+            //   img: require(`~/assets/images/press-placeholder.jpg`)
+            // },
             {
               title: "Telegraaf - Dit zijn de modetalenten van Lichting",
               link:

@@ -72,6 +72,21 @@
             unorthodox methods in which manual and mechanical merge, surprising
             results are achieved.
           </p>
+          <p
+            class="
+              mt-[10px]
+              font-light
+              leading-[22px]
+              md:mt-[20px]
+              md:text-[24px]
+              md:leading-[30px]
+            "
+          >
+            She combines these technical elaborations with idiosyncratic color
+            combinations and a preference for glitter. She brings all this
+            together in a series of different creative excesses, from fashion
+            collection to wall objects.
+          </p>
         </div>
         <div class="pt-[30px] xl:pt-[244px]">
           <img
@@ -115,7 +130,7 @@
             2xl:leading-[180px]
           "
         >
-          Amsterdam Fashion Week - Hermes - Vogue
+          Hans Boodt / Amsterdam Fashion Week
         </div>
       </div>
       <div class="w-full overflow-y-hidden">
@@ -134,7 +149,7 @@
             2xl:leading-[180px]
           "
         >
-          Vogue / Hermes
+          Jett Rebel / Codarts / Textiel Museum Tilburg
         </div>
       </div>
       <div class="w-full overflow-y-hidden">
@@ -153,7 +168,7 @@
             2xl:leading-[180px]
           "
         >
-          HERMES / Lorem / Amsterdam Fashion Week - Hermes - Vogue
+          Dutch Design Week
         </div>
       </div>
     </div>
@@ -169,9 +184,9 @@
             md:leading-[86px]
           "
         >
-          Proces
+          Latest fashion show
         </h2>
-        <p
+        <!-- <p
           class="
             mt-[7px]
             font-light
@@ -186,7 +201,7 @@
           combinations and a preference for glitter. She brings all this
           together in a series of different creative excesses, from fashion
           collection to wall objects.
-        </p>
+        </p> -->
       </div>
 
       <lite-youtube
