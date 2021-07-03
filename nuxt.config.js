@@ -52,5 +52,9 @@ export default {
 
   modules: ["@nuxt/content", "@nuxtjs/sitemap"],
 
-  build: {}
+  build: {},
+
+  sitemap: {
+    hostname: "https://www.lolavanpraag.com"
+  }
 };
