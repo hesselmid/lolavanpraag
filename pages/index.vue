@@ -156,7 +156,7 @@
             <div class="hidden xl:group-hover:block absolute top-[40px] left-0">
               <img
                 src="/images/home/no-unlocals-left.png"
-                width="388"
+                width="391"
                 height="590"
                 alt="No Unlocals #1"
               />
@@ -166,7 +166,7 @@
             >
               <img
                 src="/images/home/no-unlocals-right.png"
-                width="388"
+                width="391"
                 height="589"
                 alt="No Unlocals #2"
               />
