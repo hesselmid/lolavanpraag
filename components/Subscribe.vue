@@ -33,7 +33,7 @@
         <div class="h-full clear">
           <button
             id="mc-embedded-subscribe"
-            class="h-full"
+            class="w-[15px] h-[15px]"
             type="submit"
             aria-label="Send"
           >
@@ -41,7 +41,7 @@
               src="~/assets/images/arrow.svg"
               aria-hidden="true"
               width="15px"
-              height="15px"
+              height="11px"
               alt=""
             />
           </button>
