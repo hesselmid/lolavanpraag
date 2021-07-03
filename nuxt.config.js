@@ -1,3 +1,13 @@
+const createSitemapRoutes = async () => {
+  let routes = [];
+  const { $content } = require("@nuxt/content");
+  const articles = await $content("articles").fetch();
+  for (const article of articles) {
+    routes.push(`blog/${article.slug}`);
+  }
+  return routes;
+};
+
 export default {
   target: "static",
 
@@ -55,6 +65,8 @@ export default {
   build: {},
 
   sitemap: {
-    hostname: "https://www.lolavanpraag.com"
+    hostname: "https://www.lolavanpraag.com",
+    gzip: true,
+    routes: createSitemapRoutes
   }
 };
