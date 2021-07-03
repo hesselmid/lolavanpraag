@@ -79,7 +79,7 @@ export default {
       link: [
         {
           rel: "canonical",
-          href: `https://lolavanpraag.netlify.app${this.$route.path}`
+          href: `https://www.lolavanpraag.com${this.$route.path}`
         }
       ]
     };
