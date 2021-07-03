@@ -149,7 +149,7 @@
             2xl:leading-[180px]
           "
         >
-          Jett Rebel / Codarts / Textiel Museum Tilburg
+          Textiel Museum Tilburg / Codarts / Jett Rebel
         </div>
       </div>
       <div class="w-full overflow-y-hidden">
