@@ -5,15 +5,15 @@
     >
       <span>
         <span class="font-thin">Currently working on</span>
-        <span class="font-serif">DDW</span> /
-        <span class="font-thin">Currently working on</span> DDW / Currently
-        working on DDW /
+        <span class="font-serif">Object Rotterdam</span> /
+        <span class="font-thin">Currently working on</span> Object Rotterdam /
+        Currently working on Object Rotterdam /
       </span>
       <span>
         <span class="font-thin">Currently working on</span>
-        <span class="font-serif">DDW</span> /
-        <span class="font-thin">Currently working on</span> DDW / Currently
-        working on DDW /
+        <span class="font-serif">Object Rotterdam</span> /
+        <span class="font-thin">Currently working on</span> Object Rotterdam /
+        Currently working on Object Rotterdam /
       </span>
     </div>
   </div>

@@ -9,10 +9,11 @@
           <p
             class="font-serif text-electric-pink text-[34px] leading-[40px] xl:text-[84px] xl:leading-[86px]"
           >
-            In collaboration with the Textile Museum Tilburg, Lola developed a
-            series of new wall objects for the
-            <span class="font-sans underline uppercase">Soft!</span> exposition
-            at Rademakers Gallery.
+            The artwork Mizuki is now on display at the group exhibition
+            <span class="font-sans underline uppercase"
+              >Still Life/Life Still</span
+            >
+            curated by OHSH Projects in Londen.
           </p>
           <div class="mt-[40px] ml-[20px] xl:mt-[60px] xl:ml-[30px]">
             <img
@@ -22,12 +23,12 @@
               height="14px"
               alt=""
             />
-            <nuxt-link
+            <a
               class="inline-block ml-[29px] lowercase text-[18px] leading-[24px] text-electric-pink"
-              to="/portfolio/soft-2021"
+              href="https://www.instagram.com/tv/CZt8tvLIMmU/"
             >
               View project
-            </nuxt-link>
+            </a>
           </div>
           <div class="hidden mt-[54px] xl:block">
             <img
@@ -274,7 +275,7 @@ export default {
       description:
         "Lola van Praag is a Menswear Fashion Designer and Textile Artist based in the Netherlands.",
       didYouKnowIsVisible: false,
-      fabricExplanationIsVisible: false
+      fabricExplanationIsVisible: false,
     };
   },
   methods: {
@@ -283,8 +284,8 @@ export default {
     },
     toggleFabricExplanation() {
       this.fabricExplanationIsVisible = !this.fabricExplanationIsVisible;
-    }
-  }
+    },
+  },
 };
 </script>
 
