@@ -27,11 +27,6 @@
             <div>
               <a
                 class="block font-light leading-[32px] text-center md:text-left"
-                href="tel:+ 31 (0)10 234 5413"
-                >+ 31 (0)10 234 5413</a
-              >
-              <a
-                class="block font-light leading-[32px] text-center md:text-left"
                 href="mailto:info@lolavanpraag.com"
                 >info@lolavanpraag.com</a
               >
@@ -111,7 +106,7 @@ export default {
   computed: {
     currentYear() {
       return new Date().getFullYear();
-    }
-  }
+    },
+  },
 };
 </script>

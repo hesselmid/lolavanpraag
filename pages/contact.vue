@@ -21,11 +21,6 @@
           <div class="mt-[10px] md:mt-0">
             <a
               class="block font-light leading-[32px] md:text-[20px] md:leading-[40px]"
-              href="tel:+ 31 (0)10 234 5413"
-              >+ 31 (0)10 234 5413</a
-            >
-            <a
-              class="block font-light leading-[32px] md:text-[20px] md:leading-[40px]"
               href="mailto:info@lolavanpraag.com"
               >info@lolavanpraag.com</a
             >
@@ -147,12 +142,12 @@ export default {
     return {
       breadcrumbs: [
         { name: "Home", link: "/" },
-        { name: "Contact", link: "/contact" }
+        { name: "Contact", link: "/contact" },
       ],
       title: "Contact",
       description:
-        "Want to get in touch? Fill out the contact form  or follow our accounts on social media."
+        "Want to get in touch? Fill out the contact form  or follow our accounts on social media.",
     };
-  }
+  },
 };
 </script>
