@@ -37,7 +37,7 @@
             <div
               class="font-serif font-light text-[24px] leading-[35px] text-center md:text-left md:w-[115px]"
             >
-              Find my work at the follow galleries
+              Find my work at the following gallery
             </div>
             <div>
               <a

@@ -58,7 +58,7 @@
         <div
           class="font-serif font-light text-[24px] leading-[35px] md:w-[180px]"
         >
-          Find my work at the follow galleries
+          Find my work at the following gallery
         </div>
         <div class="mt-[10px] md:mt-0">
           <a
