@@ -64,7 +64,7 @@
               md:leading-[30px]
             "
           >
-            Lola's love for creating does not lie in producing an end product,
+            Lola's love for creating is not just about producing an end product,
             but mainly in the process that precedes it. She likes to experiment
             with materials in order to discover their hidden potential. She is
             very curious about different craft techniques and how these methods
